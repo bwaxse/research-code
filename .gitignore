@@ -1,17 +1,57 @@
-# Libraries
-*.lvlibp
-*.llb
+# Data files (never commit patient data or large datasets)
+*.csv
+*.tsv
+*.vcf
+*.vcf.gz
+*.bam
+*.bam.bai
+*.cram
+*.fastq
+*.fastq.gz
+*.bed
+*.parquet
+data/
+raw_data/
+processed_data/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
+# Credentials and secrets
+.env
+*.key
+*.pem
+config/secrets.yaml
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 *.so
-*.so.*
-*.dylib
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
 
-# Executables
-*.exe
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
 
-# Metadata
-*.aliases
-*.lvlps
-.cache/
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and temp files
+*.log
+tmp/
+temp/
