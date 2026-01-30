@@ -1,0 +1,59 @@
+# Credentials and secrets (SECURITY)
+.env
+*.key
+*.pem
+credentials.json
+config/secrets.yaml
+
+# Jupyter notebooks (redundant with .py files)
+*.ipynb
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Data files (patient data, large files)
+*.vcf
+*.vcf.gz
+*.bam
+*.bam.bai
+*.cram
+*.fastq
+*.fastq.gz
+*.bed
+*.bim
+*.fam
+*.pgen
+*.pvar
+*.psam
+*.parquet
+data/
+raw_data/
+processed_data/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# System and IDE files
+.DS_Store
+.AppleDouble
+.LSOverride
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
