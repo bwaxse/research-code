@@ -1,0 +1,64 @@
+Table	Level	Field	Data Type	Field Description	Description Source	Affected by Privacy Methodology	Transformation
+heart_rate_summary	zone summary	person_id	integer	A foreign key identifier to the person for whom the data was recorded.	Similar to the wording of OMOP observation.person_id 	No	
+heart_rate_summary	zone summary	date	date	Date of the heart rate log	Almost word for word  FITBIT API - get-heartrate-timeseries-by-date	No	
+heart_rate_summary	zone summary	zone_name	string	Name of the custom heart rate zone. The possible values for heart rate zone are: out of range, fat burn, cardio, and peak	Almost word for word  FITBIT API - get-heartrate-timeseries-by-date	No	
+heart_rate_summary	zone summary	min_heart_rate	integer	Minimum range for the custom heart rate zone.	Almost word for word  FITBIT API - get-heartrate-timeseries-by-date	No	
+heart_rate_summary	zone summary	max_heart_rate	integer	Maximum range for the custom heart rate zone.	Almost word for word  FITBIT API - get-heartrate-timeseries-by-date	No	
+heart_rate_summary	zone summary	minute_in_zone	integer	Number minutes within the specified heart rate zone.	Almost word for word  FITBIT API - get-heartrate-timeseries-by-date	No	
+heart_rate_summary	zone summary	calorie_count	float	Number calories burned within the custom heart rate zone.	Almost word for word  FITBIT API - get-heartrate-timeseries-by-date	No	
+heart_rate_summary	zone summary	src_id	string	Flag indicating the participant portal that this record originated from. src_id = Participant Portal: PTSC or src_id = Participant Portal: TPC	AoU generated field	No	
+heart_rate_minute_level	minute-level	person_id	integer	A foreign key identifier to the person for whom the data was recorded.	Similar to the wording of OMOP observation.person_id 	No	
+heart_rate_minute_level	minute-level	datetime	datetime	Timestamp for the intraday heart rate data	Contrived using  https://dev.fitbit.com/build/reference/web-api/intraday/get-heartrate-intraday-by-date/	No	
+heart_rate_minute_level	minute-level	heart_rate_value	integer	Heart rate value is on a minute level for src_id = Participant Portal: PTSC and value is seconds level for src_id = Participant Portal: TPC	Contrived using  https://dev.fitbit.com/build/reference/web-api/intraday/get-heartrate-intraday-by-date/	No	
+heart_rate_minute_level	minute-level	src_id	string	Flag indicating the participant portal that this record originated from. src_id = Participant Portal: PTSC or src_id = Participant Portal: TPC	AoU generated field	No	
+activity_summary	daily summary	person_id	integer	A foreign key identifier to the person for whom the data was recorded.	Similar to the wording of OMOP observation.person_id 	No	
+activity_summary	daily summary	date	date	The date of the person's activity summary	Contrived using  FITBIT API - get-daily-activity-summary.	No	
+activity_summary	daily summary	activity_calories	float	The number of calories burned for the day during periods the user was active above sedentary level. This includes both activity burned calories and BMR.	Almost word for word FITBIT API - get-daily-activity-summary.	No	
+activity_summary	daily summary	calories_bmr	float	Total BMR calories burned for the day.	Almost word for word FITBIT API - get-daily-activity-summary.	No	
+activity_summary	daily summary	calories_out	float	Total calories burned for the day	Almost word for word FITBIT API - get-daily-activity-summary.	No	
+activity_summary	daily summary	elevation	float	The elevation traveled for the day displayed in the units defined by the data source. When src_id is PTSC, the unit is feet. When src_id is TPC, the unit is meters.	The elevation traveled for the day displayed in the units defined by the Accept-Language header. For src_id = PTSC, en_US was the accepted language header, so the unit is feet.  For src_id = ce, data was stored in metric system so the unit is meters.  Per https://dev.fitbit.com/build/reference/web-api/developer-guide/application-design/#Unit-Systems Additional link	No	
+activity_summary	daily summary	fairly_active_minutes	float	Total minutes the user was fairly/moderately active.	Almost word for word FITBIT API - get-daily-activity-summary.	No	
+activity_summary	daily summary	floors	integer	The floors provides ONLY the count of how many floors the Fitbit device counted as the user ascended in elevation. The researcher can determine how many "feet" or "meters" the user climbed as the device determines a floor every time the user ascends 10 feet (3 meters). Essentially 1 Floor = 10 Feet (3 Meters).  	The equivalent floors climbed for the day displayed in the units defined by the Accept-Language header. For src_id = PTSC, en_US was the accepted language header. For src_id = TPC, all data was stored in metric units. However, the Floors API does not return a measurement of elevation, only a count of how many floors the Fitbit device counted as the user ascended in elevation. The researcher can determine how many "feet" or "meters" the user climbed as the device determines a floor every time the user ascends 10 feet (3 meters). Essentially 1 Floor = 10 Feet (3 Meters).	No	
+activity_summary	daily summary	lightly_active_minutes	float	Total minutes the user was lightly active.	Almost word for word FITBIT API - get-daily-activity-summary.	No	
+activity_summary	daily summary	marginal_calories	float	Total marginal estimated calories burned for the day.	Almost word for word FITBIT API - get-daily-activity-summary.	No	
+activity_summary	daily summary	sedentary_minutes	float	Total minutes the user was sedentary.	Almost word for word FITBIT API - get-daily-activity-summary.	No	
+activity_summary	daily summary	steps	integer	Total steps taken for the day.	Almost word for word FITBIT API - get-daily-activity-summary.	No	
+activity_summary	daily summary	very_active_minutes	float	Total minutes the user was very active.	Almost word for word FITBIT API - get-daily-activity-summary.	No	
+activity_summary	daily summary	src_id	string	Flag indicating the participant portal that this record originated from. src_id = Participant Portal: PTSC or src_id = Participant Portal: TPC	AoU generated field	No	
+steps_intraday	minute-level	person_id	integer	A foreign key identifier to the person for whom the data was recorded.	Similar to the wording of OMOP observation.person_id 	No	
+steps_intraday	minute-level	datetime	datetime	Timestamp for intraday step count data	Almost word for word FITBIT API - get-daily-activity-summary.	No	
+steps_intraday	minute-level	steps	numeric	Number of steps on a minute level	Almost word for word FITBIT API - get-daily-activity-summary.	No	
+steps_intraday	minute-level	src_id	string	Flag indicating the participant portal that this record originated from. src_id = Participant Portal: PTSC or src_id = Participant Portal: TPC	AoU generated field	No	
+sleep_level	sequence-level	person_id	integer	A foreign key identifier to the person for whom the data was recorded.	Similar to the wording of OMOP observation.person_id 	No	
+sleep_level	sequence-level	sleep_date	date	The date the sleep log ended	Almost word for word  FITBIT API - get-sleep-log-by-date	No	
+sleep_level	sequence-level	start_datetime	datetime	Timestamp the user started in sleep level.	Almost word for word  FITBIT API - get-sleep-log-by-date	No	
+sleep_level	sequence-level	is_main_sleep	string	Defines a record as being the 'main sleep' record. Boolean value: true or false	Almost word for word  FITBIT API - get-sleep-log-by-date	No	
+sleep_level	sequence-level	level	string	The sleep level the user entered. The possible values returned for the sleep levels are: restless, asleep, awake, deep, light, rem, wake and unknown	Almost word for word  FITBIT API - get-sleep-log-by-date	No	
+sleep_level	sequence-level	duration_in_min	float	Total number of minutes the user appeared in the sleep level.	Almost word for word  FITBIT API - get-sleep-log-by-date	No	
+sleep_level	sequence-level	src_id	string	Flag indicating the participant portal that this record originated from. src_id = Participant Portal: PTSC or src_id = Participant Portal: TPC	AoU generated field	No	
+sleep_daily_summary	daily summary	person_id	integer	A foreign key identifier to the person for whom the data was recorded.	Similar to the wording of OMOP observation.person_id 	Yes	person_id changes from participant_id to research_id
+sleep_daily_summary	daily summary	sleep_date	date	The date the sleep log ended	Contrived using  FITBIT API - get-sleep-log-by-date	No	
+sleep_daily_summary	daily summary	is_main_sleep	string	Defines a record as being the 'main sleep' record. Boolean value: true or false	Contrived using  FITBIT API - get-sleep-log-by-date	No	
+sleep_daily_summary	daily summary	minute_in_bed	integer	Total number of minutes the user was in bed	Contrived using  FITBIT API - get-sleep-log-by-date	No	
+sleep_daily_summary	daily summary	minute_asleep	integer	Total number of minutes the user was asleep.	Contrived using  FITBIT API - get-sleep-log-by-date	No	
+sleep_daily_summary	daily summary	minute_after_wakeup	integer	The total number of minutes after the user woke up	Contrived using  FITBIT API - get-sleep-log-by-date	No	
+sleep_daily_summary	daily summary	minute_awake	integer	The total number of minutes the user was awake	Contrived using  FITBIT API - get-sleep-log-by-date	No	
+sleep_daily_summary	daily summary	minute_restless	integer	The total number of minutes the user was restless	Contrived using  FITBIT API - get-sleep-log-by-date	No	
+sleep_daily_summary	daily summary	minute_deep	integer	The total number of minutes the user was in deep sleep stage	Contrived using  FITBIT API - get-sleep-log-by-date	No	
+sleep_daily_summary	daily summary	minute_light	integer	The total number of minutes the user was in light sleep stage	Contrived using  FITBIT API - get-sleep-log-by-date	No	
+sleep_daily_summary	daily summary	minute_rem	integer	The total number of minutes the user was in rem (rapid eye movement) sleep stage	Contrived using  FITBIT API - get-sleep-log-by-date	No	
+sleep_daily_summary	daily summary	minute_wake	integer	The total number of minutes the user was in wake stage.	Contrived using  FITBIT API - get-sleep-log-by-date	No	
+sleep_daily_summary	daily summary	src_id	string	Flag indicating the participant portal that this record originated from. src_id = Participant Portal: PTSC or src_id = Participant Portal: TPC	AoU generated field	No	
+device	device	person_id	integer	A foreign key identifier to the person for whom the data was recorded.	Similar to the wording of OMOP observation.person_id 	Yes	person_id changes from participant_id to research_id
+device	device	device_date	date	The date the device data was recorded	Contrived using FITBIT API - get-devices	No	
+device	device	device_id	string	Identifies a device	Estimated meaning	Yes	converted to a GUID (Globally Unique Identifier)
+device	device	battery	string	The battery level of the device. Supported: High | Medium | Low | Empty	Almost word for word FITBIT API - get-devices	No	
+device	device	battery_level	integer	The battery level percentage of the device	Almost word for word FITBIT API - get-devices	No	
+device	device	device_version	string	The product name of the device	Almost word for word FITBIT API - get-devices	No	
+device	device	device_type	string	The device type. Supported: TRACKER | SCALE	Almost word for word FITBIT API - get-devices	No	
+device	device	last_sync_time	datetime	Represents the last time the device was synced with the Fitbit mobile application	Almost word for word FITBIT API - get-devices	No	
+device	device	src_id	string	Flag indicating the participant portal that this record originated from. src_id = Participant Portal: PTSC or src_id = Participant Portal: TPC	AoU generated field	No	
+wear_study	consent	person_id	integer	A foreign key identifier to the person for whom the data was recorded.		Yes	person_id changes from participant_id to research_id
+wear_study	consent	resultsconsent_wear	string	participant consent to be part of wear study, Response recorded as Yes or No		No	
+wear_study	consent	WEAR_consent_start_date	date	date consent was given		No	
+wear_study	consent	WEAR_consent_end_date	date	date consent was indicated as 'No'		No	

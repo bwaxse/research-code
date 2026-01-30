@@ -1,6 +1,4 @@
 # Data files (never commit patient data or large datasets)
-*.csv
-*.tsv
 *.vcf
 *.vcf.gz
 *.bam

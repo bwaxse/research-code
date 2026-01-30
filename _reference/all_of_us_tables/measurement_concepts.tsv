@@ -1,0 +1,1001 @@
+measurement_concept_id	concept_name	concept_code	vocabulary_id	concept_class_id	person_count	measurement_count
+3027018	Heart rate	8867-4	LOINC	Clinical Observation	464639	29325173
+3004249	Systolic blood pressure	8480-6	LOINC	Clinical Observation	477024	20273163
+3012888	Diastolic blood pressure	8462-4	LOINC	Clinical Observation	477054	20246296
+3024171	Respiratory rate	9279-1	LOINC	Clinical Observation	240785	17970366
+3020891	Body temperature	8310-5	LOINC	Clinical Observation	273177	17276302
+40762499	Oxygen saturation in Arterial blood by Pulse oximetry	59408-5	LOINC	Clinical Observation	91860	14362940
+3025315	Body weight	29463-7	LOINC	Clinical Observation	518242	9238519
+3038553	Body mass index (BMI) [Ratio]	39156-5	LOINC	Clinical Observation	506047	8573778
+3036277	Body height	8302-2	LOINC	Clinical Observation	519006	8277317
+4152194	Systolic blood pressure	271649006	SNOMED	Observable Entity	59412	6912519
+4154790	Diastolic blood pressure	271650006	SNOMED	Observable Entity	59410	6621012
+3004501	Glucose [Mass/volume] in Serum or Plasma	2345-7	LOINC	Lab Test	281711	6196655
+3016723	Creatinine [Mass/volume] in Serum or Plasma	2160-0	LOINC	Lab Test	285099	5869415
+3013682	Urea nitrogen [Mass/volume] in Serum or Plasma	3094-0	LOINC	Lab Test	282685	5799371
+3023103	Potassium [Moles/volume] in Serum or Plasma	2823-3	LOINC	Lab Test	278549	5740970
+3014576	Chloride [Moles/volume] in Serum or Plasma	2075-0	LOINC	Lab Test	285229	5711404
+3019550	Sodium [Moles/volume] in Serum or Plasma	2951-2	LOINC	Lab Test	281142	5624678
+3006906	Calcium [Mass/volume] in Serum or Plasma	17861-6	LOINC	Lab Test	276488	5534985
+3000963	Hemoglobin [Mass/volume] in Blood	718-7	LOINC	Lab Test	280701	5519814
+3019897	Erythrocyte distribution width [Ratio] by Automated count	788-0	LOINC	Lab Test	261106	5247228
+3020416	Erythrocytes [#/volume] in Blood by Automated count	789-8	LOINC	Lab Test	276521	5058273
+3009744	MCHC [Mass/volume] by Automated count	786-4	LOINC	Lab Test	274910	5032948
+3012030	MCH [Entitic mass] by Automated count	785-6	LOINC	Lab Test	265460	4849028
+3023599	MCV [Entitic volume] by Automated count	787-2	LOINC	Lab Test	266336	4848983
+3000905	Leukocytes [#/volume] in Blood by Automated count	6690-2	LOINC	Lab Test	262563	4774958
+3015632	Carbon dioxide, total [Moles/volume] in Serum or Plasma	2028-9	LOINC	Lab Test	247065	4741984
+4353938	End tidal carbon dioxide concentration	250784008	SNOMED	Observable Entity	20249	4675814
+3024929	Platelets [#/volume] in Blood by Automated count	777-3	LOINC	Lab Test	262037	4636262
+3023314	Hematocrit [Volume Fraction] of Blood by Automated count	4544-3	LOINC	Lab Test	258846	4562999
+3035995	Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma	6768-6	LOINC	Lab Test	267556	3638008
+3013721	Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma	1920-8	LOINC	Lab Test	266178	3613478
+4353936	Inspired oxygen concentration	250774007	SNOMED	Observable Entity	12529	3606360
+3020630	Protein [Mass/volume] in Serum or Plasma	2885-2	LOINC	Lab Test	263442	3515994
+3013762	Body weight Measured	3141-9	LOINC	Clinical Observation	84826	3492499
+3024128	Bilirubin.total [Mass/volume] in Serum or Plasma	1975-2	LOINC	Lab Test	260616	3364565
+3013650	Neutrophils [#/volume] in Blood by Automated count	751-8	LOINC	Lab Test	215124	3308006
+3006923	Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma	1742-6	LOINC	Lab Test	243311	3294570
+3024561	Albumin [Mass/volume] in Serum or Plasma	1751-7	LOINC	Lab Test	235209	3162733
+3043111	Platelet mean volume [Entitic volume] in Blood by Automated count	32623-1	LOINC	Lab Test	185206	2797470
+4137083	Pain intensity rating scale	425401001	SNOMED	Staging / Scales	28045	2723518
+3004327	Lymphocytes [#/volume] in Blood by Automated count	731-0	LOINC	Lab Test	216377	2655325
+3037511	Lymphocytes/100 leukocytes in Blood by Automated count	736-9	LOINC	Lab Test	217394	2578150
+3033575	Monocytes [#/volume] in Blood by Automated count	742-7	LOINC	Lab Test	207383	2559028
+3028615	Eosinophils [#/volume] in Blood by Automated count	711-2	LOINC	Lab Test	211178	2540406
+3016502	Oxygen saturation in Arterial blood	2708-6	LOINC	Lab Test	39458	2528232
+3011948	Monocytes/100 leukocytes in Blood by Automated count	5905-5	LOINC	Lab Test	207749	2434103
+3013869	Basophils/100 leukocytes in Blood by Automated count	706-2	LOINC	Lab Test	212266	2419066
+3010457	Eosinophils/100 leukocytes in Blood by Automated count	713-8	LOINC	Lab Test	210953	2387469
+3045716	Anion gap in Serum or Plasma	33037-3	LOINC	Lab Test	150612	2358081
+3013429	Basophils [#/volume] in Blood by Automated count	704-7	LOINC	Lab Test	204016	2339473
+3034962	Glucose [Mass/volume] in Capillary blood by Glucometer	41653-7	LOINC	Lab Test	53286	2265837
+3021391	Anion gap 3 in Serum or Plasma	10466-1	LOINC	Lab Test	100050	2254102
+4108289	Non-invasive mean arterial pressure	251074006	SNOMED	Observable Entity	24188	2215940
+44782827	Expiratory tidal volume	698824001	SNOMED	Observable Entity	7476	2116388
+3008342	Neutrophils/100 leukocytes in Blood by Automated count	770-8	LOINC	Lab Test	174170	1915629
+21494994	Pain scale [Type]	80316-3	LOINC	Clinical Observation	18282	1855049
+43055141	Pain severity - 0-10 verbal numeric rating [Score] - Reported	72514-3	LOINC	Clinical Observation	17847	1785118
+3027598	Mean blood pressure	8478-0	LOINC	Clinical Observation	24020	1656802
+4101694	Peak inspiratory pressure	27913002	SNOMED	Observable Entity	5817	1621985
+3007238	Nucleated erythrocytes [#/volume] in Blood by Automated count	771-6	LOINC	Lab Test	113574	1593782
+3001420	Magnesium [Mass/volume] in Serum or Plasma	19123-9	LOINC	Lab Test	127533	1543006
+3027114	Cholesterol [Mass/volume] in Serum or Plasma	2093-3	LOINC	Lab Test	204415	1520117
+46236952	Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)	77147-7	LOINC	Lab Test	97207	1473496
+3007070	Cholesterol in HDL [Mass/volume] in Serum or Plasma	2085-9	LOINC	Lab Test	198313	1447795
+40762636	Body mass index (BMI) [Percentile]	59574-4	LOINC	Clinical Observation	37059	1415983
+3022192	Triglyceride [Mass/volume] in Serum or Plasma	2571-8	LOINC	Lab Test	198673	1382552
+3031203	Blood pressure panel	35094-2	LOINC	Clinical Observation	459071	1377212
+3022217	INR in Platelet poor plasma by Coagulation assay	6301-6	LOINC	Lab Test	138990	1355396
+3011904	Phosphate [Mass/volume] in Serum or Plasma	2777-1	LOINC	Lab Test	110164	1348777
+4144329	Expiratory minute volume	426168008	SNOMED	Observable Entity	4633	1275733
+3009542	Hematocrit [Volume Fraction] of Blood	20570-8	LOINC	Lab Test	86770	1269077
+3034426	Prothrombin time (PT)	5902-2	LOINC	Lab Test	136269	1267716
+4108290	Invasive mean arterial pressure	251075007	SNOMED	Observable Entity	2970	1121774
+3020509	Albumin/Globulin [Mass Ratio] in Serum or Plasma	1759-0	LOINC	Lab Test	117922	1114943
+3049187	Glomerular filtration rate/1.73 sq M.predicted among non-blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)	48642-3	LOINC	Lab Test	85577	1107428
+3019069	Monocytes/100 leukocytes in Blood	26485-3	LOINC	Lab Test	80925	1058563
+3000483	Glucose [Mass/volume] in Blood	2339-0	LOINC	Lab Test	48506	1050145
+36684829	Richmond agitation-sedation scale	457441000124102	SNOMED	Staging / Scales	16454	1049990
+3005424	Body surface area	8277-6	LOINC	Clinical Observation	40310	1046314
+3018311	Urea nitrogen/Creatinine [Mass Ratio] in Serum or Plasma	3097-3	LOINC	Lab Test	89827	1024866
+3000348	Leukocyte esterase [Presence] in Urine by Test strip	5799-2	LOINC	Lab Test	158505	1023948
+4313591	Respiratory rate	86290005	SNOMED	Observable Entity	12223	998837
+3021601	Nitrite [Presence] in Urine by Test strip	5802-4	LOINC	Lab Test	153316	995420
+42527086	Mean airway pressure	60949-5	LOINC	Clinical Observation	5289	985997
+3024882	Oxygen/Total gas setting [Volume Fraction] Ventilator	19994-3	LOINC	Clinical Observation	9002	981502
+3007461	Platelets [#/volume] in Blood	26515-7	LOINC	Lab Test	58631	981402
+3053283	Glomerular filtration rate/1.73 sq M.predicted among blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)	48643-1	LOINC	Lab Test	92609	977221
+3018834	Bilirubin.total [Presence] in Urine by Test strip	5770-3	LOINC	Lab Test	152920	975876
+3004691	Service comment	8251-1	LOINC	Lab Test	74119	973163
+3053331	Differential cell count method - Blood	49024-3	LOINC	Lab Test	73055	956829
+3004410	Hemoglobin A1c/Hemoglobin.total in Blood	4548-4	LOINC	Lab Test	153693	955647
+3006504	Eosinophils/100 leukocytes in Blood	26450-7	LOINC	Lab Test	75980	953779
+3022096	Basophils/100 leukocytes in Blood	30180-4	LOINC	Lab Test	74818	947946
+3001604	Monocytes [#/volume] in Blood	26484-6	LOINC	Lab Test	70393	941699
+21490569	Carbon dioxide [VFr/PPres] in Airway adaptor --at end expiration	60808-3	LOINC	Clinical Observation	4762	934820
+40759207	Adult Waist Circumference Protocol	56086-2	LOINC	Clinical Observation	459070	924823
+3013115	Eosinophils [#/volume] in Blood	26449-9	LOINC	Lab Test	56306	923381
+40765148	PhenX - hip circumference protocol 020801	62409-8	LOINC	Clinical Observation	459070	922171
+3040168	Immature granulocytes [#/volume] in Blood	51584-1	LOINC	Lab Test	90565	920213
+40771922	Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood	69405-9	LOINC	Lab Test	43198	919726
+3022621	pH of Urine by Test strip	5803-2	LOINC	Lab Test	149875	907154
+3002888	Erythrocyte distribution width [Entitic volume]	30384-2	LOINC	Lab Test	53598	907081
+3027162	Color of Urine	5778-6	LOINC	Lab Test	145002	906518
+3034703	Diastolic blood pressure--sitting	8453-3	LOINC	Clinical Observation	34443	892603
+3018586	Systolic blood pressure--sitting	8459-0	LOINC	Clinical Observation	34343	891236
+3028288	Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation	13457-7	LOINC	Lab Test	153909	877967
+40761514	Nucleated erythrocytes/100 leukocytes [Ratio] in Blood by Automated count	58413-6	LOINC	Lab Test	94047	877093
+4301868	Pulse rate	78564009	SNOMED	Observable Entity	9837	858811
+3039000	Anion gap in Blood	41276-7	LOINC	Lab Test	47308	845483
+3009201	Thyrotropin [Units/volume] in Serum or Plasma	3016-3	LOINC	Lab Test	144282	842096
+3006315	Basophils [#/volume] in Blood	26444-0	LOINC	Lab Test	63871	832889
+3011397	Hemoglobin [Presence] in Urine by Test strip	5794-3	LOINC	Lab Test	131899	824792
+3002030	Lymphocytes/100 leukocytes in Blood	26478-8	LOINC	Lab Test	66842	821516
+3018010	Neutrophils/100 leukocytes in Blood	26511-6	LOINC	Lab Test	52264	814233
+3027597	Bilirubin.direct [Mass/volume] in Serum or Plasma	1968-7	LOINC	Lab Test	110427	811892
+3033837	Creatinine/Urea nitrogen [Mass Ratio] in Serum or Plasma	31045-8	LOINC	Lab Test	40399	809091
+3038276	Urea/Creatinine [Ratio] in Urine	40487-1	LOINC	Lab Test	40151	807194
+3019198	Lymphocytes [#/volume] in Blood	26474-7	LOINC	Lab Test	61146	806285
+3017732	Neutrophils [#/volume] in Blood	26499-4	LOINC	Lab Test	57143	797357
+3001123	Platelet mean volume [Entitic volume] in Blood	28542-9	LOINC	Lab Test	42376	791835
+3001376	Heart rate by Pulse oximetry	8889-8	LOINC	Clinical Observation	17220	776312
+3007359	Bilirubin.indirect [Mass/volume] in Serum or Plasma	1971-1	LOINC	Lab Test	75737	757613
+21490853	Invasive Systolic blood pressure	76215-3	LOINC	Clinical Observation	4318	735795
+21490851	Invasive Diastolic blood pressure	76213-8	LOINC	Clinical Observation	4260	734344
+1616927	LACE index score LACE index	96574-9	LOINC	Clinical Observation	20417	714136
+4029625	Tidal volume	13621006	SNOMED	Observable Entity	4167	708247
+3024629	Glucose [Mass/volume] in Urine by Test strip	5792-7	LOINC	Lab Test	108164	707516
+3021886	Globulin [Mass/volume] in Serum	2336-6	LOINC	Lab Test	55020	687751
+3024731	MCV [Entitic volume]	30428-7	LOINC	Lab Test	40374	659282
+3011163	Cholesterol.total/Cholesterol in HDL [Mass Ratio] in Serum or Plasma	9830-1	LOINC	Lab Test	113622	645495
+3023539	Ketones [Mass/volume] in Urine by Test strip	5797-6	LOINC	Lab Test	103571	641987
+21492241	Mean blood pressure by Noninvasive	76536-2	LOINC	Clinical Observation	4373	639299
+3000330	Specific gravity of Urine by Test strip	5811-5	LOINC	Lab Test	116576	635077
+3016293	Bicarbonate [Moles/volume] in Serum or Plasma	1963-8	LOINC	Lab Test	56009	627572
+4141684	Delivered oxygen flow rate	427081008	SNOMED	Observable Entity	24492	606319
+3018677	aPTT in Platelet poor plasma by Coagulation assay	14979-9	LOINC	Lab Test	99472	605686
+3024386	Platelet mean volume [Entitic volume] in Blood by Rees-Ecker	776-5	LOINC	Lab Test	57189	604585
+3044491	Cholesterol non HDL [Mass/volume] in Serum or Plasma	43396-1	LOINC	Lab Test	125320	589624
+4098046	Pulse oximetry	252465000	SNOMED	Procedure	11361	585380
+3007876	Appearance of Urine	5767-9	LOINC	Lab Test	101519	579609
+3035357	Carbon dioxide [Partial pressure] in Exhaled gas --at end expiration	19891-1	LOINC	Clinical Observation	2653	577366
+3034708	Nucleated erythrocytes/100 leukocytes [Ratio] in Blood	19048-8	LOINC	Lab Test	38290	566819
+3033543	Specific gravity of Urine	2965-2	LOINC	Lab Test	85115	563258
+3014051	Protein [Presence] in Urine by Test strip	20454-5	LOINC	Lab Test	103726	550475
+3012608	Segmented neutrophils/100 leukocytes in Blood by Automated count	32200-8	LOINC	Lab Test	45327	549853
+40758413	Blood pressure systolic and diastolic	55284-4	LOINC	Clinical Observation	10093	545930
+3035350	Ketones [Presence] in Urine by Test strip	2514-8	LOINC	Lab Test	101309	540579
+3001008	Epithelial cells.squamous [#/area] in Urine sediment by Microscopy high power field	11277-1	LOINC	Lab Test	113809	535357
+42869452	Immature granulocytes/100 leukocytes in Blood by Automated count	71695-1	LOINC	Lab Test	79097	534272
+3044916	Immature granulocytes [Presence] in Blood by Automated count	34165-1	LOINC	Lab Test	41141	514107
+4326744	Blood pressure	75367002	SNOMED	Observable Entity	6620	513673
+3035124	Erythrocytes [#/area] in Urine sediment by Microscopy high power field	13945-1	LOINC	Lab Test	108901	510912
+3035583	Leukocytes [#/area] in Urine sediment by Microscopy high power field	5821-4	LOINC	Lab Test	100540	498983
+4068414	Non-invasive diastolic arterial pressure	174255007	SNOMED	Observable Entity	3507	468987
+4354252	Non-invasive systolic arterial pressure	251070002	SNOMED	Observable Entity	3507	468986
+3010813	Leukocytes [#/volume] in Blood	26464-8	LOINC	Lab Test	30446	468039
+3028737	Systolic blood pressure by palpation	8479-8	LOINC	Clinical Observation	4968	467312
+3022318	Heart rate rhythm	8884-9	LOINC	Clinical Observation	459465	462627
+3005897	Protein [Mass/volume] in Urine by Test strip	5804-0	LOINC	Lab Test	74553	459781
+903136	Computed hip circumference, mean of closest two measures	hip-circumference-mean	PPI	Clinical Observation	459070	459070
+903107	Computed blood pressure systolic and diastolic, mean of 2nd and 3rd measures	blood-pressure-mean	PPI	Clinical Observation	459070	459070
+903135	Computed waist circumference, mean of closest two measures	waist-circumference-mean	PPI	Clinical Observation	459070	459070
+903126	Computed heart rate, mean of 2nd and 3rd measures	heart-rate-mean	PPI	Clinical Observation	459070	459070
+3005131	Glucose mean value [Mass/volume] in Blood Estimated from glycated hemoglobin	27353-2	LOINC	Lab Test	93123	456705
+3046900	Leukocytes [#/volume] corrected for nucleated erythrocytes in Blood by Automated count	33256-9	LOINC	Lab Test	31350	448771
+903118	Computed systolic blood pressure, mean of 2nd and 3rd measures	blood-pressure-systolic-mean	PPI	Clinical Observation	445729	445729
+903115	Computed diastolic blood pressure, mean of 2nd and 3rd measures	blood-pressure-diastolic-mean	PPI	Clinical Observation	445729	445729
+3017250	Creatinine [Mass/volume] in Urine	2161-8	LOINC	Lab Test	82581	445289
+3015182	Erythrocyte distribution width [Entitic volume] by Automated count	21000-5	LOINC	Lab Test	35089	437704
+3035941	MCH [Entitic mass]	28539-5	LOINC	Lab Test	25209	436378
+3028437	Cholesterol in LDL [Mass/volume] in Serum or Plasma	2089-1	LOINC	Lab Test	64146	419268
+3037426	Urobilinogen [Presence] in Urine by Test strip	5818-0	LOINC	Lab Test	66929	407287
+3009261	Glucose [Presence] in Urine by Test strip	25428-4	LOINC	Lab Test	86478	406770
+3012095	Magnesium [Moles/volume] in Serum or Plasma	2601-3	LOINC	Lab Test	15658	391947
+3014315	Urine output	9187-6	LOINC	Clinical Observation	9284	385544
+3661905	Comprehensive metabolic panel	371361000119107	SNOMED	Procedure	22463	377000
+3030758	Nitrite [Presence] in Urine by Automated test strip	50558-6	LOINC	Lab Test	81326	374363
+3027970	Globulin [Mass/volume] in Serum by calculation	10834-0	LOINC	Lab Test	60737	365315
+3041084	Immature granulocytes [#/volume] in Blood by Automated count	53115-2	LOINC	Lab Test	60251	363026
+3004905	Lipase [Enzymatic activity/volume] in Serum or Plasma	3040-3	LOINC	Lab Test	100413	362050
+3000285	Sodium [Moles/volume] in Blood	2947-0	LOINC	Lab Test	48028	360676
+36203395	Rothman Index Calculated	85556-9	LOINC	Clinical Observation	1667	360406
+3006322	Oral temperature	8331-1	LOINC	Clinical Observation	13000	357867
+3027094	Type of Breath rate device	9277-5	LOINC	Clinical Observation	3622	352867
+3002385	Erythrocyte distribution width [Ratio]	30385-9	LOINC	Lab Test	19343	345569
+45879404	Never smoker	LA18978-9	LOINC	Answer	14190	336653
+3003338	MCHC [Mass/volume]	28540-3	LOINC	Lab Test	19461	335106
+40764999	Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI)	62238-1	LOINC	Lab Test	33708	333385
+3005629	Inhaled oxygen flow rate	3151-8	LOINC	Clinical Observation	11845	330922
+3001122	Ferritin [Mass/volume] in Serum or Plasma	2276-4	LOINC	Lab Test	90001	329603
+3006175	Mucus [Presence] in Urine sediment by Light microscopy	8247-9	LOINC	Lab Test	76432	323086
+3002400	Iron [Mass/volume] in Serum or Plasma	2498-4	LOINC	Lab Test	88669	321428
+3005456	Potassium [Moles/volume] in Blood	6298-4	LOINC	Lab Test	41642	316211
+3023540	Body height Measured	3137-7	LOINC	Clinical Observation	13344	315106
+3020716	Inhaled oxygen concentration	3150-0	LOINC	Clinical Observation	6252	312844
+3000593	Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma	2132-9	LOINC	Lab Test	102530	309334
+3039896	Glucose [Mass/volume] in Urine by Automated test strip	53328-1	LOINC	Lab Test	58785	305986
+3026361	Erythrocytes [#/volume] in Blood	26453-1	LOINC	Lab Test	22845	305668
+3003841	Heart rate Peripheral artery by palpation	8893-0	LOINC	Clinical Observation	10331	305581
+3025255	Bacteria [#/area] in Urine sediment by Microscopy high power field	5769-5	LOINC	Lab Test	80558	304753
+3013603	Prostate specific Ag [Mass/volume] in Serum or Plasma	2857-1	LOINC	Lab Test	45926	297264
+3008598	Thyroxine (T4) free [Mass/volume] in Serum or Plasma	3024-7	LOINC	Lab Test	85484	296508
+3032445	Ideal body weight	50064-5	LOINC	Clinical Observation	10464	296090
+3015736	pH of Urine	2756-5	LOINC	Lab Test	56366	295394
+3030477	Bilirubin.total [Presence] in Urine by Automated test strip	50551-1	LOINC	Lab Test	64804	295371
+3020149	25-hydroxyvitamin D3 [Mass/volume] in Serum or Plasma	1989-3	LOINC	Lab Test	81748	294192
+3008204	Clarity of Urine	32167-9	LOINC	Lab Test	53462	293065
+706163	SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory system specimen by NAA with probe detection	94500-6	LOINC	Lab Test	96017	292328
+40763912	Albumin [Mass/volume] in Serum or Plasma by Bromocresol green (BCG) dye binding method	61151-7	LOINC	Lab Test	31604	291886
+3021044	Iron binding capacity [Mass/volume] in Serum or Plasma	2500-7	LOINC	Lab Test	82281	285541
+2212090	Basic metabolic panel (Calcium, total) This panel must include the following: Calcium, total (82310) Carbon dioxide (bicarbonate) (82374) Chloride (82435) Creatinine (82565) Glucose (82947) Potassium (84132) Sodium (84295) Urea nitrogen (BUN) (84520)	80048	CPT4	CPT4	20478	279320
+3006473	Urobilinogen [Units/volume] in Urine by Test strip	19161-9	LOINC	Lab Test	53997	279134
+3007220	Creatine kinase [Enzymatic activity/volume] in Serum or Plasma	2157-6	LOINC	Lab Test	72793	276470
+3009797	Basophils/100 leukocytes in Blood by Manual count	707-0	LOINC	Lab Test	34218	273789
+3029925	Color of Urine by Auto	50553-7	LOINC	Lab Test	59449	270877
+1616852	SOFA Total Score	96790-1	LOINC	Clinical Observation	5129	265366
+4319466	Complete blood count with white cell differential, automated	9564003	SNOMED	Procedure	19352	261699
+21490852	Invasive Mean blood pressure	76214-6	LOINC	Clinical Observation	654	258620
+3029305	pH of Urine by Automated test strip	50560-2	LOINC	Lab Test	63597	257315
+3045262	Creatinine and Glomerular filtration rate.predicted panel - Serum, Plasma or Blood	45066-8	LOINC	Lab Test	27272	255930
+3013466	aPTT in Blood by Coagulation assay	3173-2	LOINC	Lab Test	24294	255803
+3004562	Bacteria [Presence] in Urine sediment by Light microscopy	25145-4	LOINC	Lab Test	50178	255459
+3020460	C reactive protein [Mass/volume] in Serum or Plasma	1988-5	LOINC	Lab Test	71498	255140
+1619025	Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI 2021)	98979-8	LOINC	Lab Test	48816	251633
+3037556	Urate [Mass/volume] in Serum or Plasma	3084-1	LOINC	Lab Test	53735	251095
+3050479	Immature granulocytes/100 leukocytes in Blood	38518-7	LOINC	Lab Test	40346	249359
+3000185	Iron saturation [Mass Fraction] in Serum or Plasma	2502-3	LOINC	Lab Test	74744	245650
+40769406	Specimen type	66746-9	LOINC	Lab Test	37245	245284
+3007194	Glasgow coma score total	9269-2	LOINC	Clinical Observation	8309	243109
+3003215	Lymphocytes [#/volume] in Blood by Manual count	732-8	LOINC	Lab Test	29082	242022
+3038058	Lymphocytes/100 leukocytes in Blood by Manual count	737-7	LOINC	Lab Test	28306	241595
+3047181	Lactate [Moles/volume] in Blood	32693-4	LOINC	Lab Test	45237	235912
+3035519	Braden scale total score	38227-5	LOINC	Clinical Observation	7128	235246
+3015956	Eosinophils/100 leukocytes in Blood by Manual count	714-6	LOINC	Lab Test	30253	232156
+3001501	Glucose [Moles/volume] in Capillary blood by Glucometer	14743-9	LOINC	Lab Test	6241	231165
+3027388	Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma by No addition of P-5'-P	1744-2	LOINC	Lab Test	29269	228033
+3032080	INR in Blood by Coagulation assay	34714-6	LOINC	Lab Test	22334	223084
+4245997	Body mass index	60621009	SNOMED	Observable Entity	12181	223020
+3019170	Thyrotropin [Units/volume] in Serum or Plasma by Detection limit <= 0.005 mIU/L	11580-8	LOINC	Lab Test	54585	221574
+3000034	Microalbumin [Mass/volume] in Urine	14957-5	LOINC	Lab Test	46302	221372
+3017354	Segmented neutrophils/100 leukocytes in Blood	26505-8	LOINC	Lab Test	25368	221037
+3012764	Erythrocyte morphology finding [Identifier] in Blood	6742-1	LOINC	Lab Test	39187	220560
+3022509	Hyaline casts [#/area] in Urine sediment by Microscopy low power field	5796-8	LOINC	Lab Test	72937	219313
+3013707	Erythrocyte sedimentation rate by Westergren method	4537-7	LOINC	Lab Test	59758	218071
+3004119	Hemoglobin [Mass/volume] in Venous blood	30350-3	LOINC	Lab Test	17080	217675
+40763086	Leukocyte esterase [Presence] in Urine by Automated test strip	60026-2	LOINC	Lab Test	44109	210484
+40765040	25-Hydroxyvitamin D3+25-Hydroxyvitamin D2 [Mass/volume] in Serum or Plasma	62292-8	LOINC	Lab Test	53356	207443
+3047107	Calcium [Mass/volume] corrected for albumin in Serum or Plasma	46099-8	LOINC	Lab Test	16664	206034
+4185279	Complete blood count without differential	43789009	SNOMED	Procedure	6637	204138
+3001490	Nucleated erythrocytes [#/volume] in Blood	30392-5	LOINC	Lab Test	23617	203711
+4149519	Glucose measurement	36048009	SNOMED	Procedure	14259	203576
+3027946	Carbon dioxide [Partial pressure] in Arterial blood	2019-8	LOINC	Lab Test	27861	202243
+2212095	Lipid panel This panel must include the following: Cholesterol, serum, total (82465) Lipoprotein, direct measurement, high density cholesterol (HDL cholesterol) (83718) Triglycerides (84478)	80061	CPT4	CPT4	20405	201259
+3017501	Neutrophils [#/volume] in Blood by Manual count	753-4	LOINC	Lab Test	27074	199192
+3005673	Hemoglobin A1c/Hemoglobin.total in Blood by HPLC	17856-6	LOINC	Lab Test	46804	198083
+3019977	pH of Arterial blood	2744-1	LOINC	Lab Test	27398	197673
+3034739	Osmolality of Serum or Plasma by calculation	18182-6	LOINC	Lab Test	16369	196972
+3051825	Creatinine [Mass/volume] in Blood	38483-4	LOINC	Lab Test	36235	196264
+3027801	Oxygen [Partial pressure] in Arterial blood	2703-7	LOINC	Lab Test	24736	194352
+3011424	Glucose [Mass/volume] in Blood by Automated test strip	2340-8	LOINC	Lab Test	6121	192427
+3030494	Manual differential performed [Presence] in Blood	50957-0	LOINC	Lab Test	12884	191924
+42527659	Body height method	83844-1	LOINC	Clinical Observation	4605	189960
+3029872	Protein [Mass/volume] in Urine by Automated test strip	50561-0	LOINC	Lab Test	44759	188125
+3014094	Carbon dioxide, total [Moles/volume] in Blood	20565-8	LOINC	Lab Test	26826	187242
+40760857	Erythrocytes [#/volume] in Urine by Automated test strip	57747-8	LOINC	Lab Test	38878	186762
+3037072	Urobilinogen [Mass/volume] in Urine by Test strip	20405-7	LOINC	Lab Test	38031	183233
+3015208	Opiates [Presence] in Urine by Screen method	19295-5	LOINC	Lab Test	34317	183158
+3030173	Ketones [Mass/volume] in Urine by Automated test strip	50557-8	LOINC	Lab Test	33246	182849
+3029991	Specific gravity of Urine by Refractometry automated	50562-8	LOINC	Lab Test	33174	182189
+4323687	Central venous pressure	71420008	SNOMED	Observable Entity	755	180582
+3005058	Barbiturates [Presence] in Urine by Screen method	19270-8	LOINC	Lab Test	34026	178484
+4184637	Hemoglobin A1c measurement	43396009	SNOMED	Procedure	17613	177820
+3009105	Erythrocytes [#/volume] in Urine by Test strip	20409-9	LOINC	Lab Test	28653	176102
+3021119	Calcium.ionized [Moles/volume] in Blood	1994-3	LOINC	Lab Test	26155	175199
+3008152	Bicarbonate [Moles/volume] in Arterial blood	1960-4	LOINC	Lab Test	24918	175058
+3022407	Monocytes/100 leukocytes in Blood by Manual count	744-3	LOINC	Lab Test	23737	175008
+3021337	Troponin I.cardiac [Mass/volume] in Serum or Plasma	10839-9	LOINC	Lab Test	37399	174960
+3025809	Q-T interval	8634-8	LOINC	Clinical Observation	23834	172964
+44809413	PHQ-2 - patient health questionnaire 2	836521000000107	SNOMED	Staging / Scales	22224	172315
+40655804	Body height|Length|Moment in time|^Patient	LG34373-7	LOINC	LOINC Group	12131	169764
+4201235	Body surface area	301898006	SNOMED	Observable Entity	8737	169300
+3000764	Benzodiazepines [Presence] in Urine	3390-2	LOINC	Lab Test	25653	168468
+44806420	Estimation of glomerular filtration rate	791801000000102	SNOMED	Procedure	9601	168217
+3005755	Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma by With P-5'-P	1743-4	LOINC	Lab Test	18776	167671
+3019171	Body height Stated	3138-5	LOINC	Clinical Observation	5152	165581
+3026250	Tacrolimus [Mass/volume] in Blood	11253-2	LOINC	Lab Test	2627	164012
+3018095	Leukocytes [#/volume] in Urine	30405-5	LOINC	Lab Test	38691	163409
+3018572	Chloride [Moles/volume] in Blood	2069-3	LOINC	Lab Test	27865	162356
+9289	degree Fahrenheit	[degF]	UCUM	Unit	2303	162307
+3013502	Oxygen saturation in Blood	20564-1	LOINC	Clinical Observation	8688	162057
+3015746	Specimen source identified	31208-2	LOINC	Lab Test	46769	159574
+40760861	Hemoglobin [Presence] in Urine by Automated test strip	57751-0	LOINC	Lab Test	37022	158975
+3009932	Eosinophils [#/volume] in Blood by Manual count	712-0	LOINC	Lab Test	19222	157789
+44789315	Ambulatory systolic blood pressure	198081000000101	SNOMED	Observable Entity	2242	156049
+44789316	Ambulatory diastolic blood pressure	198091000000104	SNOMED	Observable Entity	2242	156044
+3027944	Amphetamines [Presence] in Urine	3349-8	LOINC	Lab Test	24439	154517
+3034107	Monocytes [#/volume] in Blood by Manual count	743-5	LOINC	Lab Test	18279	153333
+3009596	Cholesterol in VLDL [Mass/volume] in Serum or Plasma by calculation	13458-5	LOINC	Lab Test	27010	151713
+4239408	Heart rate	364075005	SNOMED	Observable Entity	6804	151408
+4246879	Thyroid stimulating hormone measurement	61167004	SNOMED	Procedure	19857	149744
+3037121	Protein [Mass/volume] in Urine	2888-6	LOINC	Lab Test	36251	149289
+3006932	Cannabinoids [Presence] in Urine by Screen method	18282-4	LOINC	Lab Test	33574	148823
+40760141	CBC W Reflex Manual Differential panel - Blood	57022-6	LOINC	Lab Test	1204	147427
+3022250	Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction	14804-9	LOINC	Lab Test	19431	144318
+3022035	Basic metabolic 2000 panel - Serum or Plasma	24321-2	LOINC	Lab Test	1296	143909
+40761899	Leukocytes [#/volume] in Urine by Automated test strip	58805-3	LOINC	Lab Test	32023	142678
+3001802	Microalbumin/Creatinine [Mass Ratio] in Urine	14959-1	LOINC	Lab Test	31473	141265
+3007794	P-R Interval	8625-6	LOINC	Clinical Observation	23223	139511
+3016436	Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma	2532-0	LOINC	Lab Test	23014	139343
+3011367	Oxygen saturation Calculated from oxygen partial pressure in Blood	2713-6	LOINC	Lab Test	18974	139339
+3036987	Folate [Mass/volume] in Serum or Plasma	2284-8	LOINC	Lab Test	64308	138573
+3007682	Benzodiazepines [Presence] in Urine by Screen method	14316-4	LOINC	Lab Test	33123	136146
+3020650	Glucose [Presence] in Urine	2349-9	LOINC	Lab Test	26637	134763
+3003396	Base excess in Arterial blood by calculation	1925-7	LOINC	Lab Test	20061	134647
+3001079	Blood group antibody screen [Presence] in Serum or Plasma	890-4	LOINC	Lab Test	39870	133788
+3034915	Calcium [Mass/volume] in Specimen	38250-7	LOINC	Lab Test	8095	132782
+40654166	Intravascular mean|Pressure|Moment in time|Without specimen	LG33057-7	LOINC	LOINC Group	4183	132463
+40654167	Intravascular systolic|Pressure|Moment in time|Without specimen	LG33053-6	LOINC	LOINC Group	4183	132414
+40654165	Intravascular diastolic|Pressure|Moment in time|Without specimen	LG33056-9	LOINC	LOINC Group	4183	132401
+3002619	Bacteria identified in Specimen by Culture	6463-4	LOINC	Lab Test	20868	131453
+4152047	Hyperlipidemia screening	268552003	SNOMED	Procedure	7472	131016
+3051014	Leukocytes [#/area] in Urine sediment by Automated count	46702-7	LOINC	Lab Test	32698	127895
+3020564	Creatinine [Moles/volume] in Serum or Plasma	14682-9	LOINC	Lab Test	9186	127844
+4245261	Prothrombin time	396451008	SNOMED	Procedure	13689	127207
+3011960	Natriuretic peptide B [Mass/volume] in Serum or Plasma	30934-4	LOINC	Lab Test	36353	126909
+3022022	QRS duration	8633-0	LOINC	Clinical Observation	20843	126520
+4146380	Alanine aminotransferase measurement	34608000	SNOMED	Procedure	16915	126160
+3037278	Anion gap 4 in Serum or Plasma	1863-0	LOINC	Lab Test	16594	124298
+706170	SARS-CoV-2 (COVID-19) RNA [Presence] in Specimen by NAA with probe detection	94309-2	LOINC	Lab Test	37242	123885
+3014111	Lactate [Moles/volume] in Serum or Plasma	2524-7	LOINC	Lab Test	30365	123721
+3025380	Albumin [Mass/volume] in Synovial fluid	1752-5	LOINC	Lab Test	14104	123474
+44783982	Measurement of body mass index	698094009	SNOMED	Procedure	5614	123459
+3000067	Parathyrin.intact [Mass/volume] in Serum or Plasma	2731-8	LOINC	Lab Test	33703	123410
+4221102	Cardiac output	82799009	SNOMED	Observable Entity	591	123243
+3027651	Basophils [#/volume] in Blood by Manual count	705-4	LOINC	Lab Test	16540	122352
+2212294	Creatinine; blood	82565	CPT4	CPT4	13973	121634
+40655805	Body weight|Mass|Moment in time|^Patient	LG34372-9	LOINC	LOINC Group	4143	120972
+3021447	Carbon dioxide [Partial pressure] in Venous blood	2021-4	LOINC	Lab Test	28621	120770
+3015183	Erythrocyte sedimentation rate	30341-2	LOINC	Lab Test	40766	120459
+3013290	Carbon dioxide [Partial pressure] in Blood	11557-6	LOINC	Lab Test	15203	120141
+44793131	Total prostate specific antigen level	377981000000102	SNOMED	Procedure	11513	119454
+4103762	Anion gap measurement	25469001	SNOMED	Procedure	9553	119380
+3031586	Platelets [#/volume] in Blood by Estimate	49497-1	LOINC	Lab Test	21002	118929
+44816672	Glucose [Mass/volume] in Serum, Plasma or Blood	74774-1	LOINC	Lab Test	8232	117518
+3019800	Troponin T.cardiac [Mass/volume] in Serum or Plasma	6598-7	LOINC	Lab Test	28409	116498
+3009966	Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay	18262-6	LOINC	Lab Test	30119	116126
+3036180	Methadone [Presence] in Urine	3773-9	LOINC	Lab Test	24352	116021
+40654164	Heart rate|Number=Count/Time|Moment in time|Without specimen	LG33055-1	LOINC	LOINC Group	4153	115392
+3033641	Platelet adequacy [Presence] in Blood by Light microscopy	9317-9	LOINC	Lab Test	25250	115053
+3029709	Clarity in Urine by Refractometry automated	50552-9	LOINC	Lab Test	21507	113948
+3027358	T wave axis	8638-9	LOINC	Clinical Observation	19932	113578
+3025524	Oxygen/Gas total Inhaled gas by Gas dilution.rebreath	19993-5	LOINC	Clinical Observation	3302	113231
+4208254	Cardiac index	54993008	SNOMED	Observable Entity	598	111992
+4172647	Basophil count	42351005	SNOMED	Procedure	11373	110923
+3007352	Cholesterol in VLDL [Mass/volume] in Serum or Plasma	2091-7	LOINC	Lab Test	24811	110880
+4324383	Creatinine measurement	70901006	SNOMED	Procedure	9722	110306
+3019510	Hepatitis B virus surface Ag [Presence] in Serum or Plasma by Immunoassay	5196-1	LOINC	Lab Test	53957	110287
+4086522	Weight change	248346009	SNOMED	Observable Entity	5474	110024
+4243005	Magnesium measurement	38151008	SNOMED	Procedure	12329	109626
+3002417	Prothrombin time (PT) in Blood by Coagulation assay	5964-2	LOINC	Lab Test	18099	109116
+3018954	Choriogonadotropin (pregnancy test) [Presence] in Urine	2106-3	LOINC	Lab Test	35417	109012
+3014053	Glucose [Mass/volume] in Blood by Test strip manual	2341-6	LOINC	Lab Test	4681	108851
+3021016	oxyCODONE [Presence] in Urine by Screen method	19642-8	LOINC	Lab Test	25449	108764
+3016771	Amylase [Enzymatic activity/volume] in Serum or Plasma	1798-8	LOINC	Lab Test	36184	107474
+4319260	Pulmonary stress testing	22238008	SNOMED	Procedure	1292	107362
+3026314	Anisocytosis [Presence] in Blood by Light microscopy	702-1	LOINC	Lab Test	17010	107243
+4216098	Eosinophil count	71960002	SNOMED	Procedure	10089	107080
+3027008	Opiates [Presence] in Urine	3879-4	LOINC	Lab Test	22124	106910
+3025987	Albumin [Presence] in Urine	1753-3	LOINC	Lab Test	15815	106523
+3008839	Basophils/100 leukocytes in Body fluid by Manual count	12179-8	LOINC	Lab Test	12387	106081
+3012501	Base excess in Blood by calculation	11555-0	LOINC	Lab Test	16968	105641
+3012544	pH of Venous blood	2746-6	LOINC	Lab Test	28119	105634
+3020660	R wave axis	9997-8	LOINC	Clinical Observation	18121	105465
+3007350	Amorphous sediment [Presence] in Urine sediment by Light microscopy	8246-1	LOINC	Lab Test	19161	104360
+3021461	Reagin Ab [Presence] in Serum by RPR	20507-0	LOINC	Lab Test	40733	104064
+3026910	Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma	2324-2	LOINC	Lab Test	26018	103739
+4144235	Glucose measurement, blood	33747003	SNOMED	Procedure	13391	103363
+3005719	IgG [Mass/volume] in Serum or Plasma	2465-3	LOINC	Lab Test	27883	103083
+3029187	Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma	33762-6	LOINC	Lab Test	31450	101460
+3045524	Bilirubin direct and total panel [Mass/volume] - Serum or Plasma	34543-9	LOINC	Lab Test	12207	100964
+3001494	Erythrocytes [#/volume] in Urine sediment by Microscopy high power field	5808-1	LOINC	Lab Test	24266	100932
+40760007	HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay	56888-1	LOINC	Lab Test	58517	100789
+4302666	Body temperature	386725007	SNOMED	Observable Entity	5745	100757
+3008295	Osmolality of Serum or Plasma	2692-2	LOINC	Lab Test	17811	99272
+4254663	Lymphocyte count	74765001	SNOMED	Procedure	9231	99241
+3007164	IgA [Mass/volume] in Serum or Plasma	2458-8	LOINC	Lab Test	34906	99197
+40654162	Body temperature|Temperature|Moment in time|Without specimen	LG33052-8	LOINC	LOINC Group	4107	98367
+3007463	Buprenorphine [Presence] in Urine	3414-0	LOINC	Lab Test	15158	98353
+46235783	Chloride [Moles/volume] in Serum, Plasma or Blood	77138-6	LOINC	Lab Test	7152	98150
+3013801	Hepatitis C virus Ab [Presence] in Serum or Plasma by Immunoassay	13955-0	LOINC	Lab Test	63347	98109
+3051314	MCHC [Mass/volume] in Cord blood	47279-5	LOINC	Lab Test	6029	97992
+3007591	Band form neutrophils/100 leukocytes in Blood by Manual count	764-1	LOINC	Lab Test	22954	97744
+3002020	Barbiturates [Presence] in Urine	3377-9	LOINC	Lab Test	21372	97516
+3028108	Segmented neutrophils/100 leukocytes in Blood by Manual count	769-0	LOINC	Lab Test	19163	96934
+3006698	P wave axis	8626-4	LOINC	Clinical Observation	18189	96880
+4231869	Stroke volume	90096001	SNOMED	Observable Entity	595	96812
+3012042	Body surface area Derived from formula	3140-1	LOINC	Clinical Observation	5975	96704
+3027492	Dry body weight Measured	8341-0	LOINC	Clinical Observation	3956	95745
+3004077	Glucose [Mass/volume] in Capillary blood	32016-8	LOINC	Lab Test	4401	95156
+3036581	Mucus [#/area] in Urine sediment by Microscopy low power field	28545-2	LOINC	Lab Test	30893	95138
+4194332	Monocyte count	67776007	SNOMED	Procedure	8689	95098
+3028833	Bilirubin.total [Mass/volume] in Blood	42719-5	LOINC	Lab Test	9840	95023
+3010156	C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method	30522-7	LOINC	Lab Test	27984	94442
+3037081	Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma by With P-5'-P	30239-8	LOINC	Lab Test	14759	93631
+3016879	Cocaine [Presence] in Urine	3397-7	LOINC	Lab Test	14891	92868
+37116693	Stroke volume variation	733502006	SNOMED	Observable Entity	372	92779
+3011258	Bilirubin.total [Presence] in Urine	1977-8	LOINC	Lab Test	13342	91838
+3017143	Hepatitis C virus Ab [Presence] in Serum	16128-1	LOINC	Lab Test	56402	91092
+4007831	Vitamin D, 25-hydroxy measurement	12199005	SNOMED	Procedure	15210	90643
+3026258	Q-T interval corrected	8636-3	LOINC	Clinical Observation	13271	90584
+4230543	Bilirubin, total measurement	359986008	SNOMED	Procedure	11941	90264
+3015023	Epithelial cells.renal [#/area] in Urine sediment by Microscopy high power field	26052-1	LOINC	Lab Test	12813	89840
+3020481	Respiration rhythm	9304-7	LOINC	Clinical Observation	10584	89634
+4263457	Aspartate aminotransferase measurement	45896001	SNOMED	Procedure	12412	89113
+3002173	Hemoglobin [Mass/volume] in Arterial blood	30313-1	LOINC	Lab Test	10597	88453
+36306178	Glomerular filtration rate/1.73 sq M.predicted among blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI)	88293-6	LOINC	Lab Test	24350	87930
+4232915	Sitting systolic blood pressure	407554009	SNOMED	Observable Entity	2687	87615
+4248524	Sitting diastolic blood pressure	407555005	SNOMED	Observable Entity	2687	87319
+3028707	Methadone [Presence] in Urine by Screen method	19550-3	LOINC	Lab Test	23968	87249
+3024354	Oxygen [Partial pressure] in Venous blood	2705-2	LOINC	Lab Test	22755	86770
+3026008	Bacteria identified in Urine by Culture	630-4	LOINC	Lab Test	32687	86623
+4230636	Alkaline phosphatase measurement	88810008	SNOMED	Procedure	11150	86611
+3009609	Carbon dioxide, total [Moles/volume] in Arterial blood	2026-3	LOINC	Lab Test	8926	86150
+2212611	Urea nitrogen; quantitative	84520	CPT4	CPT4	10598	85317
+2212166	Urinalysis, by dip stick or tablet reagent for bilirubin, glucose, hemoglobin, ketones, leukocytes, nitrite, pH, protein, specific gravity, urobilinogen, any number of these constituents; automated, with microscopy	81001	CPT4	CPT4	16076	84922
+3028026	IgM [Mass/volume] in Serum or Plasma	2472-9	LOINC	Lab Test	25270	84346
+4041973	Granulocyte count	118138007	SNOMED	Procedure	6452	83898
+4193783	Electrolytes measurement	79301008	SNOMED	Procedure	2824	83487
+2212168	Urinalysis, by dip stick or tablet reagent for bilirubin, glucose, hemoglobin, ketones, leukocytes, nitrite, pH, protein, specific gravity, urobilinogen, any number of these constituents; automated, without microscopy	81003	CPT4	CPT4	10841	83452
+42869450	Platelets reticulated/100 platelets in Blood by Automated count	71693-6	LOINC	Lab Test	9371	83169
+4326835	Measurement of substance	430925007	SNOMED	Procedure	7667	82856
+3021303	Hypochromia [Presence] in Blood by Light microscopy	728-6	LOINC	Lab Test	15328	82470
+3009531	Nitrite [Mass/volume] in Urine by Test strip	20407-3	LOINC	Lab Test	14686	81973
+40654163	Breaths|Number=Count/Time|Moment in time|Without specimen	LG33054-4	LOINC	LOINC Group	4027	81310
+3011987	Polychromasia [Presence] in Blood by Light microscopy	10378-8	LOINC	Lab Test	17087	79428
+3004295	Urea nitrogen [Mass/volume] in Blood	6299-2	LOINC	Lab Test	17102	78878
+3025954	Urinalysis specimen collection method	19159-3	LOINC	Lab Test	6261	78290
+3010220	Body weight Measured --with clothes	8350-1	LOINC	Clinical Observation	2469	78085
+3029870	Urobilinogen [Mass/volume] in Urine by Automated test strip	50563-6	LOINC	Lab Test	18250	77904
+40763913	Albumin [Mass/volume] in Serum or Plasma by Bromocresol purple (BCP) dye binding method	61152-5	LOINC	Lab Test	11387	77689
+3013498	Variant lymphocytes/100 leukocytes in Blood	13046-8	LOINC	Lab Test	14375	77320
+3014798	Benzoylecgonine [Presence] in Urine by Screen method	14314-9	LOINC	Lab Test	12198	76566
+3005785	Creatine kinase.MB [Mass/volume] in Serum or Plasma	13969-1	LOINC	Lab Test	21814	76538
+36306016	Hyaline casts [#/area] in Urine sediment	88966-7	LOINC	Lab Test	6154	75782
+3036603	Volume of Urine	28009-9	LOINC	Lab Test	7955	75771
+3032971	Troponin I.cardiac [Mass/volume] in Serum or Plasma by Detection limit <= 0.01 ng/mL	49563-0	LOINC	Lab Test	15498	75704
+3008893	Testosterone [Mass/volume] in Serum or Plasma	2986-8	LOINC	Lab Test	26490	75700
+40769783	Troponin T.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method	67151-1	LOINC	Lab Test	16580	75606
+3000600	Renal tubular casts [#/area] in Urine by Light microscopy	30079-8	LOINC	Lab Test	6121	75587
+40758903	Hemoglobin [Mass/volume] in Blood by Oximetry	55782-7	LOINC	Lab Test	10758	75204
+3019930	Urea nitrogen [Mass/volume] in Body fluid	3093-2	LOINC	Lab Test	4014	75103
+3037885	Microcytes [Presence] in Blood by Light microscopy	741-9	LOINC	Lab Test	14411	74643
+3048402	Erythrocytes [#/area] in Urine sediment by Automated count	46419-8	LOINC	Lab Test	18826	73335
+3043310	Chlamydia trachomatis rRNA [Presence] in Specimen by NAA with probe detection	43304-5	LOINC	Lab Test	28311	73120
+3014749	Leukocytes [#/volume] in Urine by Test strip	20408-1	LOINC	Lab Test	15969	73061
+36303797	Glomerular filtration rate/1.73 sq M.predicted among non-blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI)	88294-4	LOINC	Lab Test	24423	72911
+3027368	Neutrophils/100 leukocytes in Blood by Manual count	23761-0	LOINC	Lab Test	9169	72153
+3000666	Metamyelocytes/100 leukocytes in Blood by Manual count	740-1	LOINC	Lab Test	16879	72014
+40483570	Urinalysis with reflex to microscopy	442468009	SNOMED	Procedure	6321	71900
+3024928	Oxygen saturation in Venous blood	2711-0	LOINC	Clinical Observation	18253	71830
+3011185	Granulocytes/100 leukocytes in Blood by Automated count	19023-1	LOINC	Lab Test	6604	71763
+3038288	Influenza virus B RNA [Presence] in Specimen by NAA with probe detection	40982-1	LOINC	Lab Test	35526	71244
+3016948	Activated clotting time (ACT) of Blood by Coagulation assay	3184-9	LOINC	Lab Test	16281	71113
+3018060	Cocaine [Presence] in Urine by Screen method	19359-9	LOINC	Lab Test	20846	71054
+3045028	Neisseria gonorrhoeae rRNA [Presence] in Specimen by NAA with probe detection	43305-2	LOINC	Lab Test	28232	71016
+3019762	Thyrotropin [Units/volume] in Serum or Plasma by Detection limit <= 0.05 mIU/L	11579-0	LOINC	Lab Test	21377	70486
+3018229	Myelocytes/100 leukocytes in Blood by Manual count	749-2	LOINC	Lab Test	16558	70279
+3004809	Band form neutrophils/100 leukocytes in Blood	26508-2	LOINC	Lab Test	15511	70073
+3050068	Calcium.ionized [Moles/volume] in Blood by Ion-selective membrane electrode (ISE)	47596-2	LOINC	Lab Test	13211	69747
+3034485	Albumin/Creatinine [Mass Ratio] in Urine	9318-7	LOINC	Lab Test	17096	69490
+3023465	Gamma globulin [Mass/volume] in Serum or Plasma by Electrophoresis	2874-6	LOINC	Lab Test	25728	68906
+3021502	Macrocytes [Presence] in Blood by Light microscopy	738-5	LOINC	Lab Test	12280	68718
+3005229	Alpha 2 globulin [Mass/volume] in Serum or Plasma by Electrophoresis	2868-8	LOINC	Lab Test	25596	68594
+3044938	Influenza virus A RNA [Presence] in Specimen by NAA with probe detection	34487-9	LOINC	Lab Test	34020	68246
+3015322	Alpha 1 globulin [Mass/volume] in Serum or Plasma by Electrophoresis	2865-4	LOINC	Lab Test	25270	67959
+45883458	Former smoker	LA15920-4	LOINC	Answer	13173	67871
+3027273	Bicarbonate [Moles/volume] in Venous blood	14627-4	LOINC	Lab Test	20244	67572
+3051714	Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma	48065-7	LOINC	Lab Test	33895	67484
+4148615	Neutrophil count	30630007	SNOMED	Procedure	8972	67190
+3006093	Chlamydia trachomatis DNA [Presence] in Specimen by NAA with probe detection	21613-5	LOINC	Lab Test	21938	67176
+3028167	CD3+CD4+ (T4 helper) cells [#/volume] in Blood	24467-3	LOINC	Lab Test	6382	66850
+3016407	Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay	3255-7	LOINC	Lab Test	18203	66514
+3039919	Specific gravity of Urine by Automated test strip	53326-5	LOINC	Lab Test	22717	65740
+3006576	Bicarbonate [Moles/volume] in Blood	1959-6	LOINC	Lab Test	9863	65623
+4035541	Blood cell count, automated	117356000	SNOMED	Procedure	10199	65603
+3036311	QRS complex Ventricles by EKG	8897-1	LOINC	Clinical Observation	9840	64917
+3028827	Glucose meter device panel	43151-0	LOINC	Clinical Observation	5321	64352
+3038691	Anisocytosis [Presence] in Blood	38892-6	LOINC	Lab Test	8310	64238
+3018920	Vancomycin [Mass/volume] in Serum or Plasma --trough	4092-3	LOINC	Lab Test	17558	63604
+3002185	P wave Atrium by EKG	8894-8	LOINC	Clinical Observation	9961	63397
+4099611	Urinalysis, routine and microscopic	27260001	SNOMED	Procedure	7035	63284
+3027920	Ovalocytes [Presence] in Blood by Light microscopy	774-0	LOINC	Lab Test	13154	63245
+4032173	Vitamin B12 measurement	14598005	SNOMED	Procedure	13282	63033
+3028286	Albumin [Mass/volume] in Serum or Plasma by Electrophoresis	2862-1	LOINC	Lab Test	23243	62706
+3024461	Microorganism identified in Specimen by Culture	11475-1	LOINC	Lab Test	14339	62529
+3034452	Benzoylecgonine [Presence] in Urine	3393-6	LOINC	Lab Test	12512	62389
+4017361	Blood urea nitrogen measurement	105011006	SNOMED	Procedure	6701	62278
+3014037	CD3+CD4+ (T4 helper) cells/100 cells in Blood	8123-2	LOINC	Lab Test	6107	62119
+3012920	Ethanol [Mass/volume] in Serum or Plasma	5643-2	LOINC	Lab Test	21180	62017
+3011371	Neisseria gonorrhoeae DNA [Presence] in Specimen by NAA with probe detection	24111-7	LOINC	Lab Test	22782	62008
+3011368	Poikilocytosis [Presence] in Blood by Light microscopy	779-9	LOINC	Lab Test	12286	61935
+4077697	Screening mammography	24623002	SNOMED	Procedure	3883	61734
+4135963	Carbon dioxide content measurement	31542002	SNOMED	Procedure	10518	61549
+3007124	Reticulocytes/100 erythrocytes in Blood by Automated count	17849-1	LOINC	Lab Test	18717	61314
+3000144	Amphetamine [Presence] in Urine by Screen method	19343-3	LOINC	Lab Test	16118	61176
+3037110	Fasting glucose [Mass/volume] in Serum or Plasma	1558-6	LOINC	Lab Test	20002	61063
+2212099	Hepatic function panel This panel must include the following: Albumin (82040) Bilirubin, total (82247) Bilirubin, direct (82248) Phosphatase, alkaline (84075) Protein, total (84155) Transferase, alanine amino (ALT) (SGPT) (84460) Transferase, aspartate am	80076	CPT4	CPT4	8124	60795
+4197971	HbA1c measurement (DCCT aligned)	313835008	SNOMED	Procedure	5896	60130
+3044844	Fine Granular Casts [#/area] in Urine sediment by Microscopy low power field	32680-1	LOINC	Lab Test	6125	59888
+4095055	ALT - blood measurement	250637003	SNOMED	Procedure	4340	59871
+3002032	Base excess in Venous blood by calculation	1927-3	LOINC	Lab Test	17745	59835
+3018336	Mean blood pressure--supine	8458-2	LOINC	Clinical Observation	1285	59699
+3029741	Coarse Granular Casts [#/area] in Urine sediment by Microscopy low power field	33393-0	LOINC	Lab Test	7087	59519
+46235152	Body temperature - Temporal artery	75539-7	LOINC	Clinical Observation	7530	59507
+3002317	Cells Counted Total [#] in Blood	11282-1	LOINC	Lab Test	12010	59432
+3004789	Transferrin [Mass/volume] in Serum or Plasma	3034-6	LOINC	Lab Test	22067	59138
+4353950	Train of four count	250832007	SNOMED	Observable Entity	6396	59040
+3039353	Urinalysis microscopic panel - Urine Qualitative by Automated	53315-8	LOINC	Lab Test	8291	58950
+4151358	Hematocrit determination	28317006	SNOMED	Procedure	9598	58344
+3007950	Urobilinogen [Mass/volume] in Urine	3107-0	LOINC	Lab Test	10298	58303
+3003694	ABO and Rh group [Type] in Blood	882-1	LOINC	Lab Test	19899	58026
+3028923	Bacteria [#/area] in Urine sediment by Automated count	33218-9	LOINC	Lab Test	14451	57382
+3037185	Protein [Presence] in Urine	2887-8	LOINC	Lab Test	10985	57263
+3003214	Platelet morphology finding [Identifier] in Blood	11125-2	LOINC	Lab Test	9992	56475
+3032238	Epithelial cells.non-squamous [Presence] in Urine by Automated	50225-2	LOINC	Lab Test	10356	56256
+3000068	oxyCODONE [Presence] in Urine	10998-3	LOINC	Lab Test	9392	56237
+2212742	Thromboplastin time, partial (PTT); plasma or whole blood	85730	CPT4	CPT4	11748	56050
+3016520	Beta globulin [Mass/volume] in Serum or Plasma by Electrophoresis	2871-2	LOINC	Lab Test	21196	54463
+3043409	Potassium [Moles/volume] in Arterial blood	32713-0	LOINC	Lab Test	7043	54324
+4236565	Transthoracic echocardiography test interpretation	441090001	SNOMED	Observable Entity	2579	54318
+3023520	Reticulocytes [#/volume] in Blood	14196-0	LOINC	Lab Test	15717	54084
+3000333	Central venous pressure (CVP) Mean	8591-0	LOINC	Clinical Observation	129	54064
+3003344	Hemoglobin [Presence] in Urine	725-2	LOINC	Lab Test	8942	53755
+2212186	Albumin; serum, plasma or whole blood	82040	CPT4	CPT4	8257	53346
+3039426	Oxygen saturation Calculated from oxygen partial pressure in Arterial blood	51733-4	LOINC	Lab Test	4291	52343
+3017509	Phencyclidine [Presence] in Urine	3936-2	LOINC	Lab Test	13695	51854
+3018171	Choriogonadotropin [Units/volume] in Serum or Plasma	19080-1	LOINC	Lab Test	18712	51830
+3016991	Thyroxine (T4) [Mass/volume] in Serum or Plasma	3026-2	LOINC	Lab Test	22031	51427
+44804610	PHQ-9 - Patient health questionnaire 9	758711000000105	SNOMED	Staging / Scales	15086	51409
+3013094	Hepatic function 2000 panel - Serum or Plasma	24325-3	LOINC	Lab Test	1132	51354
+3008939	Band form neutrophils [#/volume] in Blood by Manual count	763-3	LOINC	Lab Test	10042	51058
+3027484	Hemoglobin [Mass/volume] in Blood by calculation	20509-6	LOINC	Lab Test	7956	51018
+3005168	Iron binding capacity.unsaturated [Mass/volume] in Serum or Plasma	2501-5	LOINC	Lab Test	19200	50789
+21490872	Heart rate.beat-to-beat by EKG	76282-3	LOINC	Clinical Observation	7559	50667
+3027315	Oxygen [Partial pressure] in Blood	11556-8	LOINC	Lab Test	8081	50599
+40762735	fentaNYL [Presence] in Urine by Screen method	59673-4	LOINC	Lab Test	7077	50537
+3042812	Nitrite [Presence] in Urine	32710-6	LOINC	Lab Test	9313	50172
+4042059	Serum HDL cholesterol measurement	166832000	SNOMED	Procedure	8352	50112
+3019284	Hepatitis B virus surface Ag [Presence] in Serum	5195-3	LOINC	Lab Test	28182	50076
+3035529	Creatinine renal clearance predicted by Cockcroft-Gault formula	35591-7	LOINC	Lab Test	6077	49953
+4176561	Ferritin measurement	489004	SNOMED	Procedure	10420	49767
+3003159	Erythrocytes [#/volume] in Body fluid by Automated count	23860-0	LOINC	Lab Test	11521	49429
+4245152	Potassium measurement	59573005	SNOMED	Procedure	6746	49387
+3015586	Segmented neutrophils [#/volume] in Blood	30451-9	LOINC	Lab Test	5682	49342
+3020399	Glucose [Mass/volume] in Urine	2350-7	LOINC	Lab Test	9070	49304
+3034531	Granulocytes [#/volume] in Blood by Automated count	20482-6	LOINC	Lab Test	2323	48815
+3037234	Variant lymphocytes/100 leukocytes in Blood by Manual count	735-1	LOINC	Lab Test	14895	48639
+3052261	Cholesterol in VLDL 3 [Mass/volume] in Serum or Plasma	46986-6	LOINC	Lab Test	12176	48426
+3045424	Erythrocytes [Presence] in Urine	33051-4	LOINC	Lab Test	12303	48110
+4017498	Albumin measurement, urine, quantitative	104486009	SNOMED	Procedure	8759	48043
+44782824	Mean inspiratory airway pressure	698821009	SNOMED	Observable Entity	868	48007
+3037167	Microscopic observation [Identifier] in Specimen by Gram stain	664-3	LOINC	Lab Test	15004	47640
+4196969	T4 free measurement	5113004	SNOMED	Procedure	9860	47448
+2212295	Creatinine; other source	82570	CPT4	CPT4	9065	46633
+4207483	Blood potassium measurement	312468003	SNOMED	Procedure	7548	46508
+40757349	CD3+CD4+ (T4 helper) cells/CD3+CD8+ (T8 suppressor cells) cells [# Ratio] in Blood	54218-3	LOINC	Lab Test	5211	46410
+3031569	Natriuretic peptide B [Mass/volume] in Blood	42637-9	LOINC	Lab Test	14579	46365
+3043706	Sodium [Moles/volume] in Arterial blood	32717-1	LOINC	Lab Test	5605	46264
+3025220	Type of Body temperature device	8326-1	LOINC	Clinical Observation	2984	46255
+3014007	Fractional oxyhemoglobin in Arterial blood	2714-4	LOINC	Lab Test	7760	46200
+4097664	Albumin measurement	26758005	SNOMED	Procedure	7393	46038
+3001405	CD3+CD8+ (T8 suppressor) cells [#/volume] in Blood	14135-8	LOINC	Lab Test	4864	45911
+3003191	Choriogonadotropin (pregnancy test) [Presence] in Serum or Plasma	2118-8	LOINC	Lab Test	17423	45297
+3034860	Kappa light chains.free [Mass/volume] in Serum	36916-5	LOINC	Lab Test	11208	45181
+4018174	Aspartate measurement	104540009	SNOMED	Procedure	3800	45131
+3047169	Lambda light chains.free [Mass/volume] in Serum or Plasma	33944-0	LOINC	Lab Test	11115	44677
+3001582	Protein/Creatinine [Mass Ratio] in Urine	2890-2	LOINC	Lab Test	12968	44502
+3013184	Phencyclidine [Presence] in Urine by Screen method	19659-2	LOINC	Lab Test	15243	44279
+2212092	Electrolyte panel This panel must include the following: Carbon dioxide (bicarbonate) (82374) Chloride (82435) Potassium (84132) Sodium (84295)	80051	CPT4	CPT4	6091	44057
+40479598	Urinalysis with reflex to microscopy and culture	441550005	SNOMED	Procedure	3834	43849
+46235174	Q-T interval corrected based on Bazett formula	76635-2	LOINC	Clinical Observation	7624	43502
+3010747	HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection	20447-9	LOINC	Lab Test	4254	43167
+4174894	Core body temperature	276885007	SNOMED	Observable Entity	2845	43109
+3008424	Barbiturates [Presence] in Serum or Plasma by Screen method	20421-4	LOINC	Lab Test	15131	42274
+3007449	CD3+CD8+ (T8 suppressor) cells/100 cells in Blood	8101-8	LOINC	Lab Test	4741	42115
+42868627	Methadone [Presence] in Urine by Screen method >300 ng/mL	70149-0	LOINC	Lab Test	3509	42056
+4208938	Sodium measurement, blood	312469006	SNOMED	Procedure	6733	41971
+3051596	Benzodiazepines [Presence] in Serum or Plasma by Screen method	46976-7	LOINC	Lab Test	14863	41934
+3026225	Cocaine [Presence] in Serum or Plasma by Screen method	8191-9	LOINC	Lab Test	14753	41916
+3017766	Complement C4 [Mass/volume] in Serum or Plasma	4498-2	LOINC	Lab Test	14447	41899
+3016961	Cannabinoids [Presence] in Serum or Plasma by Screen method	8172-9	LOINC	Lab Test	14788	41827
+3040519	Bilirubin.total [Mass/volume] in Urine by Automated test strip	53327-3	LOINC	Lab Test	8750	41823
+3024856	Heparin unfractionated [Units/volume] in Platelet poor plasma by Coagulation assay	3273-0	LOINC	Lab Test	4209	41637
+3011483	Granular casts [#/area] in Urine sediment by Microscopy low power field	5793-5	LOINC	Lab Test	12188	41583
+3010421	pH of Blood	11558-4	LOINC	Lab Test	6731	41544
+3005606	Pulmonary artery Systolic blood pressure	8440-0	LOINC	Clinical Observation	2188	41510
+756084	Measurement of Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) using Nucleic acid amplification technique in Unspecified specimen	OMOP4873968	OMOP Extension	Lab Test	10472	41465
+3003540	Lymphocytes/100 leukocytes in Body fluid by Manual count	13941-0	LOINC	Lab Test	10138	41412
+3025590	Crystals [type] in Urine sediment by Light microscopy	5782-8	LOINC	Lab Test	10472	41373
+3027361	Cholecalciferol (Vit D3) [Mass/volume] in Serum or Plasma	1990-1	LOINC	Lab Test	13972	41285
+3046731	Epithelial cells.squamous [#/area] in Urine sediment by Microscopy low power field	45390-2	LOINC	Lab Test	9960	41168
+3015110	Color of Stone	9796-4	LOINC	Lab Test	8367	41118
+40771519	Performing laboratory name	68994-3	LOINC	Lab Test	6239	40971
+2212241	Calcium; total	82310	CPT4	CPT4	7602	40855
+3022738	Opiates [Presence] in Serum or Plasma by Screen method	8219-8	LOINC	Lab Test	14413	40747
+4017907	Phosphate measurement	104866001	SNOMED	Procedure	2564	40486
+3029162	Epithelial cells.squamous [#/area] in Urine sediment by Automated count	33219-7	LOINC	Lab Test	13382	40250
+3000620	Complement C3 [Mass/volume] in Serum or Plasma	4485-9	LOINC	Lab Test	13636	39952
+3027270	Segmented neutrophils [#/volume] in Blood by Manual count	768-2	LOINC	Lab Test	6230	39875
+3002617	Acetaminophen [Mass/volume] in Serum or Plasma	3298-7	LOINC	Lab Test	17363	39668
+3046279	Procalcitonin [Mass/volume] in Serum or Plasma	33959-8	LOINC	Lab Test	14152	39646
+4281085	Red cell distribution width determination	66842004	SNOMED	Procedure	5639	39464
+3022533	CD3 cells/100 cells in Blood	8124-0	LOINC	Lab Test	4487	39315
+2212544	Protein, total, except by refractometry; serum, plasma or whole blood	84155	CPT4	CPT4	6098	39285
+3023323	Follitropin [Units/volume] in Serum or Plasma	15067-2	LOINC	Lab Test	23522	39126
+3003785	Carcinoembryonic Ag [Mass/volume] in Serum or Plasma	2039-6	LOINC	Lab Test	7859	39092
+4019545	Chloride measurement, blood	104589004	SNOMED	Procedure	6600	39030
+36684937	Sequential Organ Failure Assessment score	459231000124102	SNOMED	Staging / Scales	196	38735
+3051593	INR in Capillary blood by Coagulation assay	46418-0	LOINC	Lab Test	4561	38730
+4264167	Taking patient vital signs	61746007	SNOMED	Procedure	7082	38700
+3002109	Cholesterol in LDL/Cholesterol in HDL [Mass Ratio] in Serum or Plasma	11054-4	LOINC	Lab Test	8023	38660
+4216722	Calcium measurement	71878006	SNOMED	Procedure	3662	38576
+40762766	Methadone [Presence] in Serum or Plasma by Screen method	59705-4	LOINC	Lab Test	13859	38411
+3032035	Polymorphonuclear cells/100 leukocytes in Blood	34999-3	LOINC	Lab Test	3429	38322
+3012516	Albumin [Mass/volume] in Urine	1754-1	LOINC	Lab Test	12175	38201
+3010109	Ethanol [Presence] in Urine	5644-0	LOINC	Lab Test	5828	38200
+3023884	Cholesterol in HDL/Cholesterol.total [Mass Ratio] in Serum or Plasma	2095-8	LOINC	Lab Test	5617	38128
+4208414	C-reactive protein measurement	55235003	SNOMED	Procedure	7494	38111
+4017908	Phosphate, inorganic measurement	104867005	SNOMED	Procedure	7208	38077
+4017787	Lipids, triglycerides measurement	104784006	SNOMED	Procedure	6391	37696
+3010340	Triiodothyronine (T3) [Mass/volume] in Serum or Plasma	3053-6	LOINC	Lab Test	15337	37678
+3011412	CD3 cells [#/volume] in Blood	8122-4	LOINC	Lab Test	4506	37674
+3040311	Epithelial cells.non-squamous [Presence] in Urine sediment by Light microscopy	53978-3	LOINC	Lab Test	15114	37499
+3022038	Triglyceride [Mass/volume] in Blood	3043-7	LOINC	Lab Test	5355	37196
+3025285	Estradiol (E2) [Mass/volume] in Serum or Plasma	2243-4	LOINC	Lab Test	14495	36753
+3037244	Yeast [#/area] in Urine sediment by Microscopy high power field	5822-2	LOINC	Lab Test	13907	36713
+3053209	Kappa light chains.free/Lambda light chains.free [Mass Ratio] in Serum	48378-4	LOINC	Lab Test	9839	36559
+40760845	Protein [Presence] in Urine by Automated test strip	57735-3	LOINC	Lab Test	8594	36499
+3000456	Dacrocytes [Presence] in Blood by Light microscopy	7791-7	LOINC	Lab Test	8577	36367
+3052023	Hepatitis C virus Ab Signal/Cutoff in Serum or Plasma by Immunoassay	48159-8	LOINC	Lab Test	27513	36035
+3006453	Hepatitis B virus surface Ab [Presence] in Serum by Immunoassay	10900-9	LOINC	Lab Test	23139	36025
+3038034	Hypochromia [Presence] in Blood by Automated count	15180-3	LOINC	Lab Test	4315	35885
+4267147	Platelet count	61928009	SNOMED	Procedure	5042	35715
+3036005	Urine sediment comments by Light microscopy Narrative	11279-7	LOINC	Lab Test	9131	35632
+3000787	Salicylates [Mass/volume] in Serum or Plasma	4024-6	LOINC	Lab Test	15654	35411
+3033966	Methicillin resistant Staphylococcus aureus (MRSA) DNA [Presence] in Specimen by NAA with probe detection	35492-8	LOINC	Lab Test	11419	35369
+3025643	Ethanol [Mass/volume] in Blood	5640-8	LOINC	Lab Test	12621	35278
+4197602	Serum TSH measurement	313440008	SNOMED	Procedure	7952	35277
+3028022	Lymphocytes [#/volume] in Specimen by Automated count	20585-6	LOINC	Lab Test	5199	35089
+3025616	Target cells [Presence] in Blood by Light microscopy	10381-2	LOINC	Lab Test	6342	35060
+4154489	Serum potassium measurement	271236005	SNOMED	Procedure	4344	34802
+4011919	Hemoglobin saturation with oxygen	103228002	SNOMED	Observable Entity	2574	34762
+3004722	Prolactin [Mass/volume] in Serum or Plasma	2842-3	LOINC	Lab Test	18869	34668
+21490591	Skin temperature --in microenvironment	60839-8	LOINC	Clinical Observation	2400	34629
+3041426	Ketones [Moles/volume] in Blood	53061-8	LOINC	Lab Test	5211	34464
+2212605	Troponin, quantitative	84484	CPT4	CPT4	9915	34461
+3009682	Cortisol [Mass/volume] in Serum or Plasma	2143-6	LOINC	Lab Test	14088	34433
+3023421	Hepatitis B virus surface Ab [Units/volume] in Serum	16935-9	LOINC	Lab Test	20574	34290
+3035899	Cholesterol in LDL [Mass/volume] in Serum or Plasma ultracentrifugate	18261-8	LOINC	Lab Test	2829	34181
+3004150	Character of Semen	13359-5	LOINC	Lab Test	5094	34164
+4177340	Body height measure	50373000	SNOMED	Observable Entity	2943	34124
+4012479	Low density lipoprotein cholesterol measurement	113079009	SNOMED	Procedure	8258	33985
+3038136	Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma	21198-7	LOINC	Lab Test	12651	33868
+4264825	Birth weight	364589006	SNOMED	Observable Entity	6907	33631
+3013784	Calcium.ionized [Moles/volume] in Serum or Plasma by Ion-selective membrane electrode (ISE)	12180-6	LOINC	Lab Test	4423	33573
+3038224	Microscopic observation [Identifier] in Urine sediment by Light microscopy	12235-8	LOINC	Lab Test	13190	33522
+3010314	Service comment 09	8270-1	LOINC	Lab Test	10125	33384
+3029943	Horowitz index in Arterial blood	50984-4	LOINC	Lab Test	4216	33382
+3026238	Oxygen/Inspired gas Respiratory system --on ventilator	19996-8	LOINC	Clinical Observation	1308	33180
+3023368	Bacteria identified in Blood by Culture	600-7	LOINC	Lab Test	6229	32940
+4119650	Total protein measurement	304383000	SNOMED	Procedure	6222	32907
+3016049	Testosterone Free [Mass/volume] in Serum or Plasma	2991-8	LOINC	Lab Test	14955	32789
+3019676	Bilirubin.conjugated [Mass/volume] in Serum or Plasma	15152-2	LOINC	Lab Test	7913	32597
+4008265	Total cholesterol measurement	121868005	SNOMED	Procedure	8382	32582
+3003129	Base excess in Capillary blood by calculation	1926-5	LOINC	Lab Test	5663	32581
+3023596	Amphetamines [Presence] in Urine by Screen method	19261-7	LOINC	Lab Test	7239	32465
+3028064	Tetrahydrocannabinol [Presence] in Urine	3426-4	LOINC	Lab Test	6114	32461
+3017188	Pulmonary artery Diastolic blood pressure	8385-7	LOINC	Clinical Observation	288	32411
+3053341	Cholesterol in LDL [Mass/volume] in Serum or Plasma by Electrophoresis	49132-4	LOINC	Lab Test	7064	32225
+3002864	Erythrocytes [#/volume] in Urine by Automated count	798-9	LOINC	Lab Test	7143	32148
+3036282	Hepatitis B virus core Ab [Presence] in Serum or Plasma by Immunoassay	13952-7	LOINC	Lab Test	19833	31847
+3003181	Sodium [Moles/volume] in Urine	2955-3	LOINC	Lab Test	14347	31784
+4133316	Microscopic urinalysis	127800008	SNOMED	Procedure	4698	31735
+3028741	6-Monoacetylmorphine (6-MAM) [Presence] in Urine	10976-9	LOINC	Lab Test	7116	31393
+3026925	Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma	3051-0	LOINC	Lab Test	14354	31381
+46235757	Influenza virus A RNA [Presence] in Nasopharynx by NAA with probe detection	76078-5	LOINC	Lab Test	15472	31338
+46235759	Influenza virus B RNA [Presence] in Nasopharynx by NAA with probe detection	76080-1	LOINC	Lab Test	15354	31178
+3018199	Band form neutrophils [#/volume] in Blood	26507-4	LOINC	Lab Test	6901	31005
+3019880	Schistocytes [Presence] in Blood by Light microscopy	800-3	LOINC	Lab Test	7209	30928
+3007435	Base excess in Venous cord blood by calculation	28639-3	LOINC	Lab Test	10113	30881
+3008325	Epithelial cells.squamous [Presence] in Urine sediment by Light microscopy	12258-0	LOINC	Lab Test	8626	30863
+4012918	Lactate dehydrogenase measurement	11274001	SNOMED	Procedure	4722	30792
+4175226	Screening for malignant neoplasm of colon	275978004	SNOMED	Procedure	7687	30677
+4178785	Iron measurement	42950004	SNOMED	Procedure	8663	30612
+4298431	White blood cell count	767002	SNOMED	Procedure	4458	30552
+3027172	Left ventricular Ejection fraction	10230-1	LOINC	Clinical Observation	9644	29864
+4062484	Screening for malignant neoplasm of cervix	171149006	SNOMED	Procedure	4020	29739
+3030260	Glucose [Presence] in Urine by Automated test strip	50555-2	LOINC	Lab Test	7660	29691
+3010641	Ethanol [Mass/volume] in Urine	5645-7	LOINC	Lab Test	4564	29241
+3021614	Rheumatoid factor [Units/volume] in Serum or Plasma	11572-5	LOINC	Lab Test	21473	29132
+3034862	Arterial patency Wrist artery --pre arterial puncture	35503-2	LOINC	Clinical Observation	8524	28918
+40761511	CBC panel - Blood by Automated count	58410-2	LOINC	Lab Test	607	28889
+42870592	CBC W Differential panel, method unspecified - Blood	69742-5	LOINC	Lab Test	4021	28764
+3006513	Bilirubin.total [Mass/volume] in Urine by Test strip	20505-4	LOINC	Lab Test	5722	28733
+3003985	Beta hydroxybutyrate [Moles/volume] in Serum or Plasma	6873-4	LOINC	Lab Test	8120	28721
+4032789	Triglycerides measurement	14740000	SNOMED	Procedure	7307	28665
+3028300	Cannabinoids [Presence] in Urine	3427-2	LOINC	Lab Test	8143	28618
+3009214	Lutropin [Units/volume] in Serum or Plasma	10501-5	LOINC	Lab Test	16754	28571
+3020138	Lactate [Mass/volume] in Serum or Plasma	14118-4	LOINC	Lab Test	5425	28542
+36306105	Troponin I.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method	89579-7	LOINC	Lab Test	6478	28500
+4273104	Hepatitis C antibody measurement	64411004	SNOMED	Procedure	13340	28490
+3001019	Free T4 and TSH panel - Serum or Plasma	24348-5	LOINC	Lab Test	4923	28391
+3018405	Lactate [Moles/volume] in Arterial blood	2518-9	LOINC	Lab Test	4438	28386
+3025163	Tympanic membrane temperature	8333-7	LOINC	Clinical Observation	3861	28186
+3006615	Calciferol (Vit D2) [Mass/volume] in Serum or Plasma	2236-8	LOINC	Lab Test	11261	27810
+40766800	Mycobacterium tuberculosis stimulated gamma interferon release by CD4+ T-cells [Units/volume] corrected for background in Blood	64084-7	LOINC	Lab Test	15779	27661
+4097430	Sodium measurement	25197003	SNOMED	Procedure	5049	27614
+3012392	Metamyelocytes [#/volume] in Blood by Manual count	739-3	LOINC	Lab Test	6898	27578
+4141751	Parathyroid hormone measurement	3352000	SNOMED	Procedure	4106	27514
+3028893	Ketones [Presence] in Urine	33903-6	LOINC	Lab Test	6659	27492
+40765224	Urobilinogen [Presence] in Urine by Automated test strip	62487-4	LOINC	Lab Test	7915	27487
+3029190	Urobilinogen [Units/volume] in Urine	32727-0	LOINC	Lab Test	2916	27430
+3004309	Sample hemolyzed [Presence] of Serum or Plasma Qualitative	20393-5	LOINC	Lab Test	1607	27241
+4030871	Red blood cell count	14089001	SNOMED	Procedure	4681	27215
+3004529	Oxygen [Partial pressure] adjusted to patient's actual temperature in Venous blood	19258-3	LOINC	Lab Test	7071	27164
+3003150	Sample lipemic [Presence] of Serum or Plasma Qualitative	20394-3	LOINC	Lab Test	1595	27158
+3004633	Sample icteric [Presence] of Serum or Plasma Qualitative	20392-7	LOINC	Lab Test	1585	27154
+3032172	Bacteria [Presence] in Urine by Automated	50221-1	LOINC	Lab Test	7324	27100
+3013742	Prealbumin [Mass/volume] in Serum or Plasma	14338-8	LOINC	Lab Test	10520	27086
+3023230	Hematocrit [Volume Fraction] of Arterial blood	32354-3	LOINC	Lab Test	3405	27021
+3012471	Hemoglobin.gastrointestinal.lower [Presence] in Stool by Immunoassay	29771-3	LOINC	Lab Test	14773	27003
+4289475	Gamma glutamyl transferase measurement	69480007	SNOMED	Procedure	4872	26994
+3026782	Osmolality of Urine	2695-5	LOINC	Lab Test	13227	26985
+3046425	Mycobacterium tuberculosis tuberculin stimulated gamma interferon [Presence] in Blood	45323-3	LOINC	Lab Test	13246	26928
+3035851	Transitional cells [#/area] in Urine sediment by Microscopy high power field	30089-7	LOINC	Lab Test	12519	26829
+4057955	Microbiology procedure	19851009	SNOMED	Procedure	4422	26794
+3008757	Leukocyte morphology finding [Identifier] in Blood	11156-7	LOINC	Lab Test	5412	26716
+3012565	Volume of 24 hour Urine	3167-4	LOINC	Lab Test	11758	26710
+3000094	oxyCODONE cutoff [Mass/volume] in Urine for Screen method	19644-4	LOINC	Lab Test	10411	26476
+2212290	Creatine kinase (CK), (CPK); total	82550	CPT4	CPT4	7776	26450
+3028994	oxyCODONE [Mass/volume] in Serum, Plasma or Blood by Screen method	50021-5	LOINC	Lab Test	10264	26113
+3044254	Respiratory syncytial virus RNA [Presence] in Specimen by NAA with probe detection	40988-8	LOINC	Lab Test	12472	26101
+3029473	pH of Arterial blood adjusted to patient's actual temperature	33254-4	LOINC	Lab Test	3570	26024
+3026681	Sodium [Moles/volume] in Specimen	32340-2	LOINC	Lab Test	3055	25995
+3018447	Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection	11011-4	LOINC	Lab Test	9279	25930
+40759590	Cardiac heart disease risk [Ratio] in Serum or Plasma	56469-0	LOINC	Lab Test	4460	25824
+3017797	Hepatitis B virus surface Ab [Presence] in Serum	22322-2	LOINC	Lab Test	16345	25720
+3011587	Promyelocytes/100 leukocytes in Blood by Manual count	783-1	LOINC	Lab Test	7133	25714
+3021347	Calcium.ionized [Moles/volume] in Serum or Plasma	1995-0	LOINC	Lab Test	4017	25652
+3023081	Carboxyhemoglobin/Hemoglobin.total in Blood	20563-3	LOINC	Lab Test	6928	25635
+4101713	High density lipoprotein cholesterol measurement	28036006	SNOMED	Procedure	7112	25249
+3005854	Burr cells [Presence] in Blood by Light microscopy	7790-9	LOINC	Lab Test	8879	25213
+4188066	Chloride measurement	46511006	SNOMED	Procedure	4567	25167
+4154342	Granulocyte percent differential count	271042003	SNOMED	Procedure	4505	25126
+3015242	Ferritin [Mass/volume] in Serum or Plasma by Immunoassay	20567-4	LOINC	Lab Test	8968	25040
+3022803	Oxygen [Partial pressure] adjusted to patient's actual temperature in Arterial blood	19255-9	LOINC	Lab Test	3500	24929
+4153000	Hemoglobin level estimation	271026005	SNOMED	Procedure	4766	24904
+3017680	Myelocytes [#/volume] in Blood by Manual count	748-4	LOINC	Lab Test	6284	24871
+3045156	Carbon dioxide [Partial pressure] adjusted to patient's actual temperature in Arterial blood	32771-8	LOINC	Lab Test	3255	24522
+3044242	Glucose [Moles/volume] in Arterial blood	39481-7	LOINC	Lab Test	1663	24455
+4290193	Mean corpuscular hemoglobin concentration determination	37254006	SNOMED	Procedure	4149	24405
+3006490	Calcium oxalate crystals [Presence] in Urine sediment by Light microscopy	5774-5	LOINC	Lab Test	12622	24368
+4159411	American Society of Anesthesiologists physical status classification	273270000	SNOMED	Staging / Scales	10788	24197
+4213582	Lactic acid measurement	3926003	SNOMED	Procedure	5169	24159
+40760844	Ketones [Presence] in Urine by Automated test strip	57734-6	LOINC	Lab Test	7458	24137
+4021291	Troponin measurement	105000003	SNOMED	Procedure	2783	23967
+3041623	Adenovirus DNA [Presence] in Specimen by NAA with probe detection	39528-5	LOINC	Lab Test	10580	23908
+3013201	Beta-2-Microglobulin [Mass/volume] in Serum or Plasma	1952-1	LOINC	Lab Test	4673	23885
+3008037	Lactate [Moles/volume] in Venous blood	2519-7	LOINC	Lab Test	7824	23748
+3030981	Hyaline casts [#/volume] in Urine by Automated count	51484-4	LOINC	Lab Test	6009	23745
+3005715	Vancomycin [Mass/volume] in Serum or Plasma	20578-1	LOINC	Lab Test	7418	23712
+3044671	QRS duration {Electrocardiograph lead}	44973-6	LOINC	Clinical Observation	2817	23665
+4091290	Calcium profile	252148000	SNOMED	Procedure	3891	23646
+4022511	Tacrolimus measurement	105331000	SNOMED	Procedure	183	23599
+3003310	Rh [Type] in Blood	10331-7	LOINC	Lab Test	10756	23381
+3000493	Elliptocytes [Presence] in Blood by Light microscopy	11274-8	LOINC	Lab Test	5221	23361
+3012493	Arterial pulse quality by palpation	8866-6	LOINC	Clinical Observation	3474	23239
+3027945	Reticulocytes/100 erythrocytes in Blood	4679-7	LOINC	Lab Test	7369	23191
+3030267	Hemoglobin [Mass/volume] in Urine by Automated test strip	50559-4	LOINC	Lab Test	6667	23004
+3023399	Thyrotropin [Units/volume] in Blood	3015-5	LOINC	Lab Test	4782	22994
+4299360	Cholesterol measurement	77068002	SNOMED	Procedure	5327	22894
+3004411	Monocytes/100 leukocytes in Body fluid by Manual count	10330-9	LOINC	Lab Test	3976	22784
+3042605	INR in Platelet poor plasma or blood by Coagulation assay	38875-1	LOINC	Lab Test	1416	22624
+3024507	Metamyelocytes [#/volume] in Blood	30433-7	LOINC	Lab Test	5254	22615
+3034631	Reagent Lot number	43156-9	LOINC	Clinical Observation	10618	22588
+3049536	25-hydroxyvitamin D2 [Mass/volume] in Serum or Plasma	49054-0	LOINC	Lab Test	9364	22552
+3040684	Rhinovirus+Enterovirus RNA [Presence] in Specimen by NAA with probe detection	40991-2	LOINC	Lab Test	9889	22532
+4099313	Urinalysis	27171005	SNOMED	Procedure	2746	22490
+3010854	Neisseria gonorrhoeae rRNA [Presence] in Specimen by Probe	5028-6	LOINC	Lab Test	6054	22324
+3004616	Nuclear Ab [Presence] in Serum	8061-4	LOINC	Lab Test	15395	22310
+4098179	Immunology laboratory test	252318005	SNOMED	Procedure	5646	22302
+3045567	Erythrocyte sedimentation rate by 15 minute reading	43402-7	LOINC	Lab Test	10148	22206
+3037551	Cancer Ag 125 [Units/volume] in Serum or Plasma	10334-1	LOINC	Lab Test	5643	22170
+4017479	Chorionic gonadotropin measurement, qualitative	104406007	SNOMED	Procedure	3041	22154
+3013731	Hepatitis B virus surface Ab [Units/volume] in Serum or Plasma by Immunoassay	5193-8	LOINC	Lab Test	12057	22147
+3025684	Heparin unfractionated [Units/volume] in Platelet poor plasma by Chromogenic method	3274-8	LOINC	Lab Test	2568	22114
+3045765	ABO and Rh group [Type] in Cord blood	34474-7	LOINC	Lab Test	6394	22110
+3011422	Epithelial cells [Presence] in Urine sediment by Light microscopy	20453-7	LOINC	Lab Test	6831	22039
+4353947	Inspiratory time	250819002	SNOMED	Observable Entity	185	21924
+4042746	Blood gas measurement	167018008	SNOMED	Procedure	663	21869
+36713187	Screening mammography of bilateral breasts	384151000119104	SNOMED	Procedure	2629	21861
+3016201	Valproate [Mass/volume] in Serum or Plasma	4086-5	LOINC	Lab Test	4483	21859
+4141733	Hematology procedure	33468001	SNOMED	Procedure	4153	21578
+3010568	Globulin [Mass/volume] in Plasma	13536-8	LOINC	Lab Test	3608	21557
+4182871	Mean corpuscular hemoglobin determination	54706004	SNOMED	Procedure	3577	21506
+4353510	Globulin measurement	250707004	SNOMED	Procedure	3244	21405
+3004239	Creatinine [Mass/time] in 24 hour Urine	2162-6	LOINC	Lab Test	10374	21399
+3027353	Service comment 04	8265-1	LOINC	Lab Test	5061	21307
+3021120	Myelocytes [#/volume] in Blood	30446-9	LOINC	Lab Test	4975	21252
+4017648	Folic acid measurement	104660009	SNOMED	Procedure	7086	21221
+4034850	Laboratory test	15220000	SNOMED	Procedure	4801	21182
+4016239	Erythrocyte mean corpuscular volume determination	104133003	SNOMED	Procedure	3617	21126
+3002529	ABO group [Type] in Blood	883-9	LOINC	Lab Test	9087	21121
+21490675	Central venous pressure (CVP)	60985-9	LOINC	Clinical Observation	608	21098
+4108448	Spontaneous tidal volume	250816009	SNOMED	Observable Entity	743	21061
+3016251	Hemoglobin.gastrointestinal [Presence] in Stool	2335-8	LOINC	Lab Test	11248	20828
+3023643	Blasts/100 leukocytes in Blood by Manual count	709-6	LOINC	Lab Test	4435	20726
+42869528	Mycobacterium tuberculosis stimulated gamma interferon [Interpretation] in Blood Qualitative	71773-6	LOINC	Lab Test	13824	20570
+3011958	Ammonia [Moles/volume] in Plasma	16362-6	LOINC	Lab Test	7758	20496
+3020156	D-Lactate [Moles/volume] in Serum or Plasma	14045-9	LOINC	Lab Test	3487	20476
+4101715	General health panel	28040002	SNOMED	Procedure	2917	20473
+3009306	Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma	1834-1	LOINC	Lab Test	7727	20468
+3019230	Fractional oxyhemoglobin in Venous blood	2716-9	LOINC	Lab Test	6505	20418
+3010140	Carbon dioxide, total [Moles/volume] in Venous blood	2027-1	LOINC	Lab Test	7068	20401
+40765160	Human coronavirus HKU1 RNA [Presence] in Specimen by NAA with probe detection	62423-9	LOINC	Lab Test	8710	20362
+3012158	Parainfluenza virus 2 RNA [Presence] in Specimen by NAA with probe detection	29909-9	LOINC	Lab Test	9521	20339
+3041642	Human coronavirus 229E RNA [Presence] in Specimen by NAA with probe detection	41003-5	LOINC	Lab Test	8701	20334
+4249006	Glucose measurement, random	73128004	SNOMED	Procedure	3138	20305
+3007930	Methemoglobin/Hemoglobin.total in Blood	2614-6	LOINC	Lab Test	4545	20302
+4017497	Albumin measurement, serum	104485008	SNOMED	Procedure	3866	20186
+3006262	Parainfluenza virus 3 RNA [Presence] in Specimen by NAA with probe detection	29910-7	LOINC	Lab Test	9422	20147
+3025634	Parainfluenza virus 1 RNA [Presence] in Specimen by NAA with probe detection	29908-1	LOINC	Lab Test	9430	20145
+3002582	Erythrocytes [#/volume] in Urine	30391-7	LOINC	Lab Test	5078	20132
+3033745	Troponin I.cardiac [Mass/volume] in Blood	42757-5	LOINC	Lab Test	5411	20070
+4216632	Bilirubin, direct measurement	39748002	SNOMED	Procedure	5338	19934
+46235211	Mean platelet component [Mass/volume] in Blood by calculation	76683-2	LOINC	Lab Test	3471	19891
+3006239	Hemoglobin [Mass/volume] in Arterial blood by Oximetry	14775-1	LOINC	Lab Test	4998	19842
+3029879	Epithelial cells.squamous [#/volume] in Urine by Automated count	51486-9	LOINC	Lab Test	4364	19840
+3019150	Specific gravity of Urine by Refractometry	5810-7	LOINC	Lab Test	5671	19816
+3018528	Giant platelets [Presence] in Blood by Light microscopy	5908-9	LOINC	Lab Test	5880	19797
+4156643	Blood urate measurement	270984004	SNOMED	Procedure	5042	19667
+4276028	Amylase measurement	64435009	SNOMED	Procedure	4642	19648
+4107569	Therapeutic drug monitoring assay	30058000	SNOMED	Procedure	1872	19619
+3003311	Nucleated erythrocytes/100 leukocytes [Ratio] in Blood by Manual count	18309-5	LOINC	Lab Test	4483	19559
+3034972	Bordetella parapertussis DNA [Presence] in Nasopharynx by NAA with probe detection	42588-4	LOINC	Lab Test	9871	19498
+3014429	Appearance of Body fluid	9335-1	LOINC	Lab Test	7332	19449
+2212635	Unlisted chemistry procedure	84999	CPT4	CPT4	3711	19325
+3016750	Collection duration of Urine	13362-9	LOINC	Lab Test	8400	19306
+3012336	Haptoglobin [Mass/volume] in Serum or Plasma	4542-7	LOINC	Lab Test	9478	19208
+4016363	Bacterial culture, urine, with colony count	104193001	SNOMED	Procedure	4942	19153
+3026532	HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection	29541-0	LOINC	Lab Test	2782	19084
+3008918	Creatine [Mass/volume] in Urine	2149-3	LOINC	Lab Test	8259	18914
+43055120	Cytomegalovirus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection	72493-0	LOINC	Lab Test	2984	18792
+4102739	Screening for cardiovascular system disease	300007000	SNOMED	Procedure	5814	18742
+43055193	Pathologic casts [Presence] in Urine by Automated	72224-9	LOINC	Lab Test	4378	18656
+3007733	Chloride [Moles/volume] in Urine	2078-4	LOINC	Lab Test	8783	18559
+3000093	Morphology [Interpretation] in Blood Narrative	18314-5	LOINC	Lab Test	5998	18554
+3026501	Reagin Ab [Titer] in Serum by RPR	31147-2	LOINC	Lab Test	8093	18552
+3022560	Hepatitis B virus core IgM Ab [Presence] in Serum or Plasma by Immunoassay	24113-3	LOINC	Lab Test	14447	18549
+36305398	Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma by No addition of P-5'-P	88112-8	LOINC	Lab Test	5263	18436
+3016038	Potassium [Moles/volume] in Urine	2828-2	LOINC	Lab Test	10362	18419
+3022055	Basophils/100 leukocytes in Specimen	26445-7	LOINC	Lab Test	2931	18346
+3041012	Bilirubin.total [Moles/volume] in Urine by Test strip	41016-7	LOINC	Lab Test	3254	18304
+2212656	Blood count; leukocyte (WBC), automated	85048	CPT4	CPT4	2733	18292
+4195214	Cholesterol/HDL ratio measurement	313811003	SNOMED	Procedure	4200	18218
+3019902	Methicillin resistant Staphylococcus aureus [Presence] in Specimen by Organism specific culture	13317-3	LOINC	Lab Test	6906	18165
+3005658	Casts [#/area] in Urine sediment by Microscopy low power field	9842-6	LOINC	Lab Test	7269	18135
+42869529	Mitogen stimulated gamma interferon [Units/volume] corrected for background in Blood	71774-4	LOINC	Lab Test	9873	18130
+3037242	Nitrite [Mass/volume] in Urine	2657-5	LOINC	Lab Test	2986	18034
+3032159	PTT circulating inhibitor [Presence] in Platelet poor plasma	50391-2	LOINC	Lab Test	3284	18005
+3012796	Blood product type	933-2	LOINC	Lab Test	4583	17983
+3027238	Thyroperoxidase Ab [Units/volume] in Serum or Plasma	8099-4	LOINC	Lab Test	12880	17954
+40763528	Reticulocytes [#/volume] in Blood by Automated count	60474-4	LOINC	Lab Test	4879	17947
+4240586	Mono test	59048000	SNOMED	Procedure	3397	17852
+3037410	Human papilloma virus 16+18+31+33+35+39+45+51+52+56+58+59+68 DNA [Presence] in Cervix by Probe with signal amplification	30167-1	LOINC	Lab Test	8881	17828
+3022914	Cancer Ag 19-9 [Units/volume] in Serum or Plasma	24108-3	LOINC	Lab Test	5093	17788
+4134573	Bispectral index	398204001	SNOMED	Staging / Scales	166	17779
+3038297	Parainfluenza virus 4 RNA [Presence] in Specimen by NAA with probe detection	41010-0	LOINC	Lab Test	8172	17767
+3028632	Character of Urine	19244-3	LOINC	Lab Test	6798	17747
+3044331	Calcium.ionized [Moles/volume] in Arterial blood	34581-9	LOINC	Lab Test	2782	17722
+3025395	Service comment 02	8262-8	LOINC	Lab Test	3291	17673
+3002971	Nuclear Ab [Titer] in Serum by Immunofluorescence	5048-4	LOINC	Lab Test	11705	17670
+3004248	Sex hormone binding globulin [Moles/volume] in Serum or Plasma	13967-5	LOINC	Lab Test	8285	17636
+3031040	Bacteria [#/volume] in Urine by Automated count	51480-2	LOINC	Lab Test	3299	17557
+3019077	Protein [Presence] in 24 hour Urine by Test strip	32209-9	LOINC	Lab Test	3758	17502
+3020316	Hepatitis A virus IgM Ab [Presence] in Serum or Plasma by Immunoassay	13950-1	LOINC	Lab Test	13308	17480
+4248033	Lipase measurement	72680000	SNOMED	Procedure	6458	17463
+3025790	Macrocytes [Presence] in Blood by Automated count	15198-5	LOINC	Lab Test	2631	17425
+3035819	Pain assessment panel	38212-7	LOINC	Clinical Observation	1965	17421
+3019050	Tissue transglutaminase IgA Ab [Units/volume] in Serum	31017-7	LOINC	Lab Test	12160	17413
+3013171	Leukocyte esterase [Units/volume] in Urine	27297-1	LOINC	Lab Test	3477	17359
+4132152	Complete blood count	26604007	SNOMED	Procedure	711	17353
+3028653	Carboxyhemoglobin/Hemoglobin.total in Arterial blood	2030-5	LOINC	Lab Test	4797	17343
+4230393	Glucose measurement by monitoring device	359776002	SNOMED	Procedure	2665	17260
+3000551	Thyroxine (T4) free index in Serum or Plasma by calculation	32215-6	LOINC	Lab Test	8127	17194
+3006277	QRS axis	8632-2	LOINC	Clinical Observation	4929	17179
+2212984	Culture, bacterial; any other source except urine, blood or stool, aerobic, with isolation and presumptive identification of isolates	87070	CPT4	CPT4	5591	17003
+3025891	Pathology report final diagnosis Narrative	22637-3	LOINC	Clinical Observation	7682	16986
+3033308	Hyaline casts [Presence] in Urine sediment by Light microscopy	25162-9	LOINC	Lab Test	5035	16918
+3002364	Opiates [Mass/volume] in Urine	8220-6	LOINC	Lab Test	1057	16876
+4306252	Transferrin saturation	165730006	SNOMED	Procedure	3916	16836
+3035962	HIV 1+2 Ab [Presence] in Serum or Plasma by Immunoassay	31201-7	LOINC	Lab Test	10315	16794
+3028120	Chlamydia trachomatis [Presence] in Specimen by Organism specific culture	6349-5	LOINC	Lab Test	4672	16765
+3014204	Oxygen saturation in Venous cord blood	28643-5	LOINC	Lab Test	5240	16686
+3041366	Crystals [Presence] in Urine by Automated	53319-0	LOINC	Lab Test	3415	16682
+3002106	Lactate [Mass/volume] in Venous blood	30241-4	LOINC	Lab Test	6792	16673
+3023420	DNA double strand Ab [Units/volume] in Serum	5130-0	LOINC	Lab Test	5526	16454
+3043722	Hyaline casts [#/area] in Urine sediment by Automated count	33223-9	LOINC	Lab Test	7831	16437
+40760528	Thyrotropin receptor Ab [Units/volume] in Serum by Immunoassay	57416-0	LOINC	Lab Test	5239	16424
+4152983	Serum total protein measurement	270992008	SNOMED	Procedure	2833	16409
+3039720	Glucose mean value [Moles/volume] in Blood Estimated from glycated hemoglobin	53553-4	LOINC	Lab Test	6145	16408
+2213115	Infectious agent detection by nucleic acid (DNA or RNA); Chlamydia trachomatis, amplified probe technique	87491	CPT4	CPT4	4157	16379
+3009417	Choriogonadotropin.beta subunit (pregnancy test) [Presence] in Urine	2112-1	LOINC	Lab Test	7323	16335
+3006135	Nucleated erythrocytes [#/volume] in Blood by Manual count	772-4	LOINC	Lab Test	2840	16275
+4016246	Erythrocyte sedimentation rate, automated	104155006	SNOMED	Procedure	5348	16245
+40761808	Oxidants [Presence] in Urine	58714-7	LOINC	Lab Test	3241	16208
+3023548	Base deficit in Arterial blood	1922-4	LOINC	Lab Test	3458	16053
+3002052	WBC casts [#/area] in Urine sediment by Microscopy low power field	5820-6	LOINC	Lab Test	4967	15982
+40484911	Mixed venous oxygen saturation	442734002	SNOMED	Observable Entity	893	15976
+3007970	Alkaline phosphatase.bile [Enzymatic activity/volume] in Serum or Plasma	20426-3	LOINC	Lab Test	1242	15905
+4012826	Nucleated red blood cell count procedure	165426009	SNOMED	Procedure	2211	15873
+3018465	Oxygen saturation in Mixed venous blood	19224-5	LOINC	Clinical Observation	1345	15774
+4288601	Albumin/Globulin ratio	687005	SNOMED	Procedure	3948	15765
+3006588	Cancer Ag 15-3 [Units/volume] in Serum or Plasma	6875-9	LOINC	Lab Test	1743	15625
+3024250	Calcium.ionized [Mass/volume] in Serum or Plasma by Ion-selective membrane electrode (ISE)	17864-0	LOINC	Lab Test	3554	15624
+3048446	Mycobacterium tuberculosis tuberculin stimulated gamma interferon/Mitogen stimulated gamma interferon [Units/volume] in Control Blood	46216-8	LOINC	Lab Test	8203	15558
+40481096	Screening for malignant neoplasm of prostate	444822002	SNOMED	Procedure	3331	15505
+4086918	Viral screening	243791004	SNOMED	Procedure	6357	15494
+3039783	Alpha-1-fetoprotein.tumor marker [Mass/volume] in Serum or Plasma	53962-7	LOINC	Lab Test	4727	15485
+3006217	Methemoglobin/Hemoglobin.total in Arterial blood	2615-3	LOINC	Lab Test	3848	15445
+3024950	Chlamydia trachomatis DNA [Presence] in Urine by NAA with probe detection	6357-8	LOINC	Lab Test	6804	15422
+3031266	Glucose [Mass/volume] in Arterial blood	41651-1	LOINC	Lab Test	2717	15416
+3009956	Propoxyphene [Presence] in Urine by Screen method	19429-0	LOINC	Lab Test	7053	15411
+3035456	Hepatitis A virus Ab [Presence] in Serum by Immunoassay	13951-9	LOINC	Lab Test	11862	15410
+4018315	Glucose measurement, blood, test strip	104686004	SNOMED	Procedure	2914	15401
+3012526	Mean blood pressure--sitting	8456-6	LOINC	Clinical Observation	1190	15367
+4298391	Arterial blood pressure	386534000	SNOMED	Observable Entity	248	15350
+3005804	Leukocytes Left Shift [Presence] in Blood by Automated count	17790-7	LOINC	Lab Test	2493	15261
+3019225	pH of Specimen	17433-4	LOINC	Lab Test	3846	15249
+3005105	Blasts [#/volume] in Blood	30376-8	LOINC	Lab Test	2967	15213
+42869451	Hemoglobin [Entitic mass] in Reticulocytes by Automated count	71694-4	LOINC	Lab Test	6492	15168
+4309944	Testosterone measurement, total	85470006	SNOMED	Procedure	4403	15117
+3010375	cycloSPORINE [Mass/volume] in Blood	3520-4	LOINC	Lab Test	446	15097
+3017756	Protein [Units/volume] in Urine	27298-9	LOINC	Lab Test	7142	15072
+3010946	Lipid 1996 panel - Serum or Plasma	24331-1	LOINC	Lab Test	1436	15053
+3021717	Triiodothyronine resin uptake (T3RU) in Serum or Plasma	3050-2	LOINC	Lab Test	7325	15052
+44789024	25-Hydroxy vitamin D3 measurement	193881000000100	SNOMED	Procedure	4132	15029
+3001526	Acetaminophen [Presence] in Urine	3299-5	LOINC	Lab Test	6692	15003
+3004381	Toxic granules [Presence] in Blood by Light microscopy	803-7	LOINC	Lab Test	5295	14992
+4193718	Urine protein/creatinine ratio measurement	313500004	SNOMED	Procedure	897	14882
+3003792	Aspartate aminotransferase [Enzymatic activity/volume] in Body fluid	1919-0	LOINC	Lab Test	1324	14845
+4252846	Aerobic blood culture	409611004	SNOMED	Procedure	3467	14771
+3040359	Human coronavirus NL63 RNA [Presence] in Specimen by NAA with probe detection	41005-0	LOINC	Lab Test	6596	14720
+3001784	Prostate Specific Ag Free/Prostate specific Ag.total in Serum or Plasma	12841-3	LOINC	Lab Test	6537	14691
+3051205	Crystals [#/area] in Urine sediment by Microscopy high power field	38459-4	LOINC	Lab Test	6381	14642
+3012829	Service comment 03	8264-4	LOINC	Lab Test	7185	14632
+3038546	Human coronavirus OC43 RNA [Presence] in Specimen by NAA with probe detection	41009-2	LOINC	Lab Test	6564	14632
+706160	SARS-CoV-2 (COVID-19) RdRp gene [Presence] in Respiratory system specimen by NAA with probe detection	94534-5	LOINC	Lab Test	6825	14631
+3020076	FVC pre bronchodilation measured/predicted	19871-3	LOINC	Clinical Observation	5757	14621
+3000991	Gas panel - Venous blood	24339-4	LOINC	Lab Test	670	14569
+3043744	Bilirubin.conjugated+indirect [Mass/volume] in Serum or Plasma	33898-8	LOINC	Lab Test	2511	14559
+3021879	Hepatitis B virus core Ab [Presence] in Serum	16933-4	LOINC	Lab Test	9975	14545
+3036535	Thyroglobulin [Mass/volume] in Serum or Plasma	3013-0	LOINC	Lab Test	2801	14532
+3025547	Thyroglobulin Ab [Units/volume] in Serum or Plasma	8098-6	LOINC	Lab Test	5902	14532
+3016087	Cholesterol.total/Cholesterol in HDL [Molar ratio] in Serum or Plasma	32309-7	LOINC	Lab Test	3450	14525
+3004788	Methanol [Presence] in Urine	5694-5	LOINC	Lab Test	7401	14512
+3030367	Cyclic citrullinated peptide IgG Ab [Units/volume] in Serum or Plasma	33935-8	LOINC	Lab Test	11654	14476
+3011505	FEV1/FVC	19926-5	LOINC	Clinical Observation	5614	14407
+42868464	Maximum expiratory gas flow Respiratory system airway --pre bronchodilation	69975-1	LOINC	Clinical Observation	5692	14405
+3043507	Leukocytes [#/area] in Urine sediment by Microscopy low power field	45383-7	LOINC	Lab Test	5838	14365
+3013327	Hepatitis A virus IgM Ab [Presence] in Serum	22314-9	LOINC	Lab Test	11350	14286
+3051227	Blood [Presence] in Urine by Visual	53963-5	LOINC	Lab Test	5455	14251
+4024509	Urine culture	117010004	SNOMED	Procedure	2839	14250
+3045342	Trichomonas vaginalis rRNA [Presence] in Specimen by NAA with probe detection	46154-1	LOINC	Lab Test	8595	14249
+4108453	Train of four ratio	250831000	SNOMED	Observable Entity	532	14238
+3005013	Prostate Specific Ag Free [Mass/volume] in Serum or Plasma	10886-0	LOINC	Lab Test	6574	14232
+3003470	Hepatitis C virus Ab [Units/volume] in Serum by Immunoassay	5198-7	LOINC	Lab Test	9936	14229
+3036887	Ammonia [Mass/volume] in Plasma	22763-7	LOINC	Lab Test	5689	14197
+3052716	Fibrin D-dimer DDU [Mass/volume] in Platelet poor plasma by Immunoassay	48058-2	LOINC	Lab Test	5376	14191
+3019428	Reagin Ab [Presence] in Serum by VDRL	5292-8	LOINC	Lab Test	9238	14185
+42869586	Hematocrit [Pure volume fraction] of Capillary blood	71831-2	LOINC	Lab Test	5206	14173
+4307029	Brain natriuretic peptide measurement	390917008	SNOMED	Procedure	4841	14122
+3005322	IgE [Units/volume] in Serum or Plasma	19113-0	LOINC	Lab Test	9298	14106
+3007405	General categories [Interpretation] of Cervical or vaginal smear or scraping by Cyto stain	19762-4	LOINC	Lab Test	9621	14104
+4108431	Albumin/creatinine ratio measurement	250745003	SNOMED	Procedure	1160	14101
+3017170	Calcium [Mass/time] in 12 hour Urine	18186-7	LOINC	Lab Test	1353	14042
+3016724	Homocysteine [Moles/volume] in Serum or Plasma	13965-9	LOINC	Lab Test	9466	14042
+3045874	Casts [#/area] in Urine sediment by Automated count	43755-8	LOINC	Lab Test	4116	13960
+3029316	Horowitz index in Venous blood	50986-9	LOINC	Lab Test	2152	13901
+3000201	Tetrahydrocannabinol [Presence] in Urine by Screen method	19415-9	LOINC	Lab Test	1761	13885
+3022709	Promyelocytes [#/volume] in Blood	26523-1	LOINC	Lab Test	3093	13855
+3016682	Platelets [#/volume] in Plasma by Automated count	13056-7	LOINC	Lab Test	1516	13849
+3005141	Tetrahydrocannabinol [Mass/volume] in Urine	3530-3	LOINC	Lab Test	2569	13797
+3009292	Casts [#/area] in Urine sediment by Microscopy high power field	9439-1	LOINC	Lab Test	3592	13797
+40762794	Potassium [Mass/mass] in Tissue	59733-6	LOINC	Lab Test	1352	13758
+3010189	Epithelial cells [#/area] in Urine sediment by Microscopy high power field	5787-7	LOINC	Lab Test	4123	13719
+3012578	Sodium [Mass/volume] in Water	9485-4	LOINC	Lab Test	1351	13713
+3035319	Basophils/100 leukocytes in Synovial fluid	17833-5	LOINC	Lab Test	1577	13704
+3005029	Protein [Mass/volume] in Body fluid	2881-1	LOINC	Lab Test	4847	13652
+3050658	Leukocyte clumps [#/area] in Urine sediment by Microscopy high power field	46420-6	LOINC	Lab Test	6622	13650

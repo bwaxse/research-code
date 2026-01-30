@@ -1,0 +1,320 @@
+Relevant OMOP Table	Field Name	OMOP CDM Standard or Custom Field	Description	Field Type
+person	person_id	OMOP Clinical Data v5.3.1	A unique identifier for each person. 	bigint
+person	gender_concept_id	OMOP Clinical Data v5.3.1	A foreign key that refers to an identifier in the CONCEPT table for self-reported gender (in R2019Q4R3) or sex at birth (in R2019Q4R3_base) for the participant.	integer
+person	year_of_birth	OMOP Clinical Data v5.3.1	The year of birth of the person. For data sources with date of birth, the year is extracted. For data sources where the year of birth is not available, the approximate year of birth is derived based on any age group categorization available.	integer
+person	month_of_birth	OMOP Clinical Data v5.3.1	The month of birth of the person. For data sources that provide the precise date of birth, the month is extracted and stored in this field.	integer
+person	day_of_birth	OMOP Clinical Data v5.3.1	The day of the month of birth of the person. For data sources that provide the precise date of birth, the day is extracted and stored in this field.	integer
+person	birth_datetime	OMOP Clinical Data v5.3.1	The date and time of birth of the person. 	datetime
+person	race_concept_id	OMOP Clinical Data v5.3.1	A foreign key that refers to an identifier in the CONCEPT table for the unique race of the person, belonging to the 'Race' vocabulary.	integer
+person	ethnicity_concept_id	OMOP Clinical Data v5.3.1	A foreign key that refers to the standard concept identifier in the Standardized Vocabularies for the ethnicity of the person, belonging to the 'Ethnicity' vocabulary.	integer
+person	location_id	OMOP Clinical Data v5.3.1	A foreign key to the place of residency for the person in the location table, where the detailed address information is stored.	integer
+person	provider_id	OMOP Clinical Data v5.3.1	A foreign key to the primary care provider the person is seeing in the provider table.	integer
+person	care_site_id	OMOP Clinical Data v5.3.1	A foreign key to the site of primary care in the care_site table, where the details of the care site are stored.	integer
+person	person_source_value	OMOP Clinical Data v5.3.1	An (encrypted) key derived from the person identifier in the source data. This is necessary when a use case requires a link back to the person data at the source dataset.	varchar(50)
+person	gender_source_value	OMOP Clinical Data v5.3.1	The source code for the self-reported gender (in R2019Q4R3) or sex at birth (in R2019Q4R3_base) for the participant as it appears in the source data. The person’s response is mapped to a standard oncept in the Standardized Vocabularies; the original value is stored here for reference.	varchar(50)
+person	gender_source_concept_id	OMOP Clinical Data v5.3.1	A foreign key to the self-reported gender (in R2019Q4R3) or sex at birth (in R2019Q4R3_base) concept for the participant that refers to the code used in the source.	integer
+person	race_source_value	OMOP Clinical Data v5.3.1	The source code for the race of the person as it appears in the source data. The person race is mapped to a standard race concept in the Standardized Vocabularies and the original value is stored here for reference.	varchar(50)
+person	race_source_concept_id	OMOP Clinical Data v5.3.1	A foreign key to the race concept that refers to the code used in the source.	integer
+person	ethnicity_source_value	OMOP Clinical Data v5.3.1	The source code for the ethnicity of the person as it appears in the source data. The person ethnicity is mapped to a standard ethnicity concept in the Standardized Vocabularies and the original code is, stored here for reference.	varchar(50)
+person	ethnicity_source_concept_id	OMOP Clinical Data v5.3.1	A foreign key to the ethnicity concept that refers to the code used in the source.	integer
+person	sex_at_birth_concept_id	Custom All of Us field	The concept_id for the “Sex at Birth” PPI question (observation_source_concept_id = 1585845) representing the participant's self-reported sex at birth for R2019Q4R3 ONLY	integer
+person	sex_at_birth_source_value	Custom All of Us field	The concept_code associated with the participant's provided sex at birth concept_id in R2019Q4R3 ONLY.	integer
+person	sex_at_birth_source_concept_id	Custom All of Us field	A foreign key to the self-reported sex at birth for the participant that refers to the source code. Available in R2019Q4R3 ONLY.	integer
+person	self_reported_category_concept_id	Custom All of Us field	OMOP standard concepts	integer
+person	self_reported_category_source_concept_id	Custom All of Us field	PPI self-reported concept	integer
+person	self_reported_category_source_value	Custom All of Us field	PPI code for self-reported concept	varchar(50)
+condition_occurrence	condition_occurrence_id	OMOP Clinical Data v5.3.1	A unique identifier for each Condition Occurrence event.	bigint
+condition_occurrence	person_id	OMOP Clinical Data v5.3.1	A foreign key identifier to the Person for whom the condition is recorded. The demographic details of that Person are stored in the PERSON table.	bigint
+condition_occurrence	condition_concept_id	OMOP Clinical Data v5.3.1	A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies belonging to the 'Condition' domain.	integer
+condition_occurrence	condition_start_date	OMOP Clinical Data v5.3.1	The date when the instance of the Condition is recorded. 	date
+condition_occurrence	condition_start_datetime	OMOP Clinical Data v5.3.1	The date and time when the instance of the Condition is recorded. 	datetime
+condition_occurrence	condition_end_date	OMOP Clinical Data v5.3.1	The date when the instance of the Condition is considered to have ended.	date
+condition_occurrence	condition_end_datetime	OMOP Clinical Data v5.3.1	The date and time when the instance of the Condition is considered to have ended. 	datetime
+condition_occurrence	condition_type_concept_id	OMOP Clinical Data v5.3.1	A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the source data from which the Condition was recorded, the level of standardization, and the type of occurrence. 	integer
+condition_occurrence	stop_reason	OMOP Clinical Data v5.3.1	The reason that the Condition was no longer present, as indicated in the source data.	varchar(20)
+condition_occurrence	provider_id	OMOP Clinical Data v5.3.1	A foreign key to the Provider in the PROVIDER table who was responsible for capturing (diagnosing) the Condition.	integer
+condition_occurrence	visit_occurrence_id	OMOP Clinical Data v5.3.1	A foreign key to the unique identifier for the visit in the VISIT_OCCURRENCE table during which the Condition was determined (diagnosed).	integer
+condition_occurrence	condition_source_value	OMOP Clinical Data v5.3.1	The source code for the Condition as it appears in the source data. This code is mapped to a Standard Condition Concept in the Standardized Vocabularies and the original code is stored here for reference.	varchar(50)
+condition_occurrence	condition_source_concept_id	OMOP Clinical Data v5.3.1	A foreign key to a Condition Concept that refers to the code used in the source.	integer
+condition_occurrence	condition_status_source_value	OMOP Clinical Data v5.3.1	The source code for the condition status as it appears in the source data. This code is mapped to a Standard Concept in the Standardized Vocabularies and the original code is stored here for reference.	varchar(50)
+condition_occurrence	condition_status_concept_id	OMOP Clinical Data v5.3.1	The source code for the condition status as it appears in the source data.	varchar(50)
+visit_occurrence	visit_occurrence_id	OMOP Clinical Data v5.3.1	A unique identifier for each Person's visit or encounter at a healthcare provider.	integer
+visit_occurrence	person_id	OMOP Clinical Data v5.3.1	A foreign key identifier to the Person for whom the visit is recorded. The demographic details of that Person are stored in the PERSON table.	bigint
+visit_occurrence	visit_concept_id	OMOP Clinical Data v5.3.1	A foreign key that refers to a visit Concept identifier in the Standardized Vocabularies belonging to the 'Visit' Vocabulary.	integer
+visit_occurrence	visit_start_date	OMOP Clinical Data v5.3.1	The start date of the visit.	date
+visit_occurrence	visit_start_datetime	OMOP Clinical Data v5.3.1	The date and time of the visit started.	datetime
+visit_occurrence	visit_end_date	OMOP Clinical Data v5.3.1	The end date of the visit. If this is a one-day visit the end date should match the start date.	date
+visit_occurrence	visit_end_datetime	OMOP Clinical Data v5.3.1	 The date and time of the visit end.	datetime
+visit_occurrence	visit_type_concept_id	OMOP Clinical Data v5.3.1	A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the type of source data from which the visit record is derived.	integer
+visit_occurrence	provider_id	OMOP Clinical Data v5.3.1	A foreign key to the provider in the provider table who was associated with the visit.	integer
+visit_occurrence	care_site_id	OMOP Clinical Data v5.3.1	A foreign key to the care site in the care site table that was visited	integer
+visit_occurrence	visit_source_value	OMOP Clinical Data v5.3.1	The source code for the visit as it appears in the source data.	varchar(50)
+visit_occurrence	visit_source_concept_id	OMOP Clinical Data v5.3.1	A foreign key to a Concept that refers to the code used in the source.	integer
+visit_occurrence	admitting_source_concept_id	OMOP Clinical Data v5.3.1	A foreign key to the predefined concept in the Place of Service Vocabulary reflecting the admitting source for a visit.	integer
+visit_occurrence	admitting_source_value	OMOP Clinical Data v5.3.1	The source code for the admitting source as it appears in the source data.	varchar(50)
+visit_occurrence	discharge_to_concept_id	OMOP Clinical Data v5.3.1	A foreign key to the predefined concept in the Place of Service Vocabulary reflecting the discharge disposition for a visit.	integer
+visit_occurrence	discharge_to_source_value	OMOP Clinical Data v5.3.1	The source code for the discharge disposition as it appears in the source data.	varchar(50)
+visit_occurrence	preceding_visit_occurrence_id	OMOP Clinical Data v5.3.1	A foreign key to the visit_occurrence table of the visit immediately preceding this visit.	integer
+visit_detail	visit_detail_id	OMOP Clinical Data v5.3.1	A unique identifier for each Person's unique interaction with the health care system.	integer
+visit_detail	person_id	OMOP Clinical Data v5.3.1	A foreign key identifier to the Person for whom the visit is recorded. The demographic details of that Person are stored in the PERSON table.	integer
+visit_detail	visit_detail_concept_id	OMOP Clinical Data v5.3.1	A foreign key that refers to a visit Concept identifier in the Standardized Vocabularies belonging to the 'Visit' Vocabulary.	integer
+visit_detail	visit_detail_start_date	OMOP Clinical Data v5.3.1	The start date of the encounter.	date
+visit_detail	visit_detail_start_datetime	OMOP Clinical Data v5.3.1	The date and time of the encounter started.	datetime
+visit_detail	visit_detail_end_date	OMOP Clinical Data v5.3.1	The end date of the encounter.	date
+visit_detail	visit_detail_end_datetime	OMOP Clinical Data v5.3.1	The date and time of the encounter ended. 	datetime
+visit_detail	visit_detail_type_concept_id	OMOP Clinical Data v5.3.1	A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the type of source data from which the visit record is derived.	integer
+visit_detail	provider_id	OMOP Clinical Data v5.3.1	A foreign key to the provider in the provider table who was associated with the visit.	integer
+visit_detail	care_site_id	OMOP Clinical Data v5.3.1	A foreign key to the care site in the care site table that was visited	integer
+visit_detail	visit_detail_source_value	OMOP Clinical Data v5.3.1	The source code for the visit as it appears in the source data.	varchar(50)
+visit_detail	visit_detail_source_concept_id	OMOP Clinical Data v5.3.1	A foreign key to a Concept that refers to the code used in the source.	integer
+visit_detail	admitting_source_value	OMOP Clinical Data v5.3.1	The source code for the admitting source as it appears in the source data.	varchar(50)
+visit_detail	admitting_source_concept_id	OMOP Clinical Data v5.3.1	A foreign key to the predefined concept in the Place of Service Vocabulary reflecting the admitting source for a visit.	integer
+visit_detail	discharge_to_source_value	OMOP Clinical Data v5.3.1	The source code for the discharge disposition as it appears in the source data.	varchar(50)
+visit_detail	discharge_to_concept_id	OMOP Clinical Data v5.3.1	A foreign key to the predefined concept in the Place of Service Vocabulary reflecting the discharge disposition for a visit.	integer
+visit_detail	preceding_visit_detail_id	OMOP Clinical Data v5.3.1	A foreign key to the visit_occurrence table of the visit immediately preceding this visit.	integer
+visit_detail	visit_detail_parent_id	OMOP Clinical Data v5.3.1	Use this field to find the visit detail that subsumes the given visit detail record. This is used in the case that a visit detail record needs to be nested beyond the VISIT_OCCURRENCE/VISIT_DETAIL relationship.	integer
+visit_detail	visit_occurrence_id	OMOP Clinical Data v5.3.1	A foreign key to the unique identifier for the visit in the VISIT_OCCURRENCE table during which the encounter occurred.	integer
+drug_exposure	drug_exposure_id	OMOP Clinical Data v5.3.1	A system-generated unique identifier for each Drug utilization event.	bigint
+drug_exposure	person_id	OMOP Clinical Data v5.3.1	A foreign key identifier to the Person who is subjected to the Drug. The demographic details of that Person are stored in the PERSON table.	bigint
+drug_exposure	drug_concept_id	OMOP Clinical Data v5.3.1	A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies belonging to the 'Drug' domain.	integer
+drug_exposure	drug_exposure_start_date	OMOP Clinical Data v5.3.1	The start date for the current instance of Drug utilization. Valid entries include a start date of a prescription, the date a prescription was filled, or the date on which a Drug administration procedure was recorded.	date
+drug_exposure	drug_exposure_start_datetime	OMOP Clinical Data v5.3.1	The start date and time for the current instance of Drug utilization. Valid entries include a start datetime of a prescription, the date and time a prescription was filled, or the date and time on which a Drug administration procedure was recorded.	datetime
+drug_exposure	drug_exposure_end_date	OMOP Clinical Data v5.3.1	The end date for the current instance of Drug utilization. Depending on different sources, it could be a known or an inferred date and denotes the last day at which the patient was still exposed to Drug.	date
+drug_exposure	drug_exposure_end_datetime	OMOP Clinical Data v5.3.1	The end date and time for the current instance of Drug utilization. Depending on different sources, it could be a known or an inferred date and time and denotes the last day at which the patient was still exposed to Drug.	datetime
+drug_exposure	verbatim_end_date	OMOP Clinical Data v5.3.1	The known end date of a Drug Exposure as provided by the source.	date
+drug_exposure	drug_type_concept_id	OMOP Clinical Data v5.3.1	A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the type of Drug Exposure recorded. It indicates how the Drug Exposure was represented in the source data.	integer
+drug_exposure	stop_reason	OMOP Clinical Data v5.3.1	The reason the Drug was stopped. 	varchar(20)
+drug_exposure	refills	OMOP Clinical Data v5.3.1	The number of refills after the initial prescription. The initial prescription is not counted, values start with null.	integer
+drug_exposure	quantity	OMOP Clinical Data v5.3.1	The quantity of drug as recorded in the original prescription or dispensing record.	float
+drug_exposure	days_supply	OMOP Clinical Data v5.3.1	The number of days of supply of the medication as prescribed. This reflects the intention of the provider for the length of exposure.	integer
+drug_exposure	sig	OMOP Clinical Data v5.3.1	The directions ('signetur') on the Drug prescription as recorded in the original prescription (and printed on the container) or dispensing record.	varchar(MAX)
+drug_exposure	route_concept_id	OMOP Clinical Data v5.3.1	A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies reflecting the route of administration and belonging to the 'Route' domain.	integer
+drug_exposure	lot_number	OMOP Clinical Data v5.3.1	An identifier assigned to a particular quantity or lot of Drug product from the manufacturer.	varchar(50)
+drug_exposure	provider_id	OMOP Clinical Data v5.3.1	A foreign key to the provider in the PROVIDER table who initiated (prescribed or administered) the Drug Exposure.	integer
+drug_exposure	visit_occurrence_id	OMOP Clinical Data v5.3.1	A foreign key to the Visit in the VISIT_OCCURRENCE table during which the Drug Exposure was initiated.	integer
+drug_exposure	visit_detail_id	OMOP Clinical Data v5.3.1	A foreign key to the Visit Detail in the VISIT_DETAIL table during which the Drug Exposure was initiated.	integer
+drug_exposure	drug_source_value	OMOP Clinical Data v5.3.1	The source code for the Drug as it appears in the source data. This code is mapped to a Standard Drug concept in the Standardized Vocabularies and the original code is, stored here for reference.	varchar(50)
+drug_exposure	drug_source_concept_id	OMOP Clinical Data v5.3.1	A foreign key to a Drug Concept that refers to the code used in the source.	integer
+drug_exposure	route_source_value	OMOP Clinical Data v5.3.1	The information about the route of administration as detailed in the source.	varchar(50)
+drug_exposure	dose_unit_source_value	OMOP Clinical Data v5.3.1	The information about the dose unit as detailed in the source.	varchar(50)
+measurement	measurement_id	OMOP Clinical Data v5.3.1	A unique identifier for each Measurement.	integer
+measurement	person_id	OMOP Clinical Data v5.3.1	A foreign key identifier to the Person about whom the measurement was recorded. The demographic details of that Person are stored in the PERSON table.	bigint
+measurement	measurement_concept_id	OMOP Clinical Data v5.3.1	A foreign key to the standard measurement concept identifier in the Standardized Vocabularies. These belong to the 'Measurement' domain, but could overlap with the 'Observation' domain.	integer
+measurement	measurement_date	OMOP Clinical Data v5.3.1	The date of the Measurement.	date
+measurement	measurement_datetime	OMOP Clinical Data v5.3.1	The date and time of the Measurement. Some database systems don't have a datatype of time. To accommodate all temporal analyses, datatype datetime can be used (combining measurement_date and measurement_time forum discussion)	datetime
+measurement	measurement_type_concept_id	OMOP Clinical Data v5.3.1	A foreign key to the predefined Concept in the Standardized Vocabularies reflecting the provenance from where the Measurement record was recorded. 	integer
+measurement	operator_concept_id	OMOP Clinical Data v5.3.1	A foreign key identifier to the predefined Concept in the Standardized Vocabularies reflecting the mathematical operator that is applied to the value_as_number. 	integer
+measurement	value_as_number	OMOP Clinical Data v5.3.1	A Measurement result where the result is expressed as a numeric value.	float
+measurement	value_as_concept_id	OMOP Clinical Data v5.3.1	A foreign key to a Measurement result represented as a Concept from the Standardized Vocabularies (e.g., positive/negative, present/absent, low/high, etc.). These belong to the 'Meas Value' domain. 	integer
+measurement	unit_concept_id	OMOP Clinical Data v5.3.1	A foreign key to a Standard Concept ID of Measurement Units in the Standardized Vocabularies that belong to the 'Unit' domain.	integer
+measurement	range_low	OMOP Clinical Data v5.3.1	The lower limit of the normal range of the Measurement result. The lower range is assumed to be of the same unit of measure as the Measurement value.	float
+measurement	range_high	OMOP Clinical Data v5.3.1	The upper limit of the normal range of the Measurement. The upper range is assumed to be of the same unit of measure as the Measurement value.	float
+measurement	provider_id	OMOP Clinical Data v5.3.1	A foreign key to the provider in the PROVIDER table who was responsible for initiating or obtaining the measurement.	integer
+measurement	visit_occurrence_id	OMOP Clinical Data v5.3.1	A foreign key to the Visit in the VISIT_OCCURRENCE table during which the Measurement was recorded.	integer
+measurement	visit_detail_id	OMOP Clinical Data v5.3.1	A foreign key to the Visit Detail in the VISIT_DETAIL table during which the Measurement was taken.	integer
+measurement	measurement_source_value	OMOP Clinical Data v5.3.1	The Measurement name as it appears in the source data. This code is mapped to a Standard Concept in the Standardized Vocabularies and the original code is stored here for reference.	varchar(50)
+measurement	measurement_source_concept_id	OMOP Clinical Data v5.3.1	A foreign key to a Concept in the Standard Vocabularies that refers to the code used in the source.	integer
+measurement	unit_source_value	OMOP Clinical Data v5.3.1	The source code for the unit as it appears in the source data. This code is mapped to a standard unit concept in the Standardized Vocabularies and the original code is stored here for reference.	varchar(50)
+measurement	value_source_value	OMOP Clinical Data v5.3.1	The source value associated with the content of the value_as_number or value_as_concept_id as stored in the source data.	varchar(50)
+procedure_occurrence	procedure_occurrence_id	OMOP Clinical Data v5.3.1	A system-generated unique identifier for each Procedure Occurrence.	integer
+procedure_occurrence	person_id	OMOP Clinical Data v5.3.1	A foreign key identifier to the Person who is subjected to the Procedure. The demographic details of that Person are stored in the PERSON table.	bigint
+procedure_occurrence	procedure_concept_id	OMOP Clinical Data v5.3.1	A foreign key that refers to a standard procedure Concept identifier in the Standardized Vocabularies. These belong to the 'Procedure' domain.	integer
+procedure_occurrence	procedure_date	OMOP Clinical Data v5.3.1	The date on which the Procedure was performed.	date
+procedure_occurrence	procedure_datetime	OMOP Clinical Data v5.3.1	The date and time on which the Procedure was performed.	datetime
+procedure_occurrence	procedure_type_concept_id	OMOP Clinical Data v5.3.1	A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the type of source data from which the procedure record is derived.	integer
+procedure_occurrence	modifier_concept_id	OMOP Clinical Data v5.3.1	A foreign key to a Standard Concept identifier for a modifier to the Procedure (e.g. bilateral). 	integer
+procedure_occurrence	quantity	OMOP Clinical Data v5.3.1	The quantity of procedures ordered or administered.	integer
+procedure_occurrence	provider_id	OMOP Clinical Data v5.3.1	A foreign key to the provider in the PROVIDER table who was responsible for carrying out the procedure.	integer
+procedure_occurrence	visit_occurrence_id	OMOP Clinical Data v5.3.1	A foreign key to the Visit in the VISIT_OCCURRENCE table during which the Procedure was carried out.	integer
+procedure_occurrence	procedure_source_value	OMOP Clinical Data v5.3.1	The source code for the Procedure as it appears in the source data. This code is mapped to a standard procedure Concept in the Standardized Vocabularies and the original code is, stored here for reference. 	varchar(50)
+procedure_occurrence	procedure_source_concept_id	OMOP Clinical Data v5.3.1	A foreign key to a Procedure Concept that refers to the code used in the source.	integer
+procedure_occurrence	qualifier_source_value	OMOP Clinical Data v5.3.1	The source value for the qualifier as it appears in the source data.	varchar(50)
+observation	observation_id	OMOP Clinical Data v5.3.1	A unique identifier for each observation.	integer
+observation	person_id	OMOP Clinical Data v5.3.1	A foreign key identifier to the Person about whom the observation was recorded. The demographic details of that Person are stored in the PERSON table.	bigint
+observation	observation_concept_id	OMOP Clinical Data v5.3.1	A foreign key to the standard observation concept identifier in the Standardized Vocabularies. In cases where the recorded observation is the answer to a PPI question, this field will contain the Standard Concept ID for the corresponding question (or, if the question is non-standard, its standard LOINC/SNOMED equivalent).	integer
+observation	observation_date	OMOP Clinical Data v5.3.1	The date of the observation.	date
+observation	observation_datetime	OMOP Clinical Data v5.3.1	The date and time of the observation.	datetime
+observation	observation_type_concept_id	OMOP Clinical Data v5.3.1	A foreign key to the predefined concept identifier in the Standardized Vocabularies reflecting the type of the observation belonging to the 'Observation' domain.	integer
+observation	value_as_number	OMOP Clinical Data v5.3.1	The observation result stored as a number. This is applicable to observations where the result is expressed as a numeric value.	float
+observation	value_as_string	OMOP Clinical Data v5.3.1	The observation result stored as a string. This is applicable to observations where the result is expressed as verbatim text.	varchar(60)
+observation	value_as_concept_id	OMOP Clinical Data v5.3.1	A foreign key to an observation result stored as a Concept ID. This is applicable to observations where the result can be expressed as a Standard Concept from the Standardized Vocabularies (e.g., positive/negative, present/absent, low/high, etc.). These belong to the 'Meas Value' domain. In cases where the recorded observation is the answer to a PPI question, this field will contain the standard PPI answer Concept ID or its standard LOINC/SNOMED equivalent (if the answer is non-standard). For PPI, this field is derived from value_source_concept_id.	integer
+observation	value_source_value	OMOP Clinical Data v5.3.1	The source value associated with the content of the value_as_number or value_as_concept_id as stored in the source data.	varchar(50)
+observation	qualifier_concept_id	OMOP Clinical Data v5.3.1	A foreign key to a Standard Concept ID for a qualifier (e.g., severity of drug-drug interaction alert)	integer
+observation	unit_concept_id	OMOP Clinical Data v5.3.1	A foreign key to a Standard Concept ID of measurement units in the Standardized Vocabularies belonging to the 'Unit' domain.	integer
+observation	provider_id	OMOP Clinical Data v5.3.1	A foreign key to the provider in the PROVIDER table who was responsible for making the observation.	integer
+observation	visit_occurrence_id	OMOP Clinical Data v5.3.1	A foreign key to the visit in the VISIT_OCCURRENCE table during which the observation was recorded.	integer
+observation	visit_detail_id	OMOP Clinical Data v5.3.1	A foreign key to the Visit Detail in the VISIT_DETAIL table during which the Observation was recorded.	integer
+observation	observation_source_value	OMOP Clinical Data v5.3.1	The observation code as it appears in the source data. This code is mapped to a Standard Concept in the Standardized Vocabularies and the original code is, stored here for reference. If the recorded observation is the answer to a PPI question, the code for the PPI question is stored here. 	varchar(50)
+observation	observation_source_concept_id	OMOP Clinical Data v5.3.1	A foreign key to a Concept that refers to the code used in the source. If the recorded observation is the answer to a PPI question, the PPI concept for the question is stored here.	integer
+observation	value_source_concept_id	OMOP Clinical Data v5.3.1	A foreign key to an Observation result represented as a Concept from the Standardized Vocabularies (e.g., positive/negative, present/absent, low/high, etc.).  For EHR data, these will be from the "Meas Val" domain.   If the recorded observation is the response to a PPI question, this field will contain the PPI concept for the answer.	integer
+observation	unit_source_value	OMOP Clinical Data v5.3.1	The source code for the unit as it appears in the source data. This code is mapped to a standard unit concept in the Standardized Vocabularies and the original code is, stored here for reference.	varchar(50)
+observation	qualifier_source_value	OMOP Clinical Data v5.3.1	The source value associated with a qualifier to characterize the observation	varchar(50)
+observation_period	observation_period_id	OMOP Clinical Data v5.3.1	A unique identifier for each observation period	integer
+observation_period	person_id	OMOP Clinical Data v5.3.1	A foreign key identifier to the person for whom the observation period is defined. The demographic details of that person are stored in the person table	integer
+observation_period	observation_period_start_date	OMOP Clinical Data v5.3.1	The start date of the observation period for which data are available from the data source	date
+observation_period	observation_period_end_date	OMOP Clinical Data v5.3.1	The end date of the observation period for which data are available from the data source	date
+observation_period	period_type_concept_id	OMOP Clinical Data v5.3.1	A foreign key identifier to the predefined concept in the Standardized Vocabularies reflecting the source of the observation period information, belonging to the 'Obs Period Type' vocabulary	integer
+device_exposure	device_exposure_id	OMOP Clinical Data v5.3.1	A system-generated unique identifier for each Device Exposure.	bigint
+device_exposure	person_id	OMOP Clinical Data v5.3.1	A foreign key identifier to the Person who is subjected to the Device. The demographic details of that Person are stored in the PERSON table.	bigint
+device_exposure	device_concept_id	OMOP Clinical Data v5.3.1	A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies belonging to the 'Device' domain.	integer
+device_exposure	device_exposure_start_date	OMOP Clinical Data v5.3.1	The date the Device or supply was applied or used.	date
+device_exposure	device_exposure_start_datetime	OMOP Clinical Data v5.3.1	The date and time the Device or supply was applied or used.	datetime
+device_exposure	device_exposure_end_date	OMOP Clinical Data v5.3.1	The date use of the Device or supply was ceased.	date
+device_exposure	device_exposure_end_datetime	OMOP Clinical Data v5.3.1	The date and time use of the Device or supply was ceased.	datetime
+device_exposure	device_type_concept_id	OMOP Clinical Data v5.3.1	A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the type of Device Exposure recorded. It indicates how the Device Exposure was represented in the source data and belongs to the 'Device Type' domain.	integer
+device_exposure	unique_device_id	OMOP Clinical Data v5.3.1	A UDI or equivalent identifying the instance of the Device used in the Person.	varchar(50)
+device_exposure	quantity	OMOP Clinical Data v5.3.1	The number of individual Devices used in the exposure.	integer
+device_exposure	provider_id	OMOP Clinical Data v5.3.1	A foreign key to the provider in the PROVIDER table who initiated or administered the Device.	integer
+device_exposure	visit_occurrence_id	OMOP Clinical Data v5.3.1	A foreign key to the visit in the VISIT_OCCURRENCE table during which the Device was used.	integer
+device_exposure	visit_detail_id	OMOP Clinical Data v5.3.1	A foreign key to the Visit Detail in the VISIT_DETAIL table during which the Device Exposure was initiated.	integer
+device_exposure	device_source_value	OMOP Clinical Data v5.3.1	The source code for the Device as it appears in the source data. This code is mapped to a Standard Device Concept in the Standardized Vocabularies and the original code is stored here for reference.	varchar(50)
+device_exposure	device_source_concept_id	OMOP Clinical Data v5.3.1	A foreign key to a Device Concept that refers to the code used in the source.	integer
+death	person_id	OMOP Clinical Data v5.3.1	A foreign key identifier to the deceased person. The demographic details of that person are stored in the person table.	bigint
+death	death_date   	OMOP Clinical Data v5.3.1	The date the person was deceased. If the precise date including day or month is not known or not allowed, December is used as the default month, and the last day of the month the default day.	date
+death	death_datetime	OMOP Clinical Data v5.3.1	The date and time the person was deceased. If the precise date including day or month is not known or not allowed, December is used as the default month, and the last day of the month the default day.	datetime
+death	death_type_concept_id	OMOP Clinical Data v5.3.1	A foreign key referring to the predefined concept identifier in the Standardized Vocabularies reflecting how the death was represented in the source data.	integer
+death	cause_concept_id	OMOP Clinical Data v5.3.1	A foreign key referring to a standard concept identifier in the Standardized Vocabularies for conditions.	integer
+death	cause_source_value	OMOP Clinical Data v5.3.1	The source code for the cause of death as it appears in the source data. This code is mapped to a standard concept in the Standardized Vocabularies and the original code is, stored here for reference.	varchar(20)
+death	cause_source_concept_id	OMOP Clinical Data v5.3.1	A foreign key to the concept that refers to the code used in the source. Note, this variable name is abbreviated to ensure it will be allowable across database platforms.	integer
+fact_relationship	domain_concept_id_1	OMOP Clinical Data v5.3.1	The concept representing the domain of fact one, from which the corresponding table can be inferred.	integer
+fact_relationship	fact_id_1	OMOP Clinical Data v5.3.1	The unique identifier in the table corresponding to the domain of fact one.	integer
+fact_relationship	domain_concept_id_2	OMOP Clinical Data v5.3.1	The concept representing the domain of fact two, from which the corresponding table can be inferred.	integer
+fact_relationship	fact_id_2	OMOP Clinical Data v5.3.1	The unique identifier in the table corresponding to the domain of fact two.	integer
+fact_relationship	relationship_concept_id	OMOP Clinical Data v5.3.1	A foreign key to a Standard Concept ID of relationship in the Standardized Vocabularies belonging to the 'Relationship' domain.	integer
+specimen	specimen_id	OMOP Clinical Data v5.3.1	A unique identifier for each specimen.	integer
+specimen	person_id	OMOP Clinical Data v5.3.1	A foreign key identifier to the Person for whom the Specimen is recorded.	bigint
+specimen	specimen_concept_id	OMOP Clinical Data v5.3.1	A foreign key referring to a Standard Concept identifier in the Standardized Vocabularies for the Specimen belonging to the 'Specimen' domain.	integer
+specimen	specimen_type_concept_id	OMOP Clinical Data v5.3.1	A foreign key referring to the Concept identifier in the Standardized Vocabularies reflecting the system of record from which the Specimen was represented in the source data.	integer
+specimen	specimen_date	OMOP Clinical Data v5.3.1	The date the specimen was obtained from the Person.	date
+specimen	specimen_datetime	OMOP Clinical Data v5.3.1	The date and time on the date when the Specimen was obtained from the person.	datetime
+specimen	quantity	OMOP Clinical Data v5.3.1	The amount of specimen collection from the person during the sampling procedure.	float
+specimen	unit_concept_id	OMOP Clinical Data v5.3.1	A foreign key to a Standard Concept identifier for the Unit associated with the numeric quantity of the Specimen collection belonging to the 'Unit' domain/	integer
+specimen	anatomic_site_concept_id	OMOP Clinical Data v5.3.1	A foreign key to a Standard Concept identifier for the anatomic location of specimen collection.	integer
+specimen	disease_status_concept_id	OMOP Clinical Data v5.3.1	A foreign key to a Standard Concept identifier for the Disease Status of specimen collection.	integer
+specimen	specimen_source_id	OMOP Clinical Data v5.3.1	The Specimen identifier as it appears in the source data.	varchar(50)
+specimen	specimen_source_value	OMOP Clinical Data v5.3.1	The Specimen value as it appears in the source data. This value is mapped to a Standard Concept in the Standardized Vocabularies and the original code is, stored here for reference.	varchar(50)
+specimen	unit_source_value	OMOP Clinical Data v5.3.1	The information about the Unit as detailed in the source.	varchar(50)
+specimen	anatomic_site_source_value	OMOP Clinical Data v5.3.1	The information about the anatomic site as detailed in the source.	varchar(50)
+specimen	disease_status_source_value	OMOP Clinical Data v5.3.1	The information about the disease status as detailed in the source.	varchar(50)
+condition_occurrence_ext	src_id	Custom All of Us Metadata Table	An identifier delineating whether data was EHR or Program data and, if EHR, representing the recruiting site providing the data with a numeric code.	varchar
+condition_occurrence_ext	condition_occurrence_id	Custom All of Us Metadata Table	A foreign key to the unique identifier for the row in the condition occurrence table.	integer
+device_exposure_ext	src_id	Custom All of Us Metadata Table	An identifier delineating whether data was EHR or Program data and, if EHR, representing the recruiting site providing the data with a numeric code.	varchar
+device_exposure_ext	device_exposure_id	Custom All of Us Metadata Table	A foreign key to the unique identifier for the row in the device exposure table.	integer
+drug_exposure_ext	src_id	Custom All of Us Metadata Table	An identifier delineating whether data was EHR or Program data and, if EHR, representing the recruiting site providing the data with a numeric code.	varchar
+drug_exposure_ext	drug_exposure_id	Custom All of Us Metadata Table	A foreign key to the unique identifier for the row in the drug exposure table.	integer
+measurement_ext	src_id	Custom All of Us Metadata Table	An identifier delineating whether data was EHR or Program data and, if EHR, representing the recruiting site providing the data with a numeric code.	varchar
+measurement_ext	measurement_id	Custom All of Us Metadata Table	A foreign key to the unique identifier for the row in the measurement table.	integer
+observation_ext	src_id	Custom All of Us Metadata Table	An identifier delineating whether data was EHR or Program data and, if EHR, representing the recruiting site providing the data with a numeric code.	varchar
+observation_ext	observation_id	Custom All of Us Metadata Table	A foreign key to the unique identifier for the row in the observation table.	integer
+procedure_occurrence_ext	src_id	Custom All of Us Metadata Table	An identifier delineating whether data was EHR or Program data and, if EHR, representing the recruiting site providing the data with a numeric code.	varchar
+procedure_occurrence_ext	procedure_occurrence_id	Custom All of Us Metadata Table	A foreign key to the unique identifier for the row in the procedure occurrence table.	integer
+visit_occurrence_ext	src_id	Custom All of Us Metadata Table	An identifier delineating whether data was EHR or Program data and, if EHR, representing the recruiting site providing the data with a numeric code.	varchar
+visit_occurrence_ext	visit_occurrence_id	Custom All of Us Metadata Table	A foreign key to the unique identifier for the row in the device exposure table.	integer
+cdm_source	cdm_source_name	OMOP Metadata v5.3.1	The full name of the source	varchar(255)
+cdm_source	cdm_source_abbreviation	OMOP Metadata v5.3.1	An abbreviation of the source name	varchar(25)
+cdm_source	cdm_holder	OMOP Metadata v5.3.1	The name of the organization responsible for the development of the CDM instance	varchar(255)
+cdm_source	source_description	OMOP Metadata v5.3.1	A description of the source data origin and purpose for collection. The description may contain a summary of the period of time that is expected to be covered by this dataset.	CLOB
+cdm_source	source_documentation_reference	OMOP Metadata v5.3.1	URL or other external reference to location of source documentation	varchar(255)
+cdm_source	cdm_etl_reference	OMOP Metadata v5.3.1	URL or other external reference to location of ETL specification documentation and ETL source code	varchar(255)
+cdm_source	source_release_date	OMOP Metadata v5.3.1	The date for which the source data are most current, such as the last day of data capture	date
+cdm_source	cdm_release_date	OMOP Metadata v5.3.1	The date when the CDM was instantiated	date
+cdm_source	cdm_version	OMOP Metadata v5.3.1	The version of CDM used	varchar(10)
+cdm_source	vocabulary_version	OMOP Metadata v5.3.1	The version of the vocabulary used	varchar(20)
+attribute_definition	attribute_definition_id	OMOP Vocab v5.3.1	A unique identifier for each Attribute.	integer
+attribute_definition	attribute_name	OMOP Vocab v5.3.1	A short description of the Attribute.	varchar(255)
+attribute_definition	attribute_description	OMOP Vocab v5.3.1	A complete description of the Attribute definition	CLOB
+attribute_definition	attribute_type_concept_id	OMOP Vocab v5.3.1	Type defining what kind of Attribute Definition the record represents and how the syntax may be executed	integer
+attribute_definition	attribute_syntax	OMOP Vocab v5.3.1	Syntax or code to operationalize the Attribute definition	CLOB
+concept	concept_id	OMOP Vocab v5.3.1	A unique identifier for each Concept across all domains.	integer
+concept	concept_name	OMOP Vocab v5.3.1	An unambiguous, meaningful and descriptive name for the Concept.	varchar(255)
+concept	domain_id	OMOP Vocab v5.3.1	A foreign key to the DOMAIN table the Concept belongs to.	varchar(20)
+concept	vocabulary_id	OMOP Vocab v5.3.1	A foreign key to the VOCABULARY table indicating from which source the Concept has been adapted.	varchar(20)
+concept	concept_class_id	OMOP Vocab v5.3.1	The attribute or concept class of the Concept. 	varchar(20)
+concept	standard_concept	OMOP Vocab v5.3.1	This flag determines where a Concept is a Standard Concept, i.e. is used in the data, a Classification Concept, or a non-standard Source Concept. 	varchar(1)
+concept	concept_code	OMOP Vocab v5.3.1	The concept code represents the identifier of the Concept in the source vocabulary, such as SNOMED-CT concept IDs, RxNorm RXCUIs etc. 	varchar(50)
+concept	valid_start_date	OMOP Vocab v5.3.1	The date when the Concept was first recorded. 	date
+concept	valid_end_date	OMOP Vocab v5.3.1	The date when the Concept became invalid because it was deleted or superseded (updated) by a new concept. 	date
+concept	invalid_reason	OMOP Vocab v5.3.1	Reason the Concept was invalidated. 	varchar(1)
+concept_ancestor	ancestor_concept_id	OMOP Vocab v5.3.1	A foreign key to the concept in the concept table for the higher-level concept that forms the ancestor in the relationship.	integer
+concept_ancestor	descendant_concept_id	OMOP Vocab v5.3.1	A foreign key to the concept in the concept table for the lower-level concept that forms the descendant in the relationship.	integer
+concept_ancestor	min_levels_of_separation	OMOP Vocab v5.3.1	The minimum separation in number of levels of hierarchy between ancestor and descendant concepts. This is an attribute that is used to simplify hierarchic analysis.	integer
+concept_ancestor	max_levels_of_separation	OMOP Vocab v5.3.1	The maximum separation in number of levels of hierarchy between ancestor and descendant concepts. This is an attribute that is used to simplify hierarchic analysis.	integer
+concept_class	concept_class_id	OMOP Vocab v5.3.1	A unique key for each class	varchar(20)
+concept_class	concept_class_name	OMOP Vocab v5.3.1	The name describing the Concept Class.	varchar(255)
+concept_class	concept_class_concept_id	OMOP Vocab v5.3.1	A foreign key that refers to an identifier in the CONCEPT table for the unique Concept Class the record belongs to.	integer
+concept_relationship	concept_id_1	OMOP Vocab v5.3.1	A foreign key to a Concept in the CONCEPT table associated with the relationship. Relationships are directional, and this field represents the source concept designation.	integer
+concept_relationship	concept_id_2	OMOP Vocab v5.3.1	A foreign key to a Concept in the CONCEPT table associated with the relationship. Relationships are directional, and this field represents the destination concept designation.	integer
+concept_relationship	relationship_id	OMOP Vocab v5.3.1	A unique identifier to the type or nature of the Relationship as defined in the RELATIONSHIP table.	varchar(20)
+concept_relationship	valid_start_date	OMOP Vocab v5.3.1	The date when the instance of the Concept Relationship is first recorded.	date
+concept_relationship	valid_end_date	OMOP Vocab v5.3.1	The date when the Concept Relationship became invalid because it was deleted or superseded (updated) by a new relationship. 	date
+concept_relationship	invalid_reason	OMOP Vocab v5.3.1	Reason the relationship was invalidated. 	varchar(1)
+concept_synonym	concept_id	OMOP Vocab v5.3.1	A foreign key to the Concept in the CONCEPT table.	integer
+concept_synonym	concept_synonym_name	OMOP Vocab v5.3.1	The alternative name for the Concept.	varchar(1000)
+concept_synonym	language_concept_id	OMOP Vocab v5.3.1	A foreign key to a Concept representing the language.	integer
+domain	domain_id	OMOP Vocab v5.3.1	A unique key for each domain.	varchar(20)
+domain	domain_name	OMOP Vocab v5.3.1	The name describing the Domain.	varchar(255)
+domain	domain_concept_id	OMOP Vocab v5.3.1	A foreign key that refers to an identifier in the CONCEPT table for the unique Domain Concept the Domain record belongs to.	integer
+drug_strength	drug_concept_id	OMOP Vocab v5.3.1	A foreign key to the Concept in the CONCEPT table representing the identifier for Branded Drug or Clinical Drug Concept.	integer
+drug_strength	ingredient_concept_id	OMOP Vocab v5.3.1	A foreign key to the Concept in the CONCEPT table, representing the identifier for drug Ingredient Concept contained within the drug product.	integer
+drug_strength	amount_value	OMOP Vocab v5.3.1	The numeric value associated with the amount of active ingredient contained within the product.	float
+drug_strength	amount_unit_concept_id	OMOP Vocab v5.3.1	A foreign key to the Concept in the CONCEPT table representing the identifier for the Unit for the absolute amount of active ingredient.	integer
+drug_strength	numerator_value	OMOP Vocab v5.3.1	The numeric value associated with the concentration of the active ingredient contained in the product	float
+drug_strength	numerator_unit_concept_id	OMOP Vocab v5.3.1	A foreign key to the Concept in the CONCEPT table representing the identifier for the numerator Unit for the concentration of active ingredient.	integer
+drug_strength	denominator_value	OMOP Vocab v5.3.1	The amount of total liquid (or other divisible product, such as ointment, gel, spray, etc.).	float
+drug_strength	denominator_unit_concept_id	OMOP Vocab v5.3.1	A foreign key to the Concept in the CONCEPT table representing the identifier for the denominator Unit for the concentration of active ingredient.	integer
+drug_strength	box_size	OMOP Vocab v5.3.1	The number of units of Clinical of Branded Drug, or Quantified Clinical or Branded Drug contained in a box as dispensed to the patient	integer
+drug_strength	valid_start_date	OMOP Vocab v5.3.1	The date when the Concept was first recorded. 	date
+drug_strength	valid_end_date	OMOP Vocab v5.3.1	The date when the concept became invalid because it was deleted or superseded (updated) by a new Concept. 	date
+drug_strength	invalid_reason	OMOP Vocab v5.3.1	Reason the concept was invalidated.	varchar(1)
+relationship	relationship_id	OMOP Vocab v5.3.1	The type of relationship captured by the relationship record.	varchar(20)
+relationship	relationship_name	OMOP Vocab v5.3.1	The text that describes the relationship type.	varchar(255)
+relationship	is_hierarchical	OMOP Vocab v5.3.1	Defines whether a relationship defines concepts into classes or hierarchies. 	varchar(1)
+relationship	defines_ancestry	OMOP Vocab v5.3.1	Defines whether a hierarchical relationship contributes to the concept_ancestor table. These are subsets of the hierarchical relationships.	varchar(1)
+relationship	reverse_relationship_id	OMOP Vocab v5.3.1	The identifier for the relationship used to define the reverse relationship between two concepts.	varchar(20)
+relationship	relationship_concept_id	OMOP Vocab v5.3.1	A foreign key that refers to an identifier in the CONCEPT table for the unique relationship concept.	integer
+vocabulary	vocabulary_id	OMOP Vocab v5.3.1	A unique identifier for each Vocabulary, such as ICD9CM, SNOMED, Visit.	varchar(20)
+vocabulary	vocabulary_name	OMOP Vocab v5.3.1	The name describing the vocabulary, for example "International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 1 and 2 (NCHS)" etc.	varchar(255)
+vocabulary	vocabulary_reference	OMOP Vocab v5.3.1	External reference to documentation or available download of the about the vocabulary.	varchar(255)
+vocabulary	vocabulary_version	OMOP Vocab v5.3.1	Version of the Vocabulary as indicated in the source.	varchar(255)
+vocabulary	vocabulary_concept_id	OMOP Vocab v5.3.1	A foreign key that refers to a standard concept identifier in the CONCEPT table for the Vocabulary the VOCABULARY record belongs to.	integer
+person_ext	state_of_residence_concept_id	Custom All of Us field	Concept ID for state of residence of respondent; contains generalized value if dataset contains fewer than 200 participants from that state	integer
+person_ext	state_of_residence_source_value	Custom All of Us field	Concept ID for state of residence of respondent; contains generalized value if dataset contains fewer than 200 participants from that state	string
+survey_conduct	survey_conduct_id	Custom All of Us field	Unique identifier for each individual survey response	bigint 
+survey_conduct	person_id	Custom All of Us field	Unique identifier for the participant	bigint
+survey_conduct	survey_concept_id	Custom All of Us field	Concept id provided for each survey (e.g. Basics, Cope, etc.)	integer
+survey_conduct	survey_start_date	Custom All of Us field	Date on which the survey was started	date
+survey_conduct	survey_start_datetime	Custom All of Us field	The date and time at which the survey was started	datetime
+survey_conduct	survey_end_date	Custom All of Us field	Date on which the survey was completed	date
+survey_conduct	survey_end_datetime	Custom All of Us field	The date and time at which the survey was completed.	datetime
+survey_conduct	survey_source_value	Custom All of Us field	The survey name as it appears in the source data.	varchar(100)
+survey_conduct	provider_id	Custom All of Us field	This is the Provider associated with the survey completion	bigint
+survey_conduct	respondent_type_concept_id	Custom All of Us field	This is a Concept that represents who actually recorded the answers to the survey. For example, this could be the patient or a research associate	integer
+survey_conduct	timing_concept_id	Custom All of Us field	This is a Concept that represents the timing of the survey. For example this could be the 3-month follow-up appointment.	integer
+survey_conduct	respondent_type_source_value	Custom All of Us field	Source code representing role of person who completed the survey	varchar(100)
+survey_conduct	timing_source_value	Custom All of Us field	Text string representing the timing of the survey. Example: Baseline, 6-month follow-up.	varchar(100)
+survey_conduct	survey_source_concept_id	Custom All of Us field	Unique identifier stored for the survey name	integer
+survey_conduct	survey_source_identifier	Custom All of Us field	Unique identifier stored for the survey name	varchar(100)
+survey_conduct	assisted_concept_id	Custom All of Us field	Concept codes IDs for values of “42530794” if the participant completed the survey via the program’s “Computer Assisted Telephone Interviews (CATI)” protocol*, “43530058” if the participant completed the program consent with assistance**, and “0” if the participant completed the activity with no assistance.	integer
+survey_conduct	assisted_source_value	Custom All of Us field	Value that corresponds to the concept ID above	varchar(50)
+survey_conduct	collection_method_concept_id	Custom All of Us field	Concept code IDs of “42530794” if the participant completed the survey via the program’s “Computer Assisted Telephone Interviews (CATI)” protocol and “42531021” if not.*	integer
+survey_conduct	collection_method_source_value	Custom All of Us field	Value that corresponds to the concept ID above	varchar(100)
+survey_conduct	survey_end_date	Custom All of Us field	Authored date on file	date
+survey_conduct	survey_end_datetime	Custom All of Us field	Authored date on file	datetime
+survey_conduct	validated_survey_concept_id	Custom All of Us field		integer
+survey_conduct	validated_survey_source_value	Custom All of Us field	Source value representing the validation status of the survey.	integer
+survey_conduct	survey_version_number	Custom All of Us field	Version number of the questionnaire or survey used.	varchar(20)
+survey_conduct	visit_occurrence_id	Custom All of Us field	The Visit during which the Survey occurred.	bigint
+survey_conduct	response_visit_occurrence_id	Custom All of Us field	The Visit during which any treatment related to the Survey was carried out.	bigint
+survey_conduct_ext	survey_conduct_id	Custom All of Us field	The ID used in the survey_conduct table.	integer
+survey_conduct_ext	src_id	Custom All of Us field	The provenance of the data associated with the survey_conduct_id.	string
+survey_conduct_ext	language	Custom All of Us field	Indicates the language in which the survey was completed. Values: ‘EN’ = english, ‘ES’ = Spanish.	string
+aou_death	aou_death_id	Custom All of Us field	A unique identifier for each death record. This column is GUID, not integer. Note that more than one death record can exist in this table per person.	string
+aou_death	person_id	Custom All of Us field	A foreign key identifier to the deceased person. The demographic details of that person are stored in the person table.	integer
+aou_death	death_date	Custom All of Us field	The date the person was deceased. This column is required for DEATH in OMOP CDM. But here it is nullable, as HeathPro deceased data sometimes does not contain this info	date
+aou_death	death_datetime	Custom All of Us field	The date and time the person was deceased.	timestamp
+aou_death	death_type_concept_id	Custom All of Us field	A foreign key referring to the predefined concept identifier in the Standardized Vocabularies reflecting how the death was represented in the source data.	integer
+aou_death	cause_concept_id	Custom All of Us field	A foreign key referring to a standard concept identifier in the Standardized Vocabularies for conditions.	integer
+aou_death	cause_source_value	Custom All of Us field	The source code for the cause of death as it appears in the source data. This code is mapped to a standard concept in the Standardized Vocabularies and the original code is, stored here for reference	string
+aou_death	cause_source_concept_id	Custom All of Us field	A foreign key to the concept that refers to the code used in the source. Note, this variable name is abbreviated to ensure it will be allowable across database platforms.	integer
+aou_death	src_id	Custom All of Us field	The source of the record.	string
+aou_death	primary_death_record	Custom All of Us field	Boolean flag to determine whether this is the primary death record for the person. The record will appear in DEATH if this value is True.	bool
