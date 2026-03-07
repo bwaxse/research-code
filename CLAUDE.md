@@ -194,3 +194,9 @@ Monitor jobs: `check_dsub_status()` or `dstat` commands
 - Standard analysis: Jupyter notebook with standard kernel
 - Hail genomics: Dataproc cluster (64 CPU/240GB main + 10 workers; see `001 Cohort (Hail).py`)
 - PLINK2 batch jobs: dsub with `n1-highmem-8` or similar
+
+---
+
+## Prompt and Workflow Coaching Hooks
+
+The user has prompt-type hooks that provide coaching feedback. When any hook output appears in conversation context (from `UserPromptSubmit`, `PreToolUse`, `PostToolUseFailure`, `Notification`, or `TaskCompleted` events), always surface its content to the user verbatim before proceeding. Do NOT silently absorb hook feedback — the user wants to see it. Only suppress if the hook output is a simple "looks good" confirmation (e.g., "✓ Prompt looks clear!", "✓ Safe edit area - proceed!").

@@ -1,0 +1,7 @@
+vocabulary_id	source_table	person_count	condition_count	unique_concepts
+ICD10CM	condition_occurrence	323881	60442936	38681
+ICD10CM	observation	216154	10331182	2557
+ICD9CM	condition_occurrence	246022	31008150	11940
+ICD9CM	observation	125786	2091928	1682
+SNOMED	condition_occurrence	52050	7439124	28459
+SNOMED	observation	123002	5148333	4059

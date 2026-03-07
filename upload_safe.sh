@@ -3,7 +3,7 @@
 # NAVIGATE TO FOLDER IN WORKSPACE
 
 # --- CONFIGURATION ---
-REPO_URL="https://github.com/bwaxse/waxse-aou-toolkit"
+REPO_URL="https://github.com/bwaxse/research-code-private"
 # Test SOURCE_PATTERN
 ls A*
 SOURCE_PATTERN="../A*.ipynb"       # Where are the files coming from?

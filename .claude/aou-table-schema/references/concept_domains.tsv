@@ -1,0 +1,423 @@
+domain_id	concept_class_id	vocabulary_id	concept_count	standard_count
+Condition	Clinical Finding	SNOMED	178817	112043
+Condition	Clinical Finding	Nebraska Lexicon	151331	1269
+Condition	ICDO Condition	ICDO3	62535	56858
+Condition	7-char billing code	ICD10CM	49441	0
+Condition	Diagnosis	CIEL	37512	0
+Condition	6-char billing code	ICD10CM	9675	0
+Condition	6-char nonbill code	ICD10CM	9054	0
+Condition	5-dig billing code	ICD9CM	8182	0
+Condition	5-char nonbill code	ICD10CM	6650	0
+Condition	5-char billing code	ICD10CM	6483	0
+Condition	4-char billing code	ICD10CM	5024	0
+Condition	4-char nonbill code	ICD10CM	4039	0
+Condition	4-dig billing code	ICD9CM	3839	0
+Condition	4-dig nonbill code	ICD9CM	1717	0
+Condition	3-char nonbill code	ICD10CM	1466	0
+Condition	Finding	CIEL	1229	0
+Condition	3-dig nonbill code	ICD9CM	833	0
+Condition	4-dig billing E code	ICD9CM	444	0
+Condition	Clinical Finding	OMOP Extension	336	328
+Condition	Event	SNOMED	262	0
+Condition	Condition	HemOnc	260	0
+Condition	3-char billing code	ICD10CM	239	0
+Condition	5-dig billing V code	ICD9CM	151	0
+Condition	4-dig billing V code	ICD9CM	136	0
+Condition	HCPCS	HCPCS	105	0
+Condition	3-dig billing code	ICD9CM	92	0
+Condition	Answer	PPI	74	0
+Condition	Context-dependent	SNOMED	71	-9
+Condition	Symptom/Finding	CIEL	48	0
+Condition	3-dig nonbill E code	ICD9CM	46	0
+Condition	4-dig nonbill V code	ICD9CM	42	0
+Condition	3-dig nonbill V code	ICD9CM	29	0
+Condition	Symptom	CIEL	29	0
+Condition	3-dig billing E code	ICD9CM	21	0
+Condition	Staging / Scales	SNOMED	-9	0
+Condition	Context-dependent	Nebraska Lexicon	-9	-9
+Condition	ICD9CM code	ICD9CM	-9	0
+Condition	Pharma/Biol Product	SNOMED	-9	0
+Condition	3-dig billing V code	ICD9CM	-9	0
+Condition	Procedure	Nebraska Lexicon	-9	-9
+Condition	Morph Abnormality	SNOMED	-9	0
+Condition	Qualifier Value	SNOMED	-9	0
+Condition	HCPCS Modifier	HCPCS	-9	-9
+Device	Physical Object	SNOMED	211686	199389
+Device	Physical Object	Nebraska Lexicon	16095	0
+Device	Device	VANDF	12334	10290
+Device	Device	NDC	11823	11507
+Device	HCPCS	HCPCS	5117	4747
+Device	Pharma/Biol Product	SNOMED	2864	2638
+Device	Context-dependent	SNOMED	1452	0
+Device	Substance	SNOMED	1370	1262
+Device	Device	SPL	1337	0
+Device	Substance	Nebraska Lexicon	1252	0
+Device	Pharma/Biol Product	Nebraska Lexicon	97	0
+Device	HCPCS Modifier	HCPCS	42	42
+Device	CPT4 Modifier	CPT4	22	22
+Device	Medical supply	CIEL	-9	0
+Device	HCPCS Class	HCPCS	-9	0
+Device	ICD10PCS	ICD10PCS	-9	-9
+Device	ICD10PCS Hierarchy	ICD10PCS	-9	-9
+Device	CPT4	CPT4	-9	-9
+Device	Clinical Drug	SNOMED	-9	-9
+Device	Clinical Finding	SNOMED	-9	0
+Drug	11-digit NDC	NDC	866783	0
+Drug	Marketed Product	RxNorm Extension	602280	555513
+Drug	OTC Drug	SPL	382742	0
+Drug	9-digit NDC	NDC	293288	0
+Drug	Prescription Drug	SPL	272768	0
+Drug	Branded Drug Box	RxNorm Extension	234649	216410
+Drug	Pharma/Biol Product	SNOMED	214956	0
+Drug	Branded Drug	RxNorm Extension	195571	173893
+Drug	Branded Drug Comp	RxNorm Extension	165895	146363
+Drug	Branded Drug Form	RxNorm Extension	138019	120153
+Drug	Clinical Drug Box	RxNorm Extension	116427	114493
+Drug	Quant Branded Drug	RxNorm Extension	111724	97420
+Drug	Quant Branded Box	RxNorm Extension	100410	85584
+Drug	Brand Name	RxNorm Extension	90862	0
+Drug	Quant Clinical Drug	RxNorm Extension	85907	80268
+Drug	Clinical Drug	RxNorm Extension	81872	78838
+Drug	Quant Clinical Box	RxNorm Extension	79806	72884
+Drug	Clinical Drug Comp	RxNorm Extension	70937	67851
+Drug	Clinical Drug	RxNorm	52849	34951
+Drug	Branded Drug	RxNorm	38857	19933
+Drug	Clinical Drug Comp	RxNorm	38294	27437
+Drug	Clinical Drug Form	RxNorm Extension	37237	35769
+Drug	Branded Drug Comp	RxNorm	36547	18564
+Drug	VA Product	NDFRT	32081	0
+Drug	Drug Product	VANDF	29351	0
+Drug	Branded Drug Form	RxNorm	26452	13983
+Drug	Pharma/Biol Product	Nebraska Lexicon	25666	0
+Drug	Branded Dose Group	RxNorm	23226	0
+Drug	Clinical Drug Form	RxNorm	20690	14748
+Drug	Brand Name	RxNorm	19362	0
+Drug	Ingredient	RxNorm Extension	18776	17439
+Drug	Clinical Dose Group	RxNorm	17656	0
+Drug	Ingredient	RxNorm	15420	14117
+Drug	SPL	SPL	14673	0
+Drug	Substance	SNOMED	12638	0
+Drug	Drug Interaction	NDFRT	10843	0
+Drug	Chemical Structure	NDFRT	10560	0
+Drug	Multum	Multum	9770	0
+Drug	Supplier	RxNorm Extension	8593	0
+Drug	Drug	CIEL	7924	0
+Drug	Clinical Drug	SNOMED	7775	0
+Drug	Pharma Preparation	NDFRT	7708	0
+Drug	Clinical Drug Form	SNOMED	7004	0
+Drug	Substance	Nebraska Lexicon	5661	0
+Drug	ATC 5th	ATC	5452	0
+Drug	Ind / CI	NDFRT	4938	0
+Drug	Multiple Ingredients	RxNorm	4451	0
+Drug	Brand Name	HemOnc	4328	0
+Drug	Quant Clinical Drug	RxNorm	3754	3337
+Drug	Context-dependent	SNOMED	3447	0
+Drug	Precise Ingredient	RxNorm	3403	0
+Drug	Quant Branded Drug	RxNorm	3105	2597
+Drug	Branded Pack	RxNorm Extension	2139	1804
+Drug	Clinical Pack	RxNorm Extension	2083	1486
+Drug	HCPCS	HCPCS	1879	25
+Drug	Physiologic Effect	NDFRT	1866	0
+Drug	Ingredient	SPL	1261	0
+Drug	Clinical Pack Box	RxNorm Extension	1253	601
+Drug	Branded Pack	RxNorm	1223	840
+Drug	Plasma Derivative	SPL	1148	0
+Drug	Clinical Drug	Nebraska Lexicon	1147	0
+Drug	Vaccine	SPL	1142	0
+Drug	Clinical Pack	RxNorm	1090	750
+Drug	ATC 4th	ATC	911	0
+Drug	Clinical Drug Form	Nebraska Lexicon	896	0
+Drug	Branded Pack Box	RxNorm Extension	833	812
+Drug	Component	HemOnc	685	0
+Drug	Supplement	SPL	664	0
+Drug	Mechanism of Action	NDFRT	638	0
+Drug	Pharmacologic Class	NDFRT	626	0
+Drug	VA Class	VA Class	576	0
+Drug	Qualifier Value	SNOMED	479	0
+Drug	Component Class	HemOnc	387	0
+Drug	Qualifier Value	Nebraska Lexicon	365	0
+Drug	Non-Stand Allergenic	SPL	363	0
+Drug	Animal Drug	SPL	344	0
+Drug	ATC 3rd	ATC	269	0
+Drug	CVX	CVX	221	188
+Drug	Dose Form	NDFRT	217	0
+Drug	CPT4	CPT4	212	0
+Drug	Dose Form	RxNorm	201	0
+Drug	Standard Allergenic	SPL	183	0
+Drug	ICD10PCS	ICD10PCS	104	0
+Drug	Dose Form	Nebraska Lexicon	103	0
+Drug	Cellular Therapy	SPL	99	0
+Drug	ATC 2nd	ATC	94	0
+Drug	Drug form	CIEL	88	0
+Drug	Pharmacokinetics	NDFRT	59	0
+Drug	Dose Form	RxNorm Extension	52	0
+Drug	Dose Form Group	RxNorm	47	0
+Drug	Vaccine Group	CVX	35	35
+Drug	Therapeutic Class	NDFRT	30	0
+Drug	MedSet	CIEL	-9	0
+Drug	Drug Class	CIEL	-9	0
+Drug	ATC 1st	ATC	-9	0
+Drug	NAACCR Value	NAACCR	-9	0
+Drug	Route	HemOnc	-9	0
+Drug	Regimen Class	HemOnc	-9	0
+Drug	Undefined	SNOMED	-9	0
+Drug	HCPCS Class	HCPCS	-9	0
+Drug	Answer	PPI	-9	0
+Drug	CPT4 Modifier	CPT4	-9	-9
+Measurement	LOINC Hierarchy	LOINC	69180	0
+Measurement	Lab Test	LOINC	61133	57301
+Measurement	RNA Variant	OMOP Genomic	40158	26015
+Measurement	Protein Variant	OMOP Genomic	33858	21340
+Measurement	DNA Variant	OMOP Genomic	27678	13139
+Measurement	Genetic Variation	OMOP Genomic	19297	19297
+Measurement	Procedure	SNOMED	12270	11348
+Measurement	Clinical Observation	LOINC	9320	8862
+Measurement	Procedure	Nebraska Lexicon	9133	-9
+Measurement	LOINC Group	LOINC	6350	0
+Measurement	Observable Entity	SNOMED	6217	6040
+Measurement	Staging/Grading	Cancer Modifier	3281	2638
+Measurement	Staging / Scales	SNOMED	2676	2203
+Measurement	CPT4	CPT4	1998	1189
+Measurement	Staging / Scales	Nebraska Lexicon	1603	-9
+Measurement	NAACCR Variable	NAACCR	1450	1279
+Measurement	Test	CIEL	965	0
+Measurement	Metastasis	Cancer Modifier	579	529
+Measurement	Extension/Invasion	Cancer Modifier	545	545
+Measurement	Topography	Cancer Modifier	518	518
+Measurement	Histopattern	Cancer Modifier	444	444
+Measurement	Margin	Cancer Modifier	433	433
+Measurement	Observable Entity	Nebraska Lexicon	398	0
+Measurement	Staging / Scales	OMOP Extension	354	354
+Measurement	CPT4 Hierarchy	CPT4	327	23
+Measurement	Precoordinated pair	OMOP Extension	275	275
+Measurement	Nodes	Cancer Modifier	192	192
+Measurement	LOINC Class	LOINC	180	0
+Measurement	HCPCS	HCPCS	145	65
+Measurement	Lab Test	OMOP Extension	113	113
+Measurement	Clinical Finding	SNOMED	100	48
+Measurement	4-dig billing V code	ICD9CM	67	0
+Measurement	LabSet	CIEL	66	0
+Measurement	5-dig billing V code	ICD9CM	37	0
+Measurement	Clinical Observation	PPI	33	-9
+Measurement	4-char billing code	ICD10CM	31	0
+Measurement	Dimension	Cancer Modifier	29	-9
+Measurement	5-char billing code	ICD10CM	25	0
+Measurement	Observable Entity	OMOP Extension	-9	-9
+Measurement	3-char nonbill code	ICD10CM	-9	0
+Measurement	4-char nonbill code	ICD10CM	-9	0
+Measurement	4-dig nonbill V code	ICD9CM	-9	0
+Measurement	3-dig nonbill V code	ICD9CM	-9	0
+Measurement	5-dig billing code	ICD9CM	-9	0
+Measurement	HCPCS Modifier	HCPCS	-9	-9
+Measurement	Qualifier Value	Cancer Modifier	-9	0
+Measurement	HCPCS Class	HCPCS	-9	0
+Measurement	4-dig billing code	ICD9CM	-9	0
+Measurement	4-dig nonbill code	ICD9CM	-9	0
+Measurement	Aggregate Meas	CIEL	-9	0
+Measurement	Clinical Finding	Nebraska Lexicon	-9	-9
+Measurement	Procedure	OMOP Extension	-9	-9
+Measurement	CPT4 Modifier	CPT4	-9	-9
+Measurement	Context-dependent	SNOMED	-9	0
+Measurement	5-char nonbill code	ICD10CM	-9	0
+Measurement	Social Context	OMOP Extension	-9	-9
+Measurement	6-char billing code	ICD10CM	-9	0
+Measurement	3-char billing code	ICD10CM	-9	0
+Measurement	LOINC Document Type	LOINC	-9	0
+Observation	Context-dependent	SNOMED	76074	5060
+Observation	LOINC Component	LOINC	60720	0
+Observation	Organism	SNOMED	40469	32900
+Observation	Organism	Nebraska Lexicon	38785	0
+Observation	Undefined	SNOMED	23460	0
+Observation	Substance	Nebraska Lexicon	23212	28
+Observation	Substance	SNOMED	19909	15563
+Observation	Qualifier Value	SNOMED	18100	11425
+Observation	Clinical Finding	SNOMED	17493	14871
+Observation	Event	SNOMED	14043	3409
+Observation	Survey	LOINC	12172	11676
+Observation	Observable Entity	SNOMED	11707	9804
+Observation	Context-dependent	Nebraska Lexicon	11181	191
+Observation	Clinical Finding	Nebraska Lexicon	10786	61
+Observation	Qualifier Value	Nebraska Lexicon	10066	45
+Observation	Observable Entity	Nebraska Lexicon	10033	549
+Observation	Event	Nebraska Lexicon	9082	22
+Observation	Social Context	SNOMED	7985	4126
+Observation	Procedure	SNOMED	7890	7095
+Observation	Clinical Observation	LOINC	7259	7166
+Observation	Social Context	Nebraska Lexicon	6961	0
+Observation	Morph Abnormality	SNOMED	6652	4920
+Observation	Morph Abnormality	Nebraska Lexicon	5865	62
+Observation	Procedure	Nebraska Lexicon	4635	33
+Observation	Answer	PPI	4267	591
+Observation	LOINC System	LOINC	2940	0
+Observation	7-char billing code	ICD10CM	2904	0
+Observation	LOINC Hierarchy	LOINC	2600	0
+Observation	HCPCS	HCPCS	2234	1949
+Observation	LOINC Method	LOINC	2084	0
+Observation	APC	APC	1910	715
+Observation	Question	PPI	1772	1515
+Observation	Location	SNOMED	1751	1530
+Observation	Location	Nebraska Lexicon	1688	0
+Observation	ICDO Histology	ICDO3	1536	49
+Observation	Attribute	SNOMED	1320	1226
+Observation	Attribute	Nebraska Lexicon	1227	-9
+Observation	Claims Attachment	LOINC	1157	499
+Observation	Misc	CIEL	1007	0
+Observation	CPT4	CPT4	863	611
+Observation	4-dig billing E code	ICD9CM	803	0
+Observation	Question	CIEL	759	0
+Observation	MS-DRG	DRG	758	752
+Observation	5-char nonbill code	ICD10CM	648	0
+Observation	Physical Object	SNOMED	607	529
+Observation	DRG	DRG	604	0
+Observation	5-char billing code	ICD10CM	573	0
+Observation	6-char billing code	ICD10CM	568	0
+Observation	Physical Object	Nebraska Lexicon	556	0
+Observation	4-char nonbill code	ICD10CM	553	0
+Observation	Pharma/Biol Product	Nebraska Lexicon	524	0
+Observation	6-char nonbill code	ICD10CM	507	0
+Observation	4-char billing code	ICD10CM	413	0
+Observation	NAACCR Variable	NAACCR	410	-9
+Observation	CPT4 Modifier	CPT4	404	404
+Observation	Dose Form	SNOMED	393	376
+Observation	Disposition	SNOMED	392	367
+Observation	5-dig billing V code	ICD9CM	376	0
+Observation	HCPCS Modifier	HCPCS	332	332
+Observation	Disposition	Nebraska Lexicon	304	0
+Observation	3-char nonbill code	ICD10CM	218	0
+Observation	LOINC Property	LOINC	218	0
+Observation	4-dig billing V code	ICD9CM	198	0
+Observation	NAACCR Schema	NAACCR	195	0
+Observation	CPT4 Hierarchy	CPT4	183	0
+Observation	Physical Force	SNOMED	180	171
+Observation	Physical Force	Nebraska Lexicon	178	0
+Observation	Staging / Scales	Nebraska Lexicon	176	0
+Observation	Staging / Scales	SNOMED	160	0
+Observation	Undefined	Nebraska Lexicon	145	0
+Observation	Pharma/Biol Product	SNOMED	144	-9
+Observation	ConvSet	CIEL	138	0
+Observation	3-dig nonbill E code	ICD9CM	125	0
+Observation	Topic	PPI	123	101
+Observation	LOINC Class	LOINC	121	0
+Observation	Cosmetic	SPL	120	0
+Observation	Context-dependent	OMOP Extension	105	61
+Observation	LOINC Time	LOINC	98	0
+Observation	Record Artifact	Nebraska Lexicon	91	0
+Observation	4-dig nonbill V code	ICD9CM	85	0
+Observation	NAACCR Procedure	NAACCR	85	57
+Observation	Admin Concept	Nebraska Lexicon	81	0
+Observation	NAACCR Value	NAACCR	38	36
+Observation	3-dig nonbill V code	ICD9CM	36	0
+Observation	Frequency	CIEL	34	0
+Observation	Misc Order	CIEL	34	0
+Observation	Qualifier Value	PPI	32	-9
+Observation	Question source	PPI	30	22
+Observation	Special Concept	Nebraska Lexicon	30	0
+Observation	NAACCR Proc Schema	NAACCR	30	0
+Observation	Clinical Finding	OMOP Extension	28	27
+Observation	MDC	MDC	26	26
+Observation	3-dig billing E code	ICD9CM	23	0
+Observation	Module	PPI	22	22
+Observation	HCPCS Class	HCPCS	22	0
+Observation	Food	SPL	21	0
+Observation	Clinical Drug Form	SNOMED	21	0
+Observation	Event	OMOP Extension	20	20
+Observation	Observation	UB04 Typ bill	-9	0
+Observation	5-dig billing code	ICD9CM	-9	0
+Observation	4-dig billing code	ICD9CM	-9	0
+Observation	Linkage Assertion	SNOMED	-9	-9
+Observation	Morph Abnormality	Cancer Modifier	-9	0
+Observation	Discharge Status	PCORNet	-9	-9
+Observation	Substance	OMOP Extension	-9	-9
+Observation	Answer	AoU_General	-9	-9
+Observation	LOINC Scale	LOINC	-9	0
+Observation	Admitting Source	PCORNet	-9	-9
+Observation	Procedure Code Type	PCORNet	-9	0
+Observation	3-char billing code	ICD10CM	-9	0
+Observation	Clinical Drug	SNOMED	-9	0
+Observation	ICD9CM code	ICD9CM	-9	0
+Observation	Lab Test	LOINC	-9	-9
+Observation	Linkage Assertion	Nebraska Lexicon	-9	0
+Observation	4-dig nonbill code	ICD9CM	-9	0
+Observation	State	CIEL	-9	0
+Observation	Race	PCORNet	-9	0
+Observation	UB04 Pri Typ of Adm	UB04 Pri Typ of Adm	-9	-9
+Observation	PPI Modifier	PPI	-9	-9
+Observation	Encounter Type	PCORNet	-9	0
+Observation	Program	CIEL	-9	0
+Observation	Diagnosis Code Type	PCORNet	-9	0
+Observation	Observation	NUCC	-9	-9
+Observation	Enrollment Basis	PCORNet	-9	0
+Observation	Diagnosis Type	PCORNet	-9	0
+Observation	Blood Pressure Pos	PCORNet	-9	0
+Observation	Undefined	PCORNet	-9	0
+Observation	Gender	PCORNet	-9	0
+Observation	Workflow	CIEL	-9	0
+Observation	Answer	AoU_Custom	-9	-9
+Observation	3-dig nonbill code	ICD9CM	-9	0
+Observation	Discharge Dispo	PCORNet	-9	0
+Observation	DRG Type	PCORNet	-9	0
+Observation	Chart Availability	PCORNet	-9	0
+Observation	Hispanic	PCORNet	-9	0
+Observation	Biological Function	Nebraska Lexicon	-9	0
+Observation	Biobank Flag	PCORNet	-9	0
+Observation	Organism	CIEL	-9	0
+Observation	Biological Function	SNOMED	-9	0
+Observation	Vital Source	PCORNet	-9	0
+Observation	Record Artifact	SNOMED	-9	0
+Observation	Qualifier Value	OMOP Extension	-9	-9
+Observation	Patient Status	SNOMED	-9	0
+Observation	Clinical Observation	PPI	-9	-9
+Observation	Question	AoU_Custom	-9	-9
+Observation	Observable Entity	OMOP Extension	-9	-9
+Observation	Linkage Concept	SNOMED	-9	-9
+Observation	Attribute	OMOP Extension	-9	-9
+Procedure	ICD10PCS Hierarchy	ICD10PCS	113914	113911
+Procedure	Procedure	SNOMED	90464	50305
+Procedure	ICD10PCS	ICD10PCS	80960	80960
+Procedure	Procedure	Nebraska Lexicon	72681	917
+Procedure	CPT4	CPT4	9810	8054
+Procedure	Clinical Observation	LOINC	6967	6618
+Procedure	4-dig billing code	ICD9Proc	3661	1725
+Procedure	CPT4 Hierarchy	CPT4	3192	75
+Procedure	LOINC Hierarchy	LOINC	2039	0
+Procedure	HCPCS	HCPCS	1233	570
+Procedure	LOINC Group	LOINC	695	0
+Procedure	3-dig nonbill code	ICD9Proc	669	378
+Procedure	NAACCR Procedure	NAACCR	622	622
+Procedure	Procedure	CIEL	518	0
+Procedure	3-dig billing code	ICD9Proc	221	60
+Procedure	Radiology	CIEL	130	0
+Procedure	2-dig nonbill code	ICD9Proc	100	55
+Procedure	NAACCR Value	NAACCR	88	56
+Procedure	4-dig billing V code	ICD9CM	73	0
+Procedure	5-dig billing V code	ICD9CM	70	0
+Procedure	HCPCS Class	HCPCS	62	0
+Procedure	Procedure	HemOnc	62	0
+Procedure	CPT4 Modifier	CPT4	57	57
+Procedure	Context	HemOnc	40	40
+Procedure	Context-dependent	SNOMED	34	0
+Procedure	4-dig nonbill V code	ICD9CM	21	0
+Procedure	3-dig nonbill V code	ICD9CM	-9	0
+Procedure	4-char billing code	ICD10CM	-9	0
+Procedure	5-char billing code	ICD10CM	-9	0
+Procedure	Procedure	ICD9Proc	-9	-9
+Procedure	3-char billing code	ICD10CM	-9	0
+Procedure	Procedure	OMOP Extension	-9	-9
+Procedure	6-char billing code	ICD10CM	-9	0
+Procedure	HCPCS Modifier	HCPCS	-9	-9
+Procedure	Context-dependent	Nebraska Lexicon	-9	0
+Procedure	4-char nonbill code	ICD10CM	-9	0
+Procedure	5-char nonbill code	ICD10CM	-9	0
+Procedure	5-dig billing code	ICD9CM	-9	0
+Procedure	Navi Concept	SNOMED	-9	0
+Visit	Location	SNOMED	432	0
+Visit	Visit	UB04 Typ bill	279	-9
+Visit	HCPCS	HCPCS	272	0
+Visit	Visit	NUCC	184	161
+Visit	Visit	CMS Place of Service	60	51
+Visit	UB04 Pt dis status	UB04 Pt dis status	55	0
+Visit	Visit	CPT4	49	0
+Visit	Visit	Medicare Specialty	31	25
+Visit	UB04 Point of Origin	UB04 Point of Origin	23	0
+Visit	Visit	Visit	-9	-9
+Visit	Procedure	SNOMED	-9	0

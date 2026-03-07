@@ -1,0 +1,94 @@
+visit_concept_id	visit_type	person_count	visit_count
+9202	Outpatient Visit	514097	38997910
+581477	Office Visit	136227	7550613
+32036	Laboratory Visit	115638	3900001
+5083	Telehealth	73101	2430598
+9201	Inpatient Visit	135018	2090555
+9203	Emergency Room Visit	161065	1664965
+581458	Pharmacy visit	15332	703215
+581479	Ambulatory Rehabilitation Visit	22659	458915
+42898160	Non-hospital institution Visit	8959	444682
+32209	Unknown Value (but present in data)	4080	175044
+8756	Outpatient Hospital	15489	167004
+262	Emergency Room and Inpatient Visit	37005	143183
+581476	Home Visit	18723	139283
+38004338	Pharmacy	7222	132263
+38004515	Hospital	3259	70930
+8883	Ambulatory Surgical Center	9733	66845
+38004193	Case Management Visit	4212	61630
+38004250	Ambulatory Radiology Clinic / Center	8313	48005
+38004207	Ambulatory Clinic / Center	7556	46410
+581385	Observation Room	9725	32646
+38004267	Ambulatory Occupational Medicine Clinic / Center	692	31996
+8717	Inpatient Hospital	2041	17048
+38004228	Ambulatory Infusion Therapy Clinic / Center	1336	15081
+8858	Mass Immunization Center	5438	14186
+38004268	Ambulatory Oncology Clinic / Center	1222	10127
+38004238	Ambulatory Magnetic Resonance Imaging (MRI) Clinic / Center	3510	8392
+38004251	Ambulatory Mammography Clinic / Center	2657	8245
+8844	Other Place of Service	3793	8153
+38004246	Ambulatory Physical Therapy Clinic / Center	544	5947
+38004269	Ambulatory Oncological Radiation Clinic / Center	231	4365
+8870	Emergency Room - Hospital	1402	4196
+38004222	Ambulatory Endoscopy Cinic / Center	2005	3098
+32693	Health examination	2194	3010
+38004696	Radiation Therapy Center	132	2700
+8782	Urgent Care Facility	1449	2551
+38004259	Ambulatory Research Clinic / Center	686	2211
+38004285	Rehabilitation Hospital	147	2146
+38004218	Ambulatory Dental Clinic / Center	241	1416
+581478	Ambulance Visit	317	995
+38004262	Ambulatory Ophthalmologic Surgery Clinic / Center	286	961
+8676	Nursing Facility	121	855
+8546	Hospice	384	559
+38004247	Ambulatory Primary Care Clinic / Center	159	543
+38004249	Ambulatory Pain Clinic / Center	56	432
+38004519	Home Health Agency	220	318
+38004303	Behavioral Disturbances Assisted Living Facility	233	292
+38004363	Taxi	-9	255
+581475	Place of Employment-Worksite	95	223
+38004245	Ambulatory Podiatric Clinic / Center	105	209
+8966	Federally Qualified Health Center	-9	160
+38004353	Ambulance	58	141
+8971	Inpatient Psychiatric Facility	65	119
+38004284	Psychiatric Hospital	77	106
+8947	Comprehensive Outpatient Rehabilitation Facility	-9	90
+32037	Intensive Care	70	79
+8949	End-Stage Renal Disease Treatment Facility	-9	65
+38004362	Non-emergency Medical Transport	-9	59
+8920	Comprehensive Inpatient Rehabilitation Facility	55	56
+8668	Ambulance - Land	21	32
+38004311	Inpatient Hospice	-9	21
+38004264	Ambulatory Sleep Disorder Diagnostic Clinic / Center	-9	-9
+2514528	Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diag	-9	-9
+4203722	Patient encounter procedure	-9	-9
+43527986	Psychotherapy, 30 minutes with patient	-9	-9
+3661905	Comprehensive metabolic panel	-9	-9
+38004225	Ambulatory Genetics Clinic / Center	-9	-9
+38004354	Air Transport Ambulance	-9	-9
+43527904	Psychotherapy, 45 minutes with patient	-9	-9
+4313303	Evaluation and management of inpatient	-9	-9
+4163685	Emergency department patient visit	-9	-9
+38004322	Blood Bank	-9	-9
+2514527	Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diag	-9	-9
+42627988	Drug test(s), presumptive, any number of drug classes, any number of devices or procedures; capable of being read by direct optical observation only (eg, utilizing immunoassay [eg, dipsticks, cups, cards, or cartridges]), includes sample validation when p	-9	-9
+2107229	No significant depressive symptoms as categorized by using a standardized depression assessment tool (MDD)	-9	-9
+32261	Religious Non-medical Health Care Inst-Outpatient Services	-9	-9
+2514521	Initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnos	-9	-9
+38004677	Mammography Center	-9	-9
+2212090	Basic metabolic panel (Calcium, total) This panel must include the following: Calcium, total (82310) Carbon dioxide (bicarbonate) (82374) Chloride (82435) Creatinine (82565) Glucose (82947) Potassium (84132) Sodium (84295) Urea nitrogen (BUN) (84520)	-9	-9
+8964	Community Mental Health Center	-9	-9
+4308939	Delayed hypersensitivity skin test for tuberculin PPD	-9	-9
+38004208	Ambulatory Family Planning Facility	-9	-9
+38004258	Ambulatory Recovery Care Clinic / Center	-9	-9
+2514520	Initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnos	-9	-9
+581379	Inpatient Critical Care Facility	-9	-9
+38004227	Ambulatory Hearing and Speech Clinic / Center	-9	-9
+2514531	Preventive medicine counseling and/or risk factor reduction intervention(s) provided to an individual (separate procedure); approximately 30 minutes	-9	-9
+33007	Alternate care site (ACS)	-9	-9
+40756859	Body Mass Index (BMI), documented (PV)	-9	-9
+4102442	Venipuncture for blood test	-9	-9
+38004365	Bus	-9	-9
+19131620	1 ML hepatitis A vaccine (inactivated) strain HM175 720 UNT/ML / hepatitis B surface antigen vaccine 0.02 MG/ML Injection [Twinrix]	-9	-9
+2102034	Medication list documented in medical record (COA)	-9	-9
+4027135	Subsequent hospital visit by physician	-9	-9

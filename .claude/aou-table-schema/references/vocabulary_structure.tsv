@@ -1,0 +1,186 @@
+vocabulary_id	domain_id	concept_count	class_count	standard_concept_count	valid_concept_count
+RxNorm Extension	Drug	2145325	21	1867581	1946463
+NDC	Drug	1160071	2	0	701816
+SPL	Drug	675387	11	0	675087
+RxNorm	Drug	306627	18	151257	206217
+SNOMED	Observation	248781	26	113401	115491
+SNOMED	Drug	246307	7	0	211743
+SNOMED	Device	217374	6	203290	203295
+OSM	Geography	203339	11	203339	203339
+ICD10PCS	Procedure	194874	2	194871	194871
+SNOMED	Condition	179161	7	112051	112118
+Nebraska Lexicon	Condition	151336	3	1274	106589
+LOINC	Measurement	146164	6	66163	111507
+Nebraska Lexicon	Observation	135616	23	1004	109045
+OMOP Genomic	Measurement	120991	4	79791	79838
+ICD10CM	Condition	92071	9	0	90584
+SNOMED	Procedure	90499	3	50305	50585
+LOINC	Observation	89389	12	19348	85455
+Nebraska Lexicon	Procedure	72683	2	917	45942
+NDFRT	Drug	69566	11	0	45092
+ICDO3	Condition	62535	1	56858	59877
+CIEL	Condition	38818	4	0	38139
+SNOMED	Spec Anatomic Site	38428	3	35024	35024
+Nebraska Lexicon	Spec Anatomic Site	36919	1	968	34424
+Nebraska Lexicon	Drug	33838	6	0	21314
+NAACCR	Meas Value	31521	2	20754	31178
+VANDF	Drug	29351	1	0	20402
+SNOMED	Measurement	21265	5	19639	19668
+LOINC	Meas Value	20152	6	19904	19904
+Nebraska Lexicon	Device	17444	3	0	16385
+ICD9CM	Condition	15536	14	0	15533
+CPT4	Procedure	13059	3	8186	13059
+VANDF	Device	12334	1	10290	10290
+NDC	Device	11823	1	11507	11507
+Nebraska Lexicon	Measurement	11138	4	-9	11138
+Multum	Drug	9770	1	0	9770
+LOINC	Procedure	9701	3	6618	9352
+CIEL	Drug	8043	4	0	7673
+ATC	Drug	6740	5	0	6509
+ICD10CM	Observation	6394	9	0	6057
+PPI	Observation	6253	8	2267	6130
+Cancer Modifier	Measurement	6028	9	5317	5362
+HemOnc	Drug	5424	5	0	5392
+HCPCS	Device	5170	3	4789	4799
+ICD9Proc	Procedure	4657	5	2223	4657
+LOINC	Note	4071	2	3581	4036
+SNOMED	Type Concept	3292	4	0	1719
+HCPCS	Observation	2588	3	2281	2566
+SNOMED	Metadata	2383	17	0	1569
+CPT4	Measurement	2328	3	1215	2328
+HemOnc	Regimen	2242	2	2145	2145
+SNOMED	Specimen	2011	1	1834	1835
+CIEL	Observation	1988	9	0	1945
+APC	Observation	1910	1	715	715
+Nebraska Lexicon	Specimen	1884	2	-9	1752
+HCPCS	Drug	1883	2	25	1730
+ICD9CM	Observation	1701	12	0	1692
+Nebraska Lexicon	Metadata	1568	5	0	1199
+ICDO3	Observation	1536	1	49	1202
+NAACCR	Measurement	1450	1	1279	1450
+CPT4	Observation	1450	3	1015	1450
+SNOMED	Meas Value	1380	1	1327	1327
+DRG	Observation	1362	2	752	752
+SNOMED	Unit	1342	1	0	1314
+SPL	Device	1337	1	0	1337
+HCPCS	Procedure	1297	3	572	1006
+Nebraska Lexicon	Unit	1239	1	0	1239
+UCUM	Unit	1118	2	1029	1029
+CDM	Metadata	1060	3	1060	1060
+CIEL	Measurement	1035	3	0	395
+SNOMED	Language	863	1	834	834
+OMOP Extension	Measurement	761	6	761	761
+NAACCR	Observation	758	5	96	728
+Relationship	Metadata	712	1	-9	706
+NAACCR	Procedure	710	2	678	678
+NUCC	Provider	667	2	509	660
+CIEL	Procedure	648	2	0	644
+VA Class	Drug	576	1	0	576
+SNOMED	Provider	557	1	0	516
+Revenue Code	Revenue Code	538	1	538	538
+Nebraska Lexicon	Provider	498	1	0	498
+SNOMED	Visit	436	2	0	395
+Nebraska Lexicon	Type Concept	427	4	0	427
+SNOMED	Race	426	2	0	412
+Concept Class	Metadata	417	1	0	408
+ICDO3	Spec Anatomic Site	400	1	65	400
+OMOP Extension	Condition	336	1	328	328
+Nebraska Lexicon	Place of Service	330	1	0	330
+Nebraska Lexicon	Race	300	2	0	300
+UB04 Typ bill	Visit	279	1	-9	279
+HCPCS	Visit	272	1	0	272
+CIEL	Spec Anatomic Site	271	1	0	123
+HemOnc	Condition	260	1	0	256
+CVX	Drug	256	2	223	255
+Nebraska Lexicon	Meas Value	227	1	-9	227
+SNOMED	Route	213	2	181	181
+CPT4	Drug	213	2	-9	213
+SNOMED	Relationship	199	1	194	194
+Nebraska Lexicon	Relationship	193	1	0	193
+NUCC	Visit	184	1	161	181
+Currency	Currency	180	1	180	180
+ICD9CM	Procedure	178	5	0	178
+OMOP Extension	Observation	170	7	125	125
+SOPT	Payer	168	1	162	167
+PPI	Meas Value	167	1	0	-9
+HCPCS	Measurement	160	3	73	153
+Nebraska Lexicon	Route	152	1	0	152
+Vocabulary	Metadata	150	1	0	147
+ICD9CM	Measurement	149	7	0	149
+SPL	Observation	141	2	0	141
+Condition Type	Type Concept	118	2	0	118
+HCPCS	Condition	106	2	-9	106
+ICD10PCS	Drug	104	1	0	104
+HemOnc	Procedure	102	2	40	94
+ABMS	Provider	98	1	85	97
+Procedure Type	Type Concept	97	1	0	97
+Medicare Specialty	Provider	89	2	87	89
+ICD10CM	Measurement	83	7	0	82
+PCORNet	Observation	81	17	-9	81
+HCPCS	Provider	81	1	0	81
+Type Concept	Type Concept	80	1	80	80
+PPI	Condition	74	1	0	0
+Domain	Metadata	65	1	0	51
+CMS Place of Service	Visit	60	1	51	60
+UB04 Pt dis status	Visit	55	1	0	55
+Race	Race	53	1	50	50
+Cost	Cost	51	2	51	51
+CIEL	Unit	49	1	0	49
+CPT4	Visit	49	1	0	49
+PPI	Measurement	33	1	-9	33
+Medicare Specialty	Visit	31	1	25	31
+CPT4	Spec Anatomic Site	30	2	29	30
+Observation Type	Type Concept	29	2	0	29
+ICD10CM	Procedure	26	6	0	22
+MDC	Observation	26	1	26	26
+CPT4	Device	23	2	23	23
+UB04 Point of Origin	Visit	23	1	0	23
+Condition Status	Condition Status	22	1	22	22
+CPT4	Meas Value	20	1	20	20
+Visit	Visit	19	1	-9	-9
+UB04 Typ bill	Observation	19	1	0	-9
+Visit Type	Type Concept	18	1	0	-9
+Episode	Episode	18	4	-9	-9
+CIEL	Specimen	17	1	0	-9
+Drug Type	Type Concept	16	1	0	-9
+Cancer Modifier	Observation	15	1	0	-9
+Death Type	Type Concept	14	1	0	-9
+US Census	Geography	13	2	-9	-9
+Plan Stop Reason	Plan Stop Reason	13	1	-9	-9
+NAACCR	Metadata	13	1	0	-9
+AoU_General	Observation	13	1	-9	-9
+NAACCR	Drug	13	1	0	-9
+CIEL	Device	12	1	0	-9
+Meas Type	Type Concept	12	1	0	-9
+Plan	Plan	11	2	-9	-9
+SNOMED	Gender	10	1	0	-9
+Note Type	Type Concept	10	1	0	-9
+Nebraska Lexicon	Gender	9	1	0	-9
+AoU_Custom	Metadata	8	1	0	-9
+ICD10CM	Condition/Meas	8	2	0	0
+NAACCR	Episode	8	1	0	-9
+Cost Type	Type Concept	8	1	0	-9
+Korean Revenue Code	Revenue Code	7	1	-9	-9
+UB04 Pri Typ of Adm	Observation	6	1	-9	-9
+Provider	Provider	6	2	-9	-9
+Sponsor	Sponsor	6	1	-9	-9
+Obs Period Type	Type Concept	6	1	0	-9
+Gender	Gender	5	1	-9	-9
+Episode Type	Type Concept	5	1	0	-9
+SNOMED	Meas Value Operator	5	1	-9	-9
+Device Type	Type Concept	4	1	0	-9
+NUCC	Observation	4	1	-9	-9
+AoU_Custom	Observation	4	2	-9	-9
+SNOMED	Spec Disease Status	3	1	-9	-9
+ICD10PCS	Device	3	2	-9	-9
+OMOP Extension	Procedure	3	1	-9	-9
+Ethnicity	Ethnicity	2	1	-9	-9
+OMOP Extension	Meas Value	2	1	-9	-9
+Metadata	Metadata	2	1	-9	-9
+PPI	Drug	2	1	0	-9
+NDFRT	Metadata	1	1	0	-9
+None	Metadata	1	1	0	-9
+Language	Language	1	1	-9	-9
+ICD10CM	Condition/Device	1	1	0	0
+Supplier	Provider	1	1	0	0
+Specimen Type	Type Concept	1	1	0	-9
